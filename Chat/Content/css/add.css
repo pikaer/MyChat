@@ -1,0 +1,149 @@
+﻿.HometownArea {
+    margin-left: 275px;
+    margin-top: 35px;
+    border: none;
+    width: 400px;
+    height: 29px;
+    padding-left: 3px;
+    padding-top: 3px;
+    display: none;
+}
+
+.HomeArea {
+    margin-left: 120px;
+    margin-top: 35px;
+    border: none;
+    width: 400px;
+    height: 29px;
+    padding-left: 3px;
+    padding-top: 3px;
+    display: none;
+}
+
+.addFriend {
+    font-size: 12px;
+    background-color: #8c8cc3;
+    width: 40px;
+    height: 19px;
+    color: white;
+    border-radius: 3px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+#Home {
+    width: 150px;
+    height: 23px;
+    border-radius: 1px;
+}
+
+#table {
+    border-bottom: 0px solid white;
+    border: 0px solid white;
+}
+
+#Hometown {
+    width: 150px;
+    height: 23px;
+    border-radius: 1px;
+}
+
+#SearchContent {
+    width: 520px;
+    height: 35px;
+    border-radius: 1px;
+}
+
+.optionSelect {
+    width: 50px;
+}
+
+#Gender {
+    height: 23px;
+}
+
+#Age {
+    height: 23px;
+}
+
+/*BootStrap-Table样式*/
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+    line-height: 1.42857143;
+    border-top: 0px solid #ddd;
+    border-left: 0px solid #ddd;
+}
+
+.bootstrap-table .table:not(.table-condensed),
+.bootstrap-table .table:not(.table-condensed) > tbody > tr > td,
+.bootstrap-table .table:not(.table-condensed) > tbody > tr > th,
+.bootstrap-table .table:not(.table-condensed) > tfoot > tr > td,
+.bootstrap-table .table:not(.table-condensed) > tfoot > tr > th,
+.bootstrap-table .table:not(.table-condensed) > thead > tr > td {
+    padding: 8px;
+    background-color: white;
+    padding-bottom: 16px;
+    padding-right: 2px;
+}
+
+.fixed-table-container {
+    position: relative;
+    clear: both;
+    border: 0px solid #ddd;
+    border-radius: 0px;
+}
+
+.fixed-table-body {
+    overflow-x: auto;
+    overflow-y: auto;
+    height: 99%;
+    margin-top:25px
+}
+
+.left-iconfont {
+    float:left;
+    margin-top:200px;
+    font-size: 42px;
+    color: #cebfbf;
+    cursor: pointer;
+     text-align: center;
+    font-family: "Hui-iconfont" !important;
+}
+.left-iconfont:hover{
+    color: black;
+}
+
+.right-iconfont {
+    float:right;
+    margin-top:200px;
+    margin-right:6px;
+    font-size: 42px;
+    color: #cebfbf;
+    cursor: pointer;
+     text-align: center;
+    font-family: "Hui-iconfont" !important;
+}
+
+.right-iconfont:hover{
+    color: black;
+}
+
+#Submit{
+    width:100px;
+    height:40px;
+    background-color:#869ac5;
+    border-radius:3px;
+    font-size:18px;
+    border:none
+}
+
+.horizontalline {
+    height: 2px;
+    border: none;
+    border-top: 1px groove #edf0f1;
+    margin-bottom: 0px;
+}

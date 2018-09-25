@@ -1,0 +1,1702 @@
+[2018-08-08 11:47:54.469] logperformance.Performance 6 
+页面/WebSite/Discovery/Index,线程id=6,Action执行时间37毫秒
+[2018-08-08 11:47:57.798] logperformance.Performance 6 
+页面/Login/Index,线程id=6,Action执行时间551毫秒
+[2018-08-08 11:47:59.743] logperformance.Performance 6 
+页面/Chat/GetChatFriendList?order=asc&_=1533700079049,线程id=6,Action执行时间215毫秒
+[2018-08-08 11:48:00.625] logperformance.Performance 6 
+页面/Chat/GetChatContentHistory,线程id=6,Action执行时间704毫秒
+[2018-08-08 11:48:00.974] logperformance.Performance 10 
+页面/Chat/GetChatContent,线程id=10,Action执行时间65毫秒
+[2018-08-08 11:48:26.300] logperformance.Performance 12 
+页面/Chat/RefrashUnReadMsg,线程id=12,Action执行时间25179毫秒
+[2018-08-08 11:48:27.692] logperformance.Performance 12 
+页面/Chat/UpdateReadTime,线程id=12,Action执行时间116毫秒
+[2018-08-08 11:48:28.225] logperformance.Performance 12 
+页面/UserInfo/GetBasicInfo,线程id=12,Action执行时间30毫秒
+[2018-08-08 16:07:55.063] logperformance.Performance 6 
+页面/,线程id=6,Action执行时间232毫秒
+[2018-08-08 16:07:55.238] logperformance.Performance 7 
+页面/WebSite/Chat,线程id=7,Action执行时间4毫秒
+[2018-08-08 16:07:57.886] logperformance.Performance 6 
+页面/Chat/GetChatFriendList?order=asc&_=1533715677566,线程id=6,Action执行时间90毫秒
+[2018-08-08 16:07:58.198] logperformance.Performance 8 
+页面/Chat/GetChatContentHistory,线程id=8,Action执行时间210毫秒
+[2018-08-08 16:07:58.283] logperformance.Performance 7 
+页面/Chat/GetChatContent,线程id=7,Action执行时间28毫秒
+[2018-08-08 16:07:58.469] logperformance.Performance 8 
+页面/Chat/UpdateReadTime,线程id=8,Action执行时间32毫秒
+[2018-08-08 16:07:59.048] logperformance.Performance 6 
+页面/Chat/RefrashUnReadMsg,线程id=6,Action执行时间77毫秒
+[2018-08-08 16:08:01.758] logperformance.Performance 7 
+页面/UserInfo/GetBasicInfo,线程id=7,Action执行时间39毫秒
+[2018-08-08 16:08:03.377] logperformance.Performance 6 
+页面/Common/GenderComboboxV1,线程id=6,Action执行时间1毫秒
+[2018-08-08 16:08:03.878] logperformance.Performance 8 
+页面/Common/BloodTypeCombobox,线程id=8,Action执行时间1毫秒
+[2018-08-08 16:09:17.896] logperformance.Performance 7 
+页面/UserInfo/GetBasicInfo,线程id=7,Action执行时间68毫秒
+[2018-08-08 16:09:49.899] logperformance.Performance 8 
+页面/UserInfo/GetBasicInfo,线程id=8,Action执行时间35毫秒
+[2018-08-08 16:10:13.105] logperformance.Performance 13 
+页面/Common/BloodTypeCombobox,线程id=13,Action执行时间1毫秒
+[2018-08-08 16:11:57.488] logperformance.Performance 15 
+页面/UserInfo/GetBasicInfo,线程id=15,Action执行时间19毫秒
+[2018-08-08 16:17:27.554] logperformance.Performance 18 
+页面/UserInfo/GetBasicInfo,线程id=18,Action执行时间149毫秒
+[2018-08-08 16:19:51.261] logperformance.Performance 26 
+页面/UserInfo/GetBasicInfo,线程id=26,Action执行时间18毫秒
+[2018-08-08 16:20:24.361] logperformance.Performance 14 
+页面/UserInfo/BasicInfoEdit,线程id=14,Action执行时间6206毫秒
+[2018-08-08 16:20:24.420] logperformance.Performance 18 
+页面/UserInfo/GetBasicInfo,线程id=18,Action执行时间38毫秒
+[2018-08-08 16:24:09.598] logperformance.Performance 6 
+页面/,线程id=6,Action执行时间217毫秒
+[2018-08-08 16:24:09.764] logperformance.Performance 7 
+页面/WebSite/Chat,线程id=7,Action执行时间3毫秒
+[2018-08-08 16:24:12.339] logperformance.Performance 6 
+页面/Chat/GetChatFriendList?order=asc&_=1533716651999,线程id=6,Action执行时间107毫秒
+[2018-08-08 16:24:12.756] logperformance.Performance 8 
+页面/Chat/GetChatContentHistory,线程id=8,Action执行时间296毫秒
+[2018-08-08 16:24:12.967] logperformance.Performance 8 
+页面/Chat/UpdateReadTime,线程id=8,Action执行时间55毫秒
+[2018-08-08 16:24:13.258] logperformance.Performance 8 
+页面/Chat/GetChatContent,线程id=8,Action执行时间62毫秒
+[2018-08-08 16:24:13.518] logperformance.Performance 7 
+页面/Chat/RefrashUnReadMsg,线程id=7,Action执行时间49毫秒
+[2018-08-08 16:24:19.147] logperformance.Performance 6 
+页面/UserInfo/GetBasicInfo,线程id=6,Action执行时间35毫秒
+[2018-08-08 16:24:25.126] logperformance.Performance 6 
+页面/Common/GenderComboboxV1,线程id=6,Action执行时间1毫秒
+[2018-08-08 16:24:25.630] logperformance.Performance 9 
+页面/Common/BloodTypeCombobox,线程id=9,Action执行时间1毫秒
+[2018-08-08 16:27:30.942] logperformance.Performance 8 
+页面/Common/GenderCombobox,线程id=8,Action执行时间5毫秒
+[2018-08-08 16:27:31.503] logperformance.Performance 9 
+页面/Add/GetUserList?PageIndex=1&_=1533716850766,线程id=9,Action执行时间26毫秒
+[2018-08-08 16:27:31.968] logperformance.Performance 14 
+页面/Common/ProvinceCombobox,线程id=14,Action执行时间22毫秒
+[2018-08-08 16:27:32.448] logperformance.Performance 9 
+页面/Common/AgeCombobox,线程id=9,Action执行时间1毫秒
+[2018-08-08 16:27:42.786] logperformance.Performance 9 
+页面/Common/CityCombobox,线程id=9,Action执行时间48毫秒
+[2018-08-08 16:27:46.493] logperformance.Performance 8 
+页面/Common/CityCombobox,线程id=8,Action执行时间13毫秒
+[2018-08-08 16:27:47.867] logperformance.Performance 9 
+页面/UserInfo/GetBasicInfo,线程id=9,Action执行时间20毫秒
+[2018-08-08 16:27:49.921] logperformance.Performance 12 
+页面/Common/BloodTypeCombobox,线程id=12,Action执行时间1毫秒
+[2018-08-08 16:27:58.570] logperformance.Performance 12 
+页面/UserInfo/GetBasicInfo,线程id=12,Action执行时间32毫秒
+[2018-08-08 16:32:03.837] logperformance.Performance 16 
+页面/UserInfo/BasicInfoEdit,线程id=16,Action执行时间32毫秒
+[2018-08-08 16:32:03.862] logperformance.Performance 12 
+页面/UserInfo/GetBasicInfo,线程id=12,Action执行时间14毫秒
+[2018-08-08 16:33:00.079] logperformance.Performance 27 
+页面/UserInfo/GetBasicInfo,线程id=27,Action执行时间82毫秒
+[2018-08-08 16:33:17.957] logperformance.Performance 25 
+页面/UserInfo/BasicInfoEdit,线程id=25,Action执行时间18毫秒
+[2018-08-08 16:33:18.008] logperformance.Performance 26 
+页面/UserInfo/GetBasicInfo,线程id=26,Action执行时间12毫秒
+[2018-08-08 16:34:22.285] logperformance.Performance 28 
+页面/UserInfo/GetBasicInfo,线程id=28,Action执行时间26毫秒
+[2018-08-08 16:35:38.915] logperformance.Performance 30 
+页面/UserInfo/GetBasicInfo,线程id=30,Action执行时间28毫秒
+[2018-08-08 16:36:17.086] logperformance.Performance 29 
+页面/UserInfo/GetBasicInfo,线程id=29,Action执行时间21毫秒
+[2018-08-08 16:36:55.434] logperformance.Performance 30 
+页面/UserInfo/GetBasicInfo,线程id=30,Action执行时间14毫秒
+[2018-08-08 16:36:57.166] logperformance.Performance 29 
+页面/Common/BloodTypeCombobox,线程id=29,Action执行时间1毫秒
+[2018-08-08 16:37:31.763] logperformance.Performance 29 
+页面/UserInfo/GetBasicInfo,线程id=29,Action执行时间44毫秒
+[2018-08-08 16:39:32.708] logperformance.Performance 11 
+页面/UserInfo/GetBasicInfo,线程id=11,Action执行时间14毫秒
+[2018-08-08 16:41:40.351] logperformance.Performance 31 
+页面/Add/GetUserList?PageIndex=1&_=1533717700000,线程id=31,Action执行时间76毫秒
+[2018-08-08 16:41:40.861] logperformance.Performance 15 
+页面/Common/ProvinceCombobox,线程id=15,Action执行时间27毫秒
+[2018-08-08 16:41:41.363] logperformance.Performance 26 
+页面/Common/AgeCombobox,线程id=26,Action执行时间1毫秒
+[2018-08-08 16:42:58.000] logperformance.Performance 15 
+页面/Add/GetUserList?PageIndex=1&_=1533717777749,线程id=15,Action执行时间25毫秒
+[2018-08-08 16:42:58.494] logperformance.Performance 15 
+页面/Common/ProvinceCombobox,线程id=15,Action执行时间21毫秒
+[2018-08-08 16:43:00.490] logperformance.Performance 26 
+页面/UserInfo/GetBasicInfo,线程id=26,Action执行时间80毫秒
+[2018-08-08 16:43:54.724] logperformance.Performance 10 
+页面/UserInfo/GetBasicInfo,线程id=10,Action执行时间31毫秒
+[2018-08-08 16:43:56.342] logperformance.Performance 17 
+页面/Common/BloodTypeCombobox,线程id=17,Action执行时间1毫秒
+[2018-08-08 16:44:31.523] logperformance.Performance 10 
+页面/UserInfo/GetBasicInfo,线程id=10,Action执行时间15毫秒
+[2018-08-08 16:45:37.162] logperformance.Performance 10 
+页面/UserInfo/GetBasicInfo,线程id=10,Action执行时间35毫秒
+[2018-08-08 16:47:51.812] logperformance.Performance 8 
+页面/UserInfo/GetBasicInfo,线程id=8,Action执行时间25毫秒
+[2018-08-08 16:49:26.193] logperformance.Performance 31 
+页面/UserInfo/GetBasicInfo,线程id=31,Action执行时间18毫秒
+[2018-08-08 16:49:27.586] logperformance.Performance 31 
+页面/Common/ProvinceCombobox,线程id=31,Action执行时间28毫秒
+[2018-08-08 16:49:31.097] logperformance.Performance 28 
+页面/Common/CityCombobox,线程id=28,Action执行时间18毫秒
+[2018-08-08 16:49:33.128] logperformance.Performance 7 
+页面/Common/AreaCombobox,线程id=7,Action执行时间35毫秒
+[2018-08-08 16:49:41.490] logperformance.Performance 7 
+页面/Common/CityCombobox,线程id=7,Action执行时间10毫秒
+[2018-08-08 16:49:43.615] logperformance.Performance 7 
+页面/Common/AreaCombobox,线程id=7,Action执行时间17毫秒
+[2018-08-08 16:50:47.901] logperformance.Performance 11 
+页面/UserInfo/GetBasicInfo,线程id=11,Action执行时间29毫秒
+[2018-08-08 16:50:49.478] logperformance.Performance 31 
+页面/Common/ProvinceCombobox,线程id=31,Action执行时间25毫秒
+[2018-08-08 16:50:55.870] logperformance.Performance 7 
+页面/Common/CityCombobox,线程id=7,Action执行时间21毫秒
+[2018-08-08 16:50:57.910] logperformance.Performance 7 
+页面/Common/AreaCombobox,线程id=7,Action执行时间17毫秒
+[2018-08-08 16:51:14.753] logperformance.Performance 11 
+页面/Common/AreaCombobox,线程id=11,Action执行时间16毫秒
+[2018-08-08 16:51:16.459] logperformance.Performance 31 
+页面/Common/CityCombobox,线程id=31,Action执行时间17毫秒
+[2018-08-08 16:51:57.229] logperformance.Performance 31 
+页面/UserInfo/GetBasicInfo,线程id=31,Action执行时间37毫秒
+[2018-08-08 16:51:58.415] logperformance.Performance 31 
+页面/Common/ProvinceCombobox,线程id=31,Action执行时间23毫秒
+[2018-08-08 16:52:01.280] logperformance.Performance 29 
+页面/Common/CityCombobox,线程id=29,Action执行时间17毫秒
+[2018-08-08 16:52:02.776] logperformance.Performance 31 
+页面/Common/AreaCombobox,线程id=31,Action执行时间25毫秒
+[2018-08-08 16:52:07.958] logperformance.Performance 31 
+页面/Common/CityCombobox,线程id=31,Action执行时间22毫秒
+[2018-08-08 16:52:09.622] logperformance.Performance 31 
+页面/Common/AreaCombobox,线程id=31,Action执行时间14毫秒
+[2018-08-08 16:52:12.992] logperformance.Performance 34 
+页面/Common/AreaCombobox,线程id=34,Action执行时间15毫秒
+[2018-08-08 16:52:14.437] logperformance.Performance 31 
+页面/Common/CityCombobox,线程id=31,Action执行时间19毫秒
+[2018-08-08 16:52:18.564] logperformance.Performance 34 
+页面/Common/CityCombobox,线程id=34,Action执行时间16毫秒
+[2018-08-08 16:52:20.690] logperformance.Performance 21 
+页面/Common/AreaCombobox,线程id=21,Action执行时间13毫秒
+[2018-08-08 16:52:23.579] logperformance.Performance 31 
+页面/Common/AreaCombobox,线程id=31,Action执行时间15毫秒
+[2018-08-08 16:52:33.395] logperformance.Performance 34 
+页面/Common/CityCombobox,线程id=34,Action执行时间20毫秒
+[2018-08-08 16:52:35.406] logperformance.Performance 31 
+页面/Common/AreaCombobox,线程id=31,Action执行时间26毫秒
+[2018-08-08 16:52:39.307] logperformance.Performance 31 
+页面/Common/CityCombobox,线程id=31,Action执行时间26毫秒
+[2018-08-08 16:52:41.096] logperformance.Performance 30 
+页面/Common/AreaCombobox,线程id=30,Action执行时间25毫秒
+[2018-08-08 16:52:44.193] logperformance.Performance 29 
+页面/Common/CityCombobox,线程id=29,Action执行时间21毫秒
+[2018-08-08 16:52:45.719] logperformance.Performance 34 
+页面/Common/AreaCombobox,线程id=34,Action执行时间13毫秒
+[2018-08-08 16:52:52.244] logperformance.Performance 21 
+页面/Add/GetUserList?PageIndex=1&_=1533718372034,线程id=21,Action执行时间32毫秒
+[2018-08-08 16:52:52.763] logperformance.Performance 21 
+页面/Common/ProvinceCombobox,线程id=21,Action执行时间38毫秒
+[2018-08-08 16:52:56.000] logperformance.Performance 29 
+页面/Common/CityCombobox,线程id=29,Action执行时间17毫秒
+[2018-08-08 16:52:58.310] logperformance.Performance 34 
+页面/Common/AreaCombobox,线程id=34,Action执行时间16毫秒
+[2018-08-08 16:53:01.674] logperformance.Performance 34 
+页面/Common/CityCombobox,线程id=34,Action执行时间17毫秒
+[2018-08-08 16:53:02.975] logperformance.Performance 34 
+页面/Common/AreaCombobox,线程id=34,Action执行时间14毫秒
+[2018-08-08 16:53:10.611] logperformance.Performance 34 
+页面/UserInfo/GetBasicInfo,线程id=34,Action执行时间25毫秒
+[2018-08-08 16:53:11.654] logperformance.Performance 21 
+页面/Common/ProvinceCombobox,线程id=21,Action执行时间11毫秒
+[2018-08-08 16:53:13.822] logperformance.Performance 34 
+页面/Common/CityCombobox,线程id=34,Action执行时间26毫秒
+[2018-08-08 16:53:14.986] logperformance.Performance 29 
+页面/Common/AreaCombobox,线程id=29,Action执行时间20毫秒
+[2018-08-08 16:53:21.556] logperformance.Performance 32 
+页面/Common/CityCombobox,线程id=32,Action执行时间20毫秒
+[2018-08-08 16:53:22.753] logperformance.Performance 34 
+页面/Common/AreaCombobox,线程id=34,Action执行时间19毫秒
+[2018-08-08 16:53:32.039] logperformance.Performance 21 
+页面/Add/GetUserList?PageIndex=1&_=1533718411825,线程id=21,Action执行时间19毫秒
+[2018-08-08 16:53:32.533] logperformance.Performance 29 
+页面/Common/ProvinceCombobox,线程id=29,Action执行时间11毫秒
+[2018-08-08 16:53:34.798] logperformance.Performance 25 
+页面/UserInfo/GetBasicInfo,线程id=25,Action执行时间52毫秒
+[2018-08-08 16:53:37.127] logperformance.Performance 21 
+页面/Discovery/GetAllBottleList,线程id=21,Action执行时间80毫秒
+[2018-08-08 16:53:38.676] logperformance.Performance 34 
+页面/Discovery/AllReplyBottleList,线程id=34,Action执行时间66毫秒
+[2018-08-08 16:53:48.811] logperformance.Performance 25 
+页面/Discovery/ThrowOneBottle,线程id=25,Action执行时间31毫秒
+[2018-08-08 16:53:48.843] logperformance.Performance 32 
+页面/Discovery/GetAllBottleList,线程id=32,Action执行时间21毫秒
+[2018-08-08 16:53:50.271] logperformance.Performance 21 
+页面/Discovery/GetNewBottle,线程id=21,Action执行时间19毫秒
+[2018-08-08 16:53:50.295] logperformance.Performance 25 
+页面/Discovery/GetAllBottleList,线程id=25,Action执行时间14毫秒
+[2018-08-08 16:53:54.532] logperformance.Performance 21 
+页面/Discovery/ThrowOneBottle,线程id=21,Action执行时间12毫秒
+[2018-08-08 16:53:54.560] logperformance.Performance 32 
+页面/Discovery/GetAllBottleList,线程id=32,Action执行时间16毫秒
+[2018-08-08 16:54:02.680] logperformance.Performance 21 
+页面/WebSite/Discovery,线程id=21,Action执行时间3毫秒
+[2018-08-08 16:54:17.474] logperformance.Performance 21 
+页面/Login/Login,线程id=21,Action执行时间49毫秒
+[2018-08-08 16:54:20.101] logperformance.Performance 21 
+页面/Login/Login,线程id=21,Action执行时间10毫秒
+[2018-08-08 16:54:21.463] logperformance.Performance 21 
+页面/Chat/GetChatFriendList?order=asc&_=1533718460926,线程id=21,Action执行时间217毫秒
+[2018-08-08 16:54:21.762] logperformance.Performance 25 
+页面/Chat/GetChatContentHistory,线程id=25,Action执行时间101毫秒
+[2018-08-08 16:54:21.927] logperformance.Performance 32 
+页面/Chat/GetChatContent,线程id=32,Action执行时间18毫秒
+[2018-08-08 16:54:22.258] logperformance.Performance 25 
+页面/Chat/RefrashUnReadMsg,线程id=25,Action执行时间82毫秒
+[2018-08-08 16:54:22.703] logperformance.Performance 32 
+页面/Chat/UpdateReadTime,线程id=32,Action执行时间23毫秒
+[2018-08-08 16:54:24.167] logperformance.Performance 21 
+页面/Discovery/GetAllBottleList,线程id=21,Action执行时间26毫秒
+[2018-08-08 16:54:27.077] logperformance.Performance 21 
+页面/Discovery/GetNewBottle,线程id=21,Action执行时间41毫秒
+[2018-08-08 16:54:27.141] logperformance.Performance 32 
+页面/Discovery/GetAllBottleList,线程id=32,Action执行时间19毫秒
+[2018-08-08 16:54:28.774] logperformance.Performance 21 
+页面/Discovery/GetNewBottle,线程id=21,Action执行时间36毫秒
+[2018-08-08 16:54:28.858] logperformance.Performance 32 
+页面/Discovery/GetAllBottleList,线程id=32,Action执行时间15毫秒
+[2018-08-08 16:54:29.498] logperformance.Performance 25 
+页面/Discovery/GetNewBottle,线程id=25,Action执行时间46毫秒
+[2018-08-08 16:54:29.553] logperformance.Performance 32 
+页面/Discovery/GetAllBottleList,线程id=32,Action执行时间13毫秒
+[2018-08-08 16:54:30.126] logperformance.Performance 25 
+页面/Discovery/GetNewBottle,线程id=25,Action执行时间56毫秒
+[2018-08-08 16:54:30.177] logperformance.Performance 32 
+页面/Discovery/GetAllBottleList,线程id=32,Action执行时间12毫秒
+[2018-08-08 16:54:30.704] logperformance.Performance 26 
+页面/Discovery/GetNewBottle,线程id=26,Action执行时间31毫秒
+[2018-08-08 16:54:30.791] logperformance.Performance 25 
+页面/Discovery/GetAllBottleList,线程id=25,Action执行时间12毫秒
+[2018-08-08 16:54:31.302] logperformance.Performance 32 
+页面/Discovery/GetNewBottle,线程id=32,Action执行时间22毫秒
+[2018-08-08 16:54:31.396] logperformance.Performance 25 
+页面/Discovery/GetAllBottleList,线程id=25,Action执行时间13毫秒
+[2018-08-08 16:54:31.870] logperformance.Performance 32 
+页面/Discovery/GetNewBottle,线程id=32,Action执行时间13毫秒
+[2018-08-08 16:54:31.959] logperformance.Performance 25 
+页面/Discovery/GetAllBottleList,线程id=25,Action执行时间15毫秒
+[2018-08-08 16:54:32.097] logperformance.Performance 32 
+页面/Discovery/GetNewBottle,线程id=32,Action执行时间21毫秒
+[2018-08-08 16:54:32.173] logperformance.Performance 25 
+页面/Discovery/GetAllBottleList,线程id=25,Action执行时间12毫秒
+[2018-08-08 16:54:33.786] logperformance.Performance 21 
+页面/Discovery/ReplyBottleList,线程id=21,Action执行时间55毫秒
+[2018-08-08 16:54:36.084] logperformance.Performance 21 
+页面/Discovery/GetAllBottleList,线程id=21,Action执行时间24毫秒
+[2018-08-08 16:54:37.048] logperformance.Performance 27 
+页面/Discovery/AllReplyBottleList,线程id=27,Action执行时间51毫秒
+[2018-08-08 16:54:40.968] logperformance.Performance 21 
+页面/Discovery/ReplyBottleList,线程id=21,Action执行时间57毫秒
+[2018-08-08 16:54:42.447] logperformance.Performance 21 
+页面/Discovery/GetAllBottleList,线程id=21,Action执行时间24毫秒
+[2018-08-08 16:54:45.910] logperformance.Performance 25 
+页面/UserInfo/GetBasicInfo,线程id=25,Action执行时间19毫秒
+[2018-08-08 16:54:51.292] logperformance.Performance 21 
+页面/Common/ProvinceCombobox,线程id=21,Action执行时间18毫秒
+[2018-08-08 16:55:09.674] logperformance.Performance 21 
+页面/UserInfo/UpLoadHeadPhoto,线程id=21,Action执行时间134毫秒
+[2018-08-08 16:55:09.733] logperformance.Performance 27 
+页面/UserInfo/GetBasicInfo,线程id=27,Action执行时间19毫秒
+[2018-08-08 16:56:07.155] logperformance.Performance 25 
+页面/Common/ProvinceCombobox,线程id=25,Action执行时间15毫秒
+[2018-08-08 16:56:10.499] logperformance.Performance 28 
+页面/Common/CityCombobox,线程id=28,Action执行时间26毫秒
+[2018-08-08 16:56:11.986] logperformance.Performance 21 
+页面/Common/AreaCombobox,线程id=21,Action执行时间18毫秒
+[2018-08-08 16:56:18.871] logperformance.Performance 25 
+页面/Common/CityCombobox,线程id=25,Action执行时间16毫秒
+[2018-08-08 16:56:21.237] logperformance.Performance 9 
+页面/Common/AreaCombobox,线程id=9,Action执行时间10毫秒
+[2018-08-08 16:56:27.756] logperformance.Performance 21 
+页面/Common/AreaCombobox,线程id=21,Action执行时间13毫秒
+[2018-08-08 16:56:29.204] logperformance.Performance 28 
+页面/Common/CityCombobox,线程id=28,Action执行时间15毫秒
+[2018-08-08 16:56:30.975] logperformance.Performance 25 
+页面/Common/AreaCombobox,线程id=25,Action执行时间13毫秒
+[2018-08-08 16:56:33.959] logperformance.Performance 21 
+页面/Add/GetUserList?PageIndex=1&_=1533718593679,线程id=21,Action执行时间23毫秒
+[2018-08-08 16:56:34.974] logperformance.Performance 9 
+页面/Common/ProvinceCombobox,线程id=9,Action执行时间25毫秒
+[2018-08-08 16:56:37.443] logperformance.Performance 21 
+页面/Common/CityCombobox,线程id=21,Action执行时间26毫秒
+[2018-08-08 16:56:43.120] logperformance.Performance 28 
+页面/Common/CityCombobox,线程id=28,Action执行时间13毫秒
+[2018-08-08 16:56:45.099] logperformance.Performance 25 
+页面/Common/AreaCombobox,线程id=25,Action执行时间14毫秒
+[2018-08-08 16:56:56.829] logperformance.Performance 21 
+页面/Common/CityCombobox,线程id=21,Action执行时间13毫秒
+[2018-08-08 16:56:58.883] logperformance.Performance 21 
+页面/Common/AreaCombobox,线程id=21,Action执行时间14毫秒
+[2018-08-08 16:57:42.665] logperformance.Performance 15 
+页面/UserInfo/GetBasicInfo,线程id=15,Action执行时间27毫秒
+[2018-08-08 16:57:43.706] logperformance.Performance 25 
+页面/Common/ProvinceCombobox,线程id=25,Action执行时间37毫秒
+[2018-08-08 16:57:44.154] logperformance.Performance 15 
+页面/Common/BloodTypeCombobox,线程id=15,Action执行时间2毫秒
+[2018-08-08 16:57:47.714] logperformance.Performance 25 
+页面/Common/CityCombobox,线程id=25,Action执行时间19毫秒
+[2018-08-08 16:57:49.643] logperformance.Performance 28 
+页面/Common/AreaCombobox,线程id=28,Action执行时间10毫秒
+[2018-08-08 16:57:57.098] logperformance.Performance 25 
+页面/Common/CityCombobox,线程id=25,Action执行时间13毫秒
+[2018-08-08 16:57:59.194] logperformance.Performance 25 
+页面/Add/GetUserList?PageIndex=1&_=1533718678913,线程id=25,Action执行时间53毫秒
+[2018-08-08 16:57:59.723] logperformance.Performance 15 
+页面/Common/ProvinceCombobox,线程id=15,Action执行时间11毫秒
+[2018-08-08 16:58:00.213] logperformance.Performance 36 
+页面/Common/AgeCombobox,线程id=36,Action执行时间1毫秒
+[2018-08-08 16:58:01.765] logperformance.Performance 21 
+页面/Common/CityCombobox,线程id=21,Action执行时间10毫秒
+[2018-08-08 16:58:11.607] logperformance.Performance 21 
+页面/Add/GetUserList?PageIndex=1&_=1533718678914,线程id=21,Action执行时间18毫秒
+[2018-08-08 16:58:12.974] logperformance.Performance 15 
+页面/Add/GetUserList?PageIndex=2&_=1533718678915,线程id=15,Action执行时间18毫秒
+[2018-08-08 16:58:14.008] logperformance.Performance 21 
+页面/Add/GetUserList?PageIndex=1&_=1533718678916,线程id=21,Action执行时间13毫秒
+[2018-08-08 16:58:15.301] logperformance.Performance 15 
+页面/UserInfo/GetBasicInfo,线程id=15,Action执行时间39毫秒
+[2018-08-08 16:58:25.196] logperformance.Performance 36 
+页面/UserInfo/GetBasicInfo,线程id=36,Action执行时间13毫秒
+[2018-08-08 17:02:13.851] logperformance.Performance 15 
+页面/UserInfo/GetBasicInfo,线程id=15,Action执行时间59毫秒
+[2018-08-08 17:02:18.193] logperformance.Performance 6 
+页面/Common/ProvinceCombobox,线程id=6,Action执行时间10毫秒
+[2018-08-08 17:02:58.360] logperformance.Performance 6 
+页面/Common/ProvinceCombobox,线程id=6,Action执行时间12毫秒
+[2018-08-08 17:03:02.309] logperformance.Performance 26 
+页面/Chat/GetChatFriendList?order=asc&_=1533718982024,线程id=26,Action执行时间102毫秒
+[2018-08-08 17:03:02.434] logperformance.Performance 26 
+页面/Chat/GetChatContentHistory,线程id=26,Action执行时间49毫秒
+[2018-08-08 17:03:02.577] logperformance.Performance 27 
+页面/Chat/GetChatContent,线程id=27,Action执行时间21毫秒
+[2018-08-08 17:03:02.917] logperformance.Performance 26 
+页面/Chat/RefrashUnReadMsg,线程id=26,Action执行时间30毫秒
+[2018-08-08 17:03:02.941] logperformance.Performance 6 
+页面/Chat/UpdateReadTime,线程id=6,Action执行时间9毫秒
+[2018-08-08 17:03:05.694] logperformance.Performance 26 
+页面/Common/AgeCombobox,线程id=26,Action执行时间2毫秒
+[2018-08-08 17:03:05.759] logperformance.Performance 27 
+页面/Common/ProvinceCombobox,线程id=27,Action执行时间37毫秒
+[2018-08-08 17:03:06.254] logperformance.Performance 26 
+页面/Add/GetUserList?PageIndex=1&_=1533718985573,线程id=26,Action执行时间15毫秒
+[2018-08-08 17:03:10.888] logperformance.Performance 27 
+页面/Chat/GetChatFriendList?order=asc&_=1533718990567,线程id=27,Action执行时间97毫秒
+[2018-08-08 17:03:11.133] logperformance.Performance 26 
+页面/Chat/GetChatContentHistory,线程id=26,Action执行时间159毫秒
+[2018-08-08 17:03:11.298] logperformance.Performance 6 
+页面/Chat/GetChatContent,线程id=6,Action执行时间17毫秒
+[2018-08-08 17:03:11.509] logperformance.Performance 26 
+页面/Chat/UpdateReadTime,线程id=26,Action执行时间27毫秒
+[2018-08-08 17:03:11.636] logperformance.Performance 6 
+页面/Chat/RefrashUnReadMsg,线程id=6,Action执行时间19毫秒
+[2018-08-08 17:03:26.029] logperformance.Performance 8 
+页面/Add/GetUserList?PageIndex=1&_=1533718985574,线程id=8,Action执行时间12毫秒
+[2018-08-08 17:03:26.563] logperformance.Performance 26 
+页面/Add/GetUserList?PageIndex=1&_=1533718985575,线程id=26,Action执行时间23毫秒
+[2018-08-08 17:03:26.991] logperformance.Performance 8 
+页面/Add/GetUserList?PageIndex=1&_=1533718985576,线程id=8,Action执行时间28毫秒
+[2018-08-08 17:03:28.626] logperformance.Performance 26 
+页面/UserInfo/GetBasicInfo,线程id=26,Action执行时间16毫秒
+[2018-08-08 17:03:33.758] logperformance.Performance 15 
+页面/UserInfo/GetBasicInfo,线程id=15,Action执行时间19毫秒
+[2018-08-08 17:04:29.635] logperformance.Performance 15 
+页面/UserInfo/UpLoadHeadPhoto,线程id=15,Action执行时间139毫秒
+[2018-08-08 17:04:29.695] logperformance.Performance 8 
+页面/UserInfo/GetBasicInfo,线程id=8,Action执行时间18毫秒
+[2018-08-08 17:05:31.374] logperformance.Performance 27 
+页面/Discovery/GetAllBottleList,线程id=27,Action执行时间26毫秒
+[2018-08-08 17:05:33.429] logperformance.Performance 15 
+页面/Discovery/AllReplyBottleList,线程id=15,Action执行时间46毫秒
+[2018-08-08 17:05:34.525] logperformance.Performance 29 
+页面/Discovery/ReplyBottleList,线程id=29,Action执行时间104毫秒
+[2018-08-08 17:05:36.814] logperformance.Performance 15 
+页面/Discovery/AllReplyBottleList,线程id=15,Action执行时间34毫秒
+[2018-08-08 17:05:38.029] logperformance.Performance 27 
+页面/Discovery/ReplyBottleList,线程id=27,Action执行时间93毫秒
+[2018-08-08 17:05:39.886] logperformance.Performance 15 
+页面/Discovery/AllReplyBottleList,线程id=15,Action执行时间40毫秒
+[2018-08-08 17:05:42.810] logperformance.Performance 15 
+页面/Discovery/ReplyBottleList,线程id=15,Action执行时间220毫秒
+[2018-08-08 17:05:50.729] logperformance.Performance 15 
+页面/Discovery/AllReplyBottleList,线程id=15,Action执行时间31毫秒
+[2018-08-08 17:05:52.431] logperformance.Performance 15 
+页面/Discovery/GetNewBottle,线程id=15,Action执行时间11毫秒
+[2018-08-08 17:05:52.510] logperformance.Performance 27 
+页面/Discovery/GetAllBottleList,线程id=27,Action执行时间17毫秒
+[2018-08-08 17:06:13.931] logperformance.Performance 27 
+页面/UserInfo/GetBasicInfo,线程id=27,Action执行时间18毫秒
+[2018-08-08 17:06:21.088] logperformance.Performance 27 
+页面/Chat/GetChatFriendList?order=asc&_=1533719180697,线程id=27,Action执行时间134毫秒
+[2018-08-08 17:06:21.288] logperformance.Performance 15 
+页面/Chat/GetChatContentHistory,线程id=15,Action执行时间109毫秒
+[2018-08-08 17:06:21.426] logperformance.Performance 8 
+页面/Chat/GetChatContent,线程id=8,Action执行时间33毫秒
+[2018-08-08 17:06:21.839] logperformance.Performance 27 
+页面/Chat/RefrashUnReadMsg,线程id=27,Action执行时间71毫秒
+[2018-08-08 17:06:22.283] logperformance.Performance 8 
+页面/Chat/UpdateReadTime,线程id=8,Action执行时间14毫秒
+[2018-08-08 17:06:23.334] logperformance.Performance 29 
+页面/Chat/GetChatContentHistory,线程id=29,Action执行时间34毫秒
+[2018-08-08 17:06:23.410] logperformance.Performance 8 
+页面/Chat/GetChatContent,线程id=8,Action执行时间17毫秒
+[2018-08-08 17:06:23.821] logperformance.Performance 27 
+页面/Chat/UpdateReadTime,线程id=27,Action执行时间22毫秒
+[2018-08-08 17:06:24.378] logperformance.Performance 29 
+页面/Chat/GetChatContentHistory,线程id=29,Action执行时间29毫秒
+[2018-08-08 17:06:24.481] logperformance.Performance 8 
+页面/Chat/GetChatContent,线程id=8,Action执行时间16毫秒
+[2018-08-08 17:06:24.861] logperformance.Performance 27 
+页面/Chat/UpdateReadTime,线程id=27,Action执行时间11毫秒
+[2018-08-08 17:06:25.400] logperformance.Performance 8 
+页面/Chat/GetChatContentHistory,线程id=8,Action执行时间55毫秒
+[2018-08-08 17:06:25.505] logperformance.Performance 27 
+页面/Chat/GetChatContent,线程id=27,Action执行时间12毫秒
+[2018-08-08 17:06:25.915] logperformance.Performance 29 
+页面/Chat/UpdateReadTime,线程id=29,Action执行时间14毫秒
+[2018-08-08 17:06:26.130] logperformance.Performance 27 
+页面/Chat/GetChatContentHistory,线程id=27,Action执行时间35毫秒
+[2018-08-08 17:06:26.222] logperformance.Performance 29 
+页面/Chat/GetChatContent,线程id=29,Action执行时间17毫秒
+[2018-08-08 17:06:26.643] logperformance.Performance 30 
+页面/Chat/GetChatContentHistory,线程id=30,Action执行时间41毫秒
+[2018-08-08 17:06:26.730] logperformance.Performance 27 
+页面/Chat/GetChatContent,线程id=27,Action执行时间26毫秒
+[2018-08-08 17:06:27.036] logperformance.Performance 29 
+页面/Chat/GetChatContentHistory,线程id=29,Action执行时间52毫秒
+[2018-08-08 17:06:27.179] logperformance.Performance 27 
+页面/Chat/UpdateReadTime,线程id=27,Action执行时间55毫秒
+[2018-08-08 17:06:27.563] logperformance.Performance 8 
+页面/Chat/UpdateReadTime,线程id=8,Action执行时间38毫秒
+[2018-08-08 17:06:27.643] logperformance.Performance 29 
+页面/Chat/UpdateReadTime,线程id=29,Action执行时间10毫秒
+[2018-08-08 17:06:27.694] logperformance.Performance 27 
+页面/Chat/GetChatContent,线程id=27,Action执行时间13毫秒
+[2018-08-08 17:06:28.016] logperformance.Performance 29 
+页面/Chat/GetChatContentHistory,线程id=29,Action执行时间25毫秒
+[2018-08-08 17:06:28.095] logperformance.Performance 8 
+页面/Chat/GetChatContentHistory,线程id=8,Action执行时间64毫秒
+[2018-08-08 17:06:28.204] logperformance.Performance 29 
+页面/Chat/GetChatContent,线程id=29,Action执行时间17毫秒
+[2018-08-08 17:06:28.260] logperformance.Performance 27 
+页面/Chat/UpdateReadTime,线程id=27,Action执行时间15毫秒
+[2018-08-08 17:06:28.504] logperformance.Performance 29 
+页面/Chat/UpdateReadTime,线程id=29,Action执行时间11毫秒
+[2018-08-08 17:06:28.600] logperformance.Performance 27 
+页面/Chat/UpdateReadTime,线程id=27,Action执行时间14毫秒
+[2018-08-08 17:06:28.637] logperformance.Performance 8 
+页面/Chat/GetChatContent,线程id=8,Action执行时间24毫秒
+[2018-08-08 17:06:39.285] logperformance.Performance 29 
+页面/UserInfo/GetBasicInfo,线程id=29,Action执行时间20毫秒
+[2018-08-08 17:06:49.579] logperformance.Performance 15 
+页面/Common/BloodTypeCombobox,线程id=15,Action执行时间7毫秒
+[2018-08-08 17:06:49.610] logperformance.Performance 27 
+页面/Common/ProvinceCombobox,线程id=27,Action执行时间24毫秒
+[2018-08-08 17:09:03.543] logperformance.Performance 32 
+页面/UserInfo/GetBasicInfo,线程id=32,Action执行时间19毫秒
+[2018-08-08 17:09:05.395] logperformance.Performance 33 
+页面/Common/ProvinceCombobox,线程id=33,Action执行时间14毫秒
+[2018-08-08 17:09:35.792] logperformance.Performance 29 
+页面/Common/CityCombobox,线程id=29,Action执行时间23毫秒
+[2018-08-08 17:09:36.884] logperformance.Performance 32 
+页面/Common/AreaCombobox,线程id=32,Action执行时间32毫秒
+[2018-08-08 17:09:43.059] logperformance.Performance 8 
+页面/Common/CityCombobox,线程id=8,Action执行时间14毫秒
+[2018-08-08 17:10:06.653] logperformance.Performance 32 
+页面/Common/CityCombobox,线程id=32,Action执行时间26毫秒
+[2018-08-08 17:10:10.935] logperformance.Performance 32 
+页面/Common/AreaCombobox,线程id=32,Action执行时间18毫秒
+[2018-08-08 17:10:15.081] logperformance.Performance 32 
+页面/Common/ProvinceCombobox,线程id=32,Action执行时间44毫秒
+[2018-08-08 17:10:34.225] logperformance.Performance 32 
+页面/Common/CityCombobox,线程id=32,Action执行时间15毫秒
+[2018-08-08 17:10:36.002] logperformance.Performance 8 
+页面/Common/AreaCombobox,线程id=8,Action执行时间17毫秒
+[2018-08-08 17:10:43.284] logperformance.Performance 33 
+页面/Common/AreaCombobox,线程id=33,Action执行时间19毫秒
+[2018-08-08 17:10:47.031] logperformance.Performance 32 
+页面/Common/CityCombobox,线程id=32,Action执行时间17毫秒
+[2018-08-08 17:10:53.627] logperformance.Performance 8 
+页面/Common/CityCombobox,线程id=8,Action执行时间29毫秒
+[2018-08-08 17:10:55.784] logperformance.Performance 32 
+页面/Common/AreaCombobox,线程id=32,Action执行时间18毫秒
+[2018-08-08 17:10:57.919] logperformance.Performance 8 
+页面/Common/AreaCombobox,线程id=8,Action执行时间35毫秒
+[2018-08-08 17:11:15.771] logperformance.Performance 32 
+页面/Common/CityCombobox,线程id=32,Action执行时间16毫秒
+[2018-08-08 17:11:18.620] logperformance.Performance 8 
+页面/Common/AreaCombobox,线程id=8,Action执行时间19毫秒
+[2018-08-08 17:17:01.238] logperformance.Performance 22 
+页面/UserInfo/GetBasicInfo,线程id=22,Action执行时间29毫秒
+[2018-08-08 17:17:02.554] logperformance.Performance 33 
+页面/Common/GenderComboboxV1,线程id=33,Action执行时间2毫秒
+[2018-08-08 17:17:02.615] logperformance.Performance 22 
+页面/Common/ProvinceCombobox,线程id=22,Action执行时间38毫秒
+[2018-08-08 17:17:03.093] logperformance.Performance 23 
+页面/Common/BloodTypeCombobox,线程id=23,Action执行时间1毫秒
+[2018-08-08 17:17:05.096] logperformance.Performance 22 
+页面/Common/CityCombobox,线程id=22,Action执行时间32毫秒
+[2018-08-08 17:17:08.362] logperformance.Performance 33 
+页面/Common/AreaCombobox,线程id=33,Action执行时间26毫秒
+[2018-08-08 17:17:12.714] logperformance.Performance 33 
+页面/Common/CityCombobox,线程id=33,Action执行时间15毫秒
+[2018-08-08 17:17:16.161] logperformance.Performance 17 
+页面/Common/AreaCombobox,线程id=17,Action执行时间17毫秒
+[2018-08-08 17:17:23.097] logperformance.Performance 33 
+页面/Common/AreaCombobox,线程id=33,Action执行时间19毫秒
+[2018-08-08 17:18:53.493] logperformance.Performance 22 
+页面/UserInfo/GetBasicInfo,线程id=22,Action执行时间25毫秒
+[2018-08-08 17:18:54.993] logperformance.Performance 22 
+页面/Common/ProvinceCombobox,线程id=22,Action执行时间52毫秒
+[2018-08-08 17:18:57.200] logperformance.Performance 33 
+页面/Common/CityCombobox,线程id=33,Action执行时间33毫秒
+[2018-08-08 17:18:59.066] logperformance.Performance 33 
+页面/Common/AreaCombobox,线程id=33,Action执行时间13毫秒
+[2018-08-08 17:19:04.510] logperformance.Performance 31 
+页面/Common/CityCombobox,线程id=31,Action执行时间15毫秒
+[2018-08-08 17:19:06.301] logperformance.Performance 17 
+页面/Common/AreaCombobox,线程id=17,Action执行时间17毫秒
+[2018-08-08 17:19:09.262] logperformance.Performance 33 
+页面/Common/AreaCombobox,线程id=33,Action执行时间24毫秒
+[2018-08-08 17:19:12.296] logperformance.Performance 17 
+页面/Common/AreaCombobox,线程id=17,Action执行时间28毫秒
+[2018-08-08 17:19:13.998] logperformance.Performance 17 
+页面/Common/AreaCombobox,线程id=17,Action执行时间26毫秒
+[2018-08-08 17:19:15.875] logperformance.Performance 33 
+页面/Common/CityCombobox,线程id=33,Action执行时间27毫秒
+[2018-08-08 17:19:23.331] logperformance.Performance 33 
+页面/Common/AreaCombobox,线程id=33,Action执行时间18毫秒
+[2018-08-08 17:19:26.976] logperformance.Performance 17 
+页面/Common/CityCombobox,线程id=17,Action执行时间16毫秒
+[2018-08-08 17:19:28.900] logperformance.Performance 33 
+页面/Common/AreaCombobox,线程id=33,Action执行时间29毫秒
+[2018-08-08 17:19:47.180] logperformance.Performance 23 
+页面/Add/GetUserList?PageIndex=1&_=1533719986830,线程id=23,Action执行时间80毫秒
+[2018-08-08 17:19:47.632] logperformance.Performance 31 
+页面/Common/ProvinceCombobox,线程id=31,Action执行时间15毫秒
+[2018-08-08 17:19:49.335] logperformance.Performance 17 
+页面/Common/CityCombobox,线程id=17,Action执行时间16毫秒
+[2018-08-08 17:19:51.533] logperformance.Performance 22 
+页面/Common/CityCombobox,线程id=22,Action执行时间15毫秒
+[2018-08-08 17:19:53.385] logperformance.Performance 23 
+页面/UserInfo/GetBasicInfo,线程id=23,Action执行时间35毫秒
+[2018-08-08 17:19:55.512] logperformance.Performance 22 
+页面/Common/ProvinceCombobox,线程id=22,Action执行时间17毫秒
+[2018-08-08 17:20:02.222] logperformance.Performance 31 
+页面/Common/CityCombobox,线程id=31,Action执行时间12毫秒
+[2018-08-08 17:20:03.840] logperformance.Performance 20 
+页面/Common/AreaCombobox,线程id=20,Action执行时间27毫秒
+[2018-08-08 17:20:13.325] logperformance.Performance 23 
+页面/Add/GetUserList?PageIndex=1&_=1533720013120,线程id=23,Action执行时间64毫秒
+[2018-08-08 17:20:13.583] logperformance.Performance 22 
+页面/Common/ProvinceCombobox,线程id=22,Action执行时间196毫秒
+[2018-08-08 17:20:15.750] logperformance.Performance 17 
+页面/Common/CityCombobox,线程id=17,Action执行时间25毫秒
+[2018-08-08 17:20:44.894] logperformance.Performance 17 
+页面/Common/CityCombobox,线程id=17,Action执行时间46毫秒
+[2018-08-08 17:20:47.763] logperformance.Performance 23 
+页面/Common/AreaCombobox,线程id=23,Action执行时间14毫秒
+[2018-08-08 17:21:03.461] logperformance.Performance 23 
+页面/Common/CityCombobox,线程id=23,Action执行时间13毫秒
+[2018-08-08 17:21:05.343] logperformance.Performance 23 
+页面/Common/AreaCombobox,线程id=23,Action执行时间26毫秒
+[2018-08-08 17:21:12.455] logperformance.Performance 23 
+页面/Add/GetUserList?PageIndex=1&_=1533720072139,线程id=23,Action执行时间32毫秒
+[2018-08-08 17:21:12.658] logperformance.Performance 31 
+页面/Common/ProvinceCombobox,线程id=31,Action执行时间149毫秒
+[2018-08-08 17:21:16.829] logperformance.Performance 20 
+页面/Common/CityCombobox,线程id=20,Action执行时间22毫秒
+[2018-08-08 17:21:18.847] logperformance.Performance 23 
+页面/Common/AreaCombobox,线程id=23,Action执行时间18毫秒
+[2018-08-08 17:23:06.372] logperformance.Performance 24 
+页面/Common/CityCombobox,线程id=24,Action执行时间15毫秒
+[2018-08-08 17:23:14.158] logperformance.Performance 24 
+页面/Common/AreaCombobox,线程id=24,Action执行时间16毫秒
+[2018-08-08 17:23:23.292] logperformance.Performance 20 
+页面/Common/CityCombobox,线程id=20,Action执行时间16毫秒
+[2018-08-08 17:23:25.490] logperformance.Performance 20 
+页面/Common/AreaCombobox,线程id=20,Action执行时间18毫秒
+[2018-08-08 17:23:56.874] logperformance.Performance 34 
+页面/Add/GetUserList?PageIndex=1&_=1533720236283,线程id=34,Action执行时间47毫秒
+[2018-08-08 17:23:57.106] logperformance.Performance 30 
+页面/Common/ProvinceCombobox,线程id=30,Action执行时间202毫秒
+[2018-08-08 17:24:01.046] logperformance.Performance 24 
+页面/Common/CityCombobox,线程id=24,Action执行时间13毫秒
+[2018-08-08 17:24:03.582] logperformance.Performance 13 
+页面/Common/AreaCombobox,线程id=13,Action执行时间15毫秒
+[2018-08-08 17:24:10.957] logperformance.Performance 13 
+页面/Common/AreaCombobox,线程id=13,Action执行时间34毫秒
+[2018-08-08 17:24:12.659] logperformance.Performance 24 
+页面/Common/AreaCombobox,线程id=24,Action执行时间17毫秒
+[2018-08-08 17:26:03.349] logperformance.Performance 6 
+页面/Add/GetUserList?PageIndex=1&_=1533720362887,线程id=6,Action执行时间68毫秒
+[2018-08-08 17:26:03.426] logperformance.Performance 30 
+页面/Common/ProvinceCombobox,线程id=30,Action执行时间46毫秒
+[2018-08-08 17:26:05.780] logperformance.Performance 24 
+页面/Common/CityCombobox,线程id=24,Action执行时间11毫秒
+[2018-08-08 17:29:03.750] logperformance.Performance 15 
+页面/UserInfo/GetBasicInfo,线程id=15,Action执行时间22毫秒
+[2018-08-08 17:29:05.720] logperformance.Performance 15 
+页面/Common/ProvinceCombobox,线程id=15,Action执行时间13毫秒
+[2018-08-08 17:29:07.530] logperformance.Performance 30 
+页面/Common/CityCombobox,线程id=30,Action执行时间12毫秒
+[2018-08-08 17:29:09.705] logperformance.Performance 30 
+页面/Common/AreaCombobox,线程id=30,Action执行时间13毫秒
+[2018-08-08 17:29:12.270] logperformance.Performance 6 
+页面/Common/CityCombobox,线程id=6,Action执行时间9毫秒
+[2018-08-08 17:29:16.972] logperformance.Performance 6 
+页面/Common/AreaCombobox,线程id=6,Action执行时间21毫秒
+[2018-08-08 17:29:27.261] logperformance.Performance 16 
+页面/UserInfo/GetBasicInfo,线程id=16,Action执行时间26毫秒
+[2018-08-08 17:29:27.912] logperformance.Performance 6 
+页面/Common/ProvinceCombobox,线程id=6,Action执行时间41毫秒
+[2018-08-08 17:29:31.963] logperformance.Performance 15 
+页面/UserInfo/GetBasicInfo,线程id=15,Action执行时间23毫秒
+[2018-08-08 17:29:33.565] logperformance.Performance 6 
+页面/Common/ProvinceCombobox,线程id=6,Action执行时间16毫秒
+[2018-08-08 17:29:37.469] logperformance.Performance 15 
+页面/Common/CityCombobox,线程id=15,Action执行时间17毫秒
+[2018-08-08 17:29:44.945] logperformance.Performance 30 
+页面/Common/CityCombobox,线程id=30,Action执行时间16毫秒
+[2018-08-08 17:29:48.717] logperformance.Performance 30 
+页面/Common/AreaCombobox,线程id=30,Action执行时间15毫秒
+[2018-08-08 17:29:52.374] logperformance.Performance 15 
+页面/Common/AreaCombobox,线程id=15,Action执行时间11毫秒
+[2018-08-08 17:29:53.982] logperformance.Performance 30 
+页面/Common/CityCombobox,线程id=30,Action执行时间12毫秒
+[2018-08-08 17:29:56.985] logperformance.Performance 15 
+页面/Common/CityCombobox,线程id=15,Action执行时间11毫秒
+[2018-08-08 17:29:59.926] logperformance.Performance 30 
+页面/Common/AreaCombobox,线程id=30,Action执行时间11毫秒
+[2018-08-08 17:30:23.480] logperformance.Performance 30 
+页面/Common/AreaCombobox,线程id=30,Action执行时间17毫秒
+[2018-08-08 17:30:25.075] logperformance.Performance 30 
+页面/Common/CityCombobox,线程id=30,Action执行时间26毫秒
+[2018-08-08 17:30:34.898] logperformance.Performance 15 
+页面/Common/CityCombobox,线程id=15,Action执行时间17毫秒
+[2018-08-08 17:30:36.497] logperformance.Performance 30 
+页面/Common/AreaCombobox,线程id=30,Action执行时间18毫秒
+[2018-08-08 17:30:52.471] logperformance.Performance 15 
+页面/Common/CityCombobox,线程id=15,Action执行时间13毫秒
+[2018-08-08 17:30:58.054] logperformance.Performance 15 
+页面/Common/AreaCombobox,线程id=15,Action执行时间20毫秒
+[2018-08-08 17:31:05.593] logperformance.Performance 36 
+页面/Common/AreaCombobox,线程id=36,Action执行时间11毫秒
+[2018-08-08 17:31:12.436] logperformance.Performance 30 
+页面/Common/AreaCombobox,线程id=30,Action执行时间14毫秒
+[2018-08-08 17:31:14.257] logperformance.Performance 30 
+页面/Common/AreaCombobox,线程id=30,Action执行时间14毫秒
+[2018-08-08 17:31:15.834] logperformance.Performance 30 
+页面/Common/CityCombobox,线程id=30,Action执行时间13毫秒
+[2018-08-08 17:31:17.698] logperformance.Performance 30 
+页面/Common/CityCombobox,线程id=30,Action执行时间13毫秒
+[2018-08-08 17:31:24.534] logperformance.Performance 30 
+页面/Common/CityCombobox,线程id=30,Action执行时间13毫秒
+[2018-08-08 17:31:27.332] logperformance.Performance 10 
+页面/UserInfo/GetBasicInfo,线程id=10,Action执行时间19毫秒
+[2018-08-08 17:31:28.869] logperformance.Performance 36 
+页面/Common/ProvinceCombobox,线程id=36,Action执行时间16毫秒
+[2018-08-08 17:31:31.224] logperformance.Performance 30 
+页面/Common/CityCombobox,线程id=30,Action执行时间11毫秒
+[2018-08-08 17:31:33.336] logperformance.Performance 30 
+页面/Common/AreaCombobox,线程id=30,Action执行时间20毫秒
+[2018-08-08 17:31:36.284] logperformance.Performance 30 
+页面/Common/AreaCombobox,线程id=30,Action执行时间16毫秒
+[2018-08-08 17:32:20.960] logperformance.Performance 13 
+页面/Common/CityCombobox,线程id=13,Action执行时间11毫秒
+[2018-08-08 17:33:28.868] logperformance.Performance 10 
+页面/Common/CityCombobox,线程id=10,Action执行时间16毫秒
+[2018-08-08 17:33:50.207] logperformance.Performance 36 
+页面/Common/AreaCombobox,线程id=36,Action执行时间16毫秒
+[2018-08-08 17:35:14.745] logperformance.Performance 36 
+页面/Common/AreaCombobox,线程id=36,Action执行时间16毫秒
+[2018-08-08 17:38:58.097] logperformance.Performance 22 
+页面/Common/AreaCombobox,线程id=22,Action执行时间12毫秒
+[2018-08-08 17:38:59.996] logperformance.Performance 23 
+页面/Common/AreaCombobox,线程id=23,Action执行时间18毫秒
+[2018-08-08 17:41:33.133] logperformance.Performance 17 
+页面/Common/AreaCombobox,线程id=17,Action执行时间14毫秒
+[2018-08-08 17:44:31.034] logperformance.Performance 12 
+页面/UserInfo/GetBasicInfo,线程id=12,Action执行时间18毫秒
+[2018-08-08 17:44:32.795] logperformance.Performance 12 
+页面/Common/ProvinceCombobox,线程id=12,Action执行时间25毫秒
+[2018-08-08 17:44:33.273] logperformance.Performance 14 
+页面/Common/BloodTypeCombobox,线程id=14,Action执行时间1毫秒
+[2018-08-08 17:44:34.825] logperformance.Performance 37 
+页面/Common/CityCombobox,线程id=37,Action执行时间14毫秒
+[2018-08-08 17:44:36.470] logperformance.Performance 17 
+页面/Common/AreaCombobox,线程id=17,Action执行时间17毫秒
+[2018-08-08 17:44:40.262] logperformance.Performance 17 
+页面/Common/CityCombobox,线程id=17,Action执行时间12毫秒
+[2018-08-08 17:44:42.094] logperformance.Performance 17 
+页面/Common/AreaCombobox,线程id=17,Action执行时间12毫秒
+[2018-08-08 17:44:46.689] logperformance.Performance 12 
+页面/Add/GetUserList?PageIndex=1&_=1533721486306,线程id=12,Action执行时间44毫秒
+[2018-08-08 17:44:47.714] logperformance.Performance 14 
+页面/Common/ProvinceCombobox,线程id=14,Action执行时间16毫秒
+[2018-08-08 17:44:49.078] logperformance.Performance 17 
+页面/Common/CityCombobox,线程id=17,Action执行时间16毫秒
+[2018-08-08 17:44:50.422] logperformance.Performance 37 
+页面/Common/AreaCombobox,线程id=37,Action执行时间23毫秒
+[2018-08-08 17:44:54.714] logperformance.Performance 17 
+页面/Common/CityCombobox,线程id=17,Action执行时间13毫秒
+[2018-08-08 17:44:55.842] logperformance.Performance 12 
+页面/Common/AreaCombobox,线程id=12,Action执行时间14毫秒
+[2018-08-08 17:44:59.957] logperformance.Performance 12 
+页面/Add/GetUserList?PageIndex=1&_=1533721499414,线程id=12,Action执行时间42毫秒
+[2018-08-08 17:45:00.487] logperformance.Performance 17 
+页面/Common/ProvinceCombobox,线程id=17,Action执行时间21毫秒
+[2018-08-08 17:45:06.001] logperformance.Performance 37 
+页面/Add/GetUserList?PageIndex=1&_=1533721505671,线程id=37,Action执行时间21毫秒
+[2018-08-08 17:45:06.066] logperformance.Performance 12 
+页面/Common/ProvinceCombobox,线程id=12,Action执行时间21毫秒
+[2018-08-08 17:45:09.900] logperformance.Performance 17 
+页面/Common/CityCombobox,线程id=17,Action执行时间13毫秒
+[2018-08-08 17:45:11.350] logperformance.Performance 37 
+页面/Common/AreaCombobox,线程id=37,Action执行时间17毫秒
+[2018-08-08 17:45:16.890] logperformance.Performance 12 
+页面/UserInfo/GetBasicInfo,线程id=12,Action执行时间18毫秒
+[2018-08-08 17:45:18.276] logperformance.Performance 12 
+页面/Common/ProvinceCombobox,线程id=12,Action执行时间19毫秒
+[2018-08-08 17:45:20.841] logperformance.Performance 12 
+页面/Common/CityCombobox,线程id=12,Action执行时间14毫秒
+[2018-08-08 17:45:22.175] logperformance.Performance 12 
+页面/Common/AreaCombobox,线程id=12,Action执行时间12毫秒
+[2018-08-08 17:45:26.050] logperformance.Performance 17 
+页面/Common/CityCombobox,线程id=17,Action执行时间20毫秒
+[2018-08-08 17:45:27.224] logperformance.Performance 17 
+页面/Common/AreaCombobox,线程id=17,Action执行时间12毫秒
+[2018-08-08 17:46:36.309] logperformance.Performance 15 
+页面/Common/AreaCombobox,线程id=15,Action执行时间14毫秒
+[2018-08-08 17:46:51.878] logperformance.Performance 14 
+页面/Common/AreaCombobox,线程id=14,Action执行时间12毫秒
+[2018-08-08 17:47:34.525] logperformance.Performance 14 
+页面/Common/CityCombobox,线程id=14,Action执行时间13毫秒
+[2018-08-08 17:48:08.434] logperformance.Performance 15 
+页面/Common/ProvinceCombobox,线程id=15,Action执行时间13毫秒
+[2018-08-08 17:48:20.894] logperformance.Performance 37 
+页面/Discovery/GetAllBottleList,线程id=37,Action执行时间42毫秒
+[2018-08-08 17:48:22.842] logperformance.Performance 6 
+页面/Discovery/ReplyBottleList,线程id=6,Action执行时间48毫秒
+[2018-08-08 17:48:25.932] logperformance.Performance 14 
+页面/Discovery/GetAllBottleList,线程id=14,Action执行时间22毫秒
+[2018-08-08 17:48:28.047] logperformance.Performance 14 
+页面/Discovery/AllReplyBottleList,线程id=14,Action执行时间82毫秒
+[2018-08-08 17:48:29.213] logperformance.Performance 37 
+页面/Discovery/ReplyBottleList,线程id=37,Action执行时间129毫秒
+[2018-08-08 17:48:32.408] logperformance.Performance 14 
+页面/Discovery/DeleteBottleChat,线程id=14,Action执行时间52毫秒
+[2018-08-08 17:48:32.592] logperformance.Performance 37 
+页面/Discovery/ReplyBottleList,线程id=37,Action执行时间129毫秒
+[2018-08-08 17:48:34.244] logperformance.Performance 11 
+页面/Discovery/DeleteBottleChat,线程id=11,Action执行时间33毫秒
+[2018-08-08 17:48:34.369] logperformance.Performance 12 
+页面/Discovery/ReplyBottleList,线程id=12,Action执行时间89毫秒
+[2018-08-08 17:48:35.954] logperformance.Performance 14 
+页面/Discovery/DeleteBottleChat,线程id=14,Action执行时间35毫秒
+[2018-08-08 17:48:36.094] logperformance.Performance 37 
+页面/Discovery/ReplyBottleList,线程id=37,Action执行时间81毫秒
+[2018-08-08 17:48:37.953] logperformance.Performance 12 
+页面/Discovery/DeleteBottleChat,线程id=12,Action执行时间42毫秒
+[2018-08-08 17:48:38.063] logperformance.Performance 37 
+页面/Discovery/ReplyBottleList,线程id=37,Action执行时间64毫秒
+[2018-08-08 17:48:40.698] logperformance.Performance 14 
+页面/Discovery/AllReplyBottleList,线程id=14,Action执行时间43毫秒
+[2018-08-08 17:48:42.928] logperformance.Performance 14 
+页面/Discovery/ReplyBottleList,线程id=14,Action执行时间80毫秒
+[2018-08-08 17:48:45.135] logperformance.Performance 14 
+页面/Discovery/AllReplyBottleList,线程id=14,Action执行时间61毫秒
+[2018-08-08 17:48:46.780] logperformance.Performance 14 
+页面/Discovery/ReplyBottleList,线程id=14,Action执行时间99毫秒
+[2018-08-08 17:48:47.742] logperformance.Performance 6 
+页面/Discovery/AllReplyBottleList,线程id=6,Action执行时间27毫秒
+[2018-08-08 17:48:51.942] logperformance.Performance 14 
+页面/Discovery/DeleteBottleReply,线程id=14,Action执行时间35毫秒
+[2018-08-08 17:48:52.021] logperformance.Performance 22 
+页面/Discovery/AllReplyBottleList,线程id=22,Action执行时间22毫秒
+[2018-08-08 17:49:03.610] logperformance.Performance 22 
+页面/Discovery/GetAllBottleList,线程id=22,Action执行时间31毫秒
+[2018-08-08 17:49:14.580] logperformance.Performance 12 
+页面/Discovery/GetNewBottle,线程id=12,Action执行时间34毫秒
+[2018-08-08 17:49:14.655] logperformance.Performance 22 
+页面/Discovery/GetAllBottleList,线程id=22,Action执行时间27毫秒
+[2018-08-08 17:49:21.791] logperformance.Performance 23 
+页面/UserInfo/GetBasicInfo,线程id=23,Action执行时间33毫秒
+[2018-08-08 17:49:23.422] logperformance.Performance 6 
+页面/Common/ProvinceCombobox,线程id=6,Action执行时间18毫秒
+[2018-08-08 17:51:43.726] logperformance.Performance 31 
+页面/Common/ProvinceCombobox,线程id=31,Action执行时间11毫秒
+[2018-08-08 18:04:00.657] logperformance.Performance 24 
+页面/UserInfo/GetBasicInfo,线程id=24,Action执行时间34毫秒
+[2018-08-08 18:04:02.154] logperformance.Performance 24 
+页面/Common/BloodTypeCombobox,线程id=24,Action执行时间1毫秒
+[2018-08-08 18:04:02.245] logperformance.Performance 47 
+页面/Common/ProvinceCombobox,线程id=47,Action执行时间45毫秒
+[2018-08-08 18:04:02.761] logperformance.Performance 47 
+页面/UserInfo/GetBasicInfo,线程id=47,Action执行时间14毫秒
+[2018-08-08 18:04:11.887] logperformance.Performance 42 
+页面/UserInfo/GetBasicInfo,线程id=42,Action执行时间70毫秒
+[2018-08-08 18:04:13.176] logperformance.Performance 43 
+页面/UserInfo/GetBasicInfo,线程id=43,Action执行时间17毫秒
+[2018-08-08 18:04:13.686] logperformance.Performance 42 
+页面/Common/ProvinceCombobox,线程id=42,Action执行时间16毫秒
+[2018-08-08 18:04:34.068] logperformance.Performance 46 
+页面/UserInfo/GetBasicInfo,线程id=46,Action执行时间69毫秒
+[2018-08-08 18:04:35.548] logperformance.Performance 43 
+页面/Common/BloodTypeCombobox,线程id=43,Action执行时间1毫秒
+[2018-08-08 18:04:36.077] logperformance.Performance 46 
+页面/UserInfo/GetBasicInfo,线程id=46,Action执行时间28毫秒
+[2018-08-08 18:04:36.574] logperformance.Performance 43 
+页面/Common/ProvinceCombobox,线程id=43,Action执行时间14毫秒
+[2018-08-08 18:04:44.116] logperformance.Performance 47 
+页面/Common/ProvinceCombobox,线程id=47,Action执行时间19毫秒
+[2018-08-08 18:04:44.668] logperformance.Performance 38 
+页面/UserInfo/GetBasicInfo,线程id=38,Action执行时间31毫秒
+[2018-08-08 18:05:13.018] logperformance.Performance 46 
+页面/UserInfo/GetBasicInfo,线程id=46,Action执行时间34毫秒
+[2018-08-08 18:05:14.162] logperformance.Performance 40 
+页面/Common/ProvinceCombobox,线程id=40,Action执行时间66毫秒
+[2018-08-08 18:05:14.671] logperformance.Performance 40 
+页面/UserInfo/GetBasicInfo,线程id=40,Action执行时间39毫秒
+[2018-08-08 18:05:17.262] logperformance.Performance 46 
+页面/Common/ProvinceCombobox,线程id=46,Action执行时间34毫秒
+[2018-08-08 18:05:17.760] logperformance.Performance 47 
+页面/UserInfo/GetBasicInfo,线程id=47,Action执行时间28毫秒
+[2018-08-08 18:05:28.207] logperformance.Performance 43 
+页面/UserInfo/GetBasicInfo,线程id=43,Action执行时间50毫秒
+[2018-08-08 18:05:32.021] logperformance.Performance 40 
+页面/Common/ProvinceCombobox,线程id=40,Action执行时间46毫秒
+[2018-08-08 18:05:32.050] logperformance.Performance 38 
+页面/UserInfo/GetBasicInfo,线程id=38,Action执行时间14毫秒
+[2018-08-08 18:05:39.913] logperformance.Performance 47 
+页面/Common/ProvinceCombobox,线程id=47,Action执行时间21毫秒
+[2018-08-08 18:05:40.421] logperformance.Performance 40 
+页面/UserInfo/GetBasicInfo,线程id=40,Action执行时间8毫秒
+[2018-08-08 18:05:44.950] logperformance.Performance 43 
+页面/UserInfo/BasicInfoEdit,线程id=43,Action执行时间18毫秒
+[2018-08-08 18:05:45.043] logperformance.Performance 40 
+页面/UserInfo/GetBasicInfo,线程id=40,Action执行时间16毫秒
+[2018-08-08 18:05:46.702] logperformance.Performance 38 
+页面/Common/ProvinceCombobox,线程id=38,Action执行时间16毫秒
+[2018-08-08 18:05:47.197] logperformance.Performance 47 
+页面/UserInfo/GetBasicInfo,线程id=47,Action执行时间9毫秒
+[2018-08-08 18:05:52.216] logperformance.Performance 45 
+页面/Common/ProvinceCombobox,线程id=45,Action执行时间13毫秒
+[2018-08-08 18:05:52.741] logperformance.Performance 40 
+页面/UserInfo/GetBasicInfo,线程id=40,Action执行时间27毫秒
+[2018-08-08 18:06:01.168] logperformance.Performance 43 
+页面/UserInfo/BasicInfoEdit,线程id=43,Action执行时间13毫秒
+[2018-08-08 18:06:01.244] logperformance.Performance 40 
+页面/UserInfo/GetBasicInfo,线程id=40,Action执行时间16毫秒
+[2018-08-08 18:06:05.877] logperformance.Performance 45 
+页面/Common/ProvinceCombobox,线程id=45,Action执行时间19毫秒
+[2018-08-08 18:06:06.393] logperformance.Performance 38 
+页面/UserInfo/GetBasicInfo,线程id=38,Action执行时间13毫秒
+[2018-08-08 18:06:09.193] logperformance.Performance 40 
+页面/Common/CityCombobox,线程id=40,Action执行时间23毫秒
+[2018-08-08 18:06:10.719] logperformance.Performance 43 
+页面/Common/AreaCombobox,线程id=43,Action执行时间16毫秒
+[2018-08-08 18:06:12.698] logperformance.Performance 43 
+页面/UserInfo/BasicInfoEdit,线程id=43,Action执行时间19毫秒
+[2018-08-08 18:06:12.857] logperformance.Performance 45 
+页面/UserInfo/GetBasicInfo,线程id=45,Action执行时间96毫秒
+[2018-08-08 18:06:16.186] logperformance.Performance 47 
+页面/UserInfo/GetBasicInfo,线程id=47,Action执行时间87毫秒
+[2018-08-08 18:06:16.646] logperformance.Performance 27 
+页面/Common/ProvinceCombobox,线程id=27,Action执行时间20毫秒
+[2018-08-08 18:33:08.669] logperformance.Performance 6 
+页面/,线程id=6,Action执行时间217毫秒
+[2018-08-08 18:33:23.093] logperformance.Performance 7 
+页面/Login/Login,线程id=7,Action执行时间177毫秒
+[2018-08-08 18:33:28.484] logperformance.Performance 8 
+页面/Login/Login,线程id=8,Action执行时间19毫秒
+[2018-08-08 18:33:29.317] logperformance.Performance 7 
+页面/Login/Login,线程id=7,Action执行时间18毫秒
+[2018-08-08 18:33:32.876] logperformance.Performance 7 
+页面/Login/Login,线程id=7,Action执行时间19毫秒
+[2018-08-08 18:33:33.479] logperformance.Performance 8 
+页面/Login/Login,线程id=8,Action执行时间15毫秒
+[2018-08-08 18:33:35.814] logperformance.Performance 6 
+页面/WebSite/Add,线程id=6,Action执行时间1毫秒
+[2018-08-08 18:33:38.137] logperformance.Performance 6 
+页面/Login/Index,线程id=6,Action执行时间16毫秒
+[2018-08-08 18:33:40.824] logperformance.Performance 9 
+页面/Login/Login,线程id=9,Action执行时间19毫秒
+[2018-08-08 18:33:42.116] logperformance.Performance 6 
+页面/Login/Login,线程id=6,Action执行时间11毫秒
+[2018-08-08 18:33:47.253] logperformance.Performance 7 
+页面/Login/Login,线程id=7,Action执行时间18毫秒
+[2018-08-08 18:33:47.918] logperformance.Performance 9 
+页面/Login/Login,线程id=9,Action执行时间26毫秒
+[2018-08-08 18:33:48.590] logperformance.Performance 8 
+页面/Login/Login,线程id=8,Action执行时间25毫秒
+[2018-08-08 18:33:49.357] logperformance.Performance 7 
+页面/Login/Login,线程id=7,Action执行时间19毫秒
+[2018-08-08 18:33:49.814] logperformance.Performance 8 
+页面/Login/Login,线程id=8,Action执行时间15毫秒
+[2018-08-08 18:33:53.769] logperformance.Performance 7 
+页面/Login/Login,线程id=7,Action执行时间48毫秒
+[2018-08-08 18:33:53.807] logperformance.Performance 6 
+页面/Chat/Index,线程id=6,Action执行时间1毫秒
+[2018-08-08 18:33:54.798] logperformance.Performance 8 
+页面/Chat/GetChatFriendList?order=asc&_=1533724434448,线程id=8,Action执行时间160毫秒
+[2018-08-08 18:33:54.939] logperformance.Performance 7 
+页面/Chat/GetChatContentHistory,线程id=7,Action执行时间88毫秒
+[2018-08-08 18:33:55.038] logperformance.Performance 7 
+页面/Chat/GetChatContent,线程id=7,Action执行时间40毫秒
+[2018-08-08 18:33:55.454] logperformance.Performance 8 
+页面/Chat/UpdateReadTime,线程id=8,Action执行时间73毫秒
+[2018-08-08 18:33:55.946] logperformance.Performance 6 
+页面/Chat/RefrashUnReadMsg,线程id=6,Action执行时间50毫秒
+[2018-08-08 18:33:57.080] logperformance.Performance 7 
+页面/UserInfo/GetBasicInfo,线程id=7,Action执行时间77毫秒
+[2018-08-08 18:33:58.624] logperformance.Performance 9 
+页面/UserInfo/GetBasicInfo,线程id=9,Action执行时间17毫秒
+[2018-08-08 18:33:59.111] logperformance.Performance 7 
+页面/Common/GenderComboboxV1,线程id=7,Action执行时间1毫秒
+[2018-08-08 18:33:59.140] logperformance.Performance 9 
+页面/Common/ProvinceCombobox,线程id=9,Action执行时间18毫秒
+[2018-08-08 18:33:59.620] logperformance.Performance 7 
+页面/Common/BloodTypeCombobox,线程id=7,Action执行时间1毫秒
+[2018-08-08 18:34:02.413] logperformance.Performance 10 
+页面/Common/CityCombobox,线程id=10,Action执行时间23毫秒
+[2018-08-08 18:34:03.599] logperformance.Performance 10 
+页面/Common/AreaCombobox,线程id=10,Action执行时间21毫秒
+[2018-08-08 18:34:07.528] logperformance.Performance 6 
+页面/Common/CityCombobox,线程id=6,Action执行时间17毫秒
+[2018-08-08 18:34:08.997] logperformance.Performance 10 
+页面/Common/AreaCombobox,线程id=10,Action执行时间17毫秒
+[2018-08-08 18:34:28.329] logperformance.Performance 7 
+页面/UserInfo/BasicInfoEdit,线程id=7,Action执行时间28毫秒
+[2018-08-08 18:34:28.449] logperformance.Performance 7 
+页面/UserInfo/GetBasicInfo,线程id=7,Action执行时间110毫秒
+[2018-08-08 18:34:37.929] logperformance.Performance 6 
+页面/UserInfo/GetBasicInfo,线程id=6,Action执行时间102毫秒
+[2018-08-08 18:34:38.347] logperformance.Performance 10 
+页面/Common/ProvinceCombobox,线程id=10,Action执行时间13毫秒
+[2018-08-08 18:36:08.925] logperformance.Performance 7 
+页面/Common/AreaCombobox,线程id=7,Action执行时间18毫秒
+[2018-08-08 18:36:14.528] logperformance.Performance 6 
+页面/Common/CityCombobox,线程id=6,Action执行时间40毫秒
+[2018-08-08 18:36:17.518] logperformance.Performance 7 
+页面/Common/CityCombobox,线程id=7,Action执行时间29毫秒
+[2018-08-08 18:36:19.186] logperformance.Performance 11 
+页面/Common/AreaCombobox,线程id=11,Action执行时间14毫秒
+[2018-08-08 18:36:22.970] logperformance.Performance 9 
+页面/Common/CityCombobox,线程id=9,Action执行时间16毫秒
+[2018-08-08 18:36:24.137] logperformance.Performance 6 
+页面/Common/AreaCombobox,线程id=6,Action执行时间19毫秒
+[2018-08-08 18:36:30.171] logperformance.Performance 6 
+页面/UserInfo/BasicInfoEdit,线程id=6,Action执行时间19毫秒
+[2018-08-08 18:36:30.316] logperformance.Performance 6 
+页面/UserInfo/GetBasicInfo,线程id=6,Action执行时间113毫秒
+[2018-08-08 18:36:34.471] logperformance.Performance 10 
+页面/Common/ProvinceCombobox,线程id=10,Action执行时间33毫秒
+[2018-08-08 18:36:35.042] logperformance.Performance 6 
+页面/UserInfo/GetBasicInfo,线程id=6,Action执行时间104毫秒
+[2018-08-08 18:38:58.687] logperformance.Performance 14 
+页面/Common/BloodTypeCombobox,线程id=14,Action执行时间4毫秒
+[2018-08-08 18:38:59.202] logperformance.Performance 16 
+页面/Common/ProvinceCombobox,线程id=16,Action执行时间18毫秒
+[2018-08-08 18:39:09.356] logperformance.Performance 12 
+页面/UserInfo/GetBasicInfo,线程id=12,Action执行时间9653毫秒
+[2018-08-08 18:39:10.397] logperformance.Performance 14 
+页面/Common/ProvinceCombobox,线程id=14,Action执行时间22毫秒
+[2018-08-08 18:39:14.024] logperformance.Performance 18 
+页面/UserInfo/GetBasicInfo,线程id=18,Action执行时间2618毫秒
+[2018-08-08 18:39:17.341] logperformance.Performance 16 
+页面/Login/Index,线程id=16,Action执行时间22毫秒
+[2018-08-08 18:39:22.877] logperformance.Performance 14 
+页面/Login/Login,线程id=14,Action执行时间15毫秒
+[2018-08-08 18:39:30.514] logperformance.Performance 14 
+页面/Common/ProvinceCombobox,线程id=14,Action执行时间11毫秒
+[2018-08-08 18:39:31.151] logperformance.Performance 14 
+页面/UserInfo/GetBasicInfo,线程id=14,Action执行时间125毫秒
+[2018-08-08 18:39:37.036] logperformance.Performance 14 
+页面/UserInfo/BasicInfoEdit,线程id=14,Action执行时间18毫秒
+[2018-08-08 18:39:37.146] logperformance.Performance 12 
+页面/UserInfo/GetBasicInfo,线程id=12,Action执行时间97毫秒
+[2018-08-08 18:39:41.627] logperformance.Performance 8 
+页面/Common/ProvinceCombobox,线程id=8,Action执行时间28毫秒
+[2018-08-08 18:39:42.219] logperformance.Performance 12 
+页面/UserInfo/GetBasicInfo,线程id=12,Action执行时间118毫秒
+[2018-08-08 18:39:44.386] logperformance.Performance 14 
+页面/Common/AreaCombobox,线程id=14,Action执行时间24毫秒
+[2018-08-08 18:39:50.693] logperformance.Performance 20 
+页面/UserInfo/BasicInfoEdit,线程id=20,Action执行时间20毫秒
+[2018-08-08 18:39:50.811] logperformance.Performance 14 
+页面/UserInfo/GetBasicInfo,线程id=14,Action执行时间101毫秒
+[2018-08-08 18:39:52.906] logperformance.Performance 14 
+页面/Common/ProvinceCombobox,线程id=14,Action执行时间20毫秒
+[2018-08-08 18:39:53.540] logperformance.Performance 10 
+页面/UserInfo/GetBasicInfo,线程id=10,Action执行时间143毫秒
+[2018-08-08 18:39:57.531] logperformance.Performance 14 
+页面/Common/CityCombobox,线程id=14,Action执行时间15毫秒
+[2018-08-08 18:39:59.199] logperformance.Performance 14 
+页面/Common/AreaCombobox,线程id=14,Action执行时间19毫秒
+[2018-08-08 18:40:01.742] logperformance.Performance 14 
+页面/UserInfo/BasicInfoEdit,线程id=14,Action执行时间22毫秒
+[2018-08-08 18:40:01.853] logperformance.Performance 17 
+页面/UserInfo/GetBasicInfo,线程id=17,Action执行时间99毫秒
+[2018-08-08 18:40:09.147] logperformance.Performance 10 
+页面/Common/ProvinceCombobox,线程id=10,Action执行时间11毫秒
+[2018-08-08 18:40:09.769] logperformance.Performance 14 
+页面/UserInfo/GetBasicInfo,线程id=14,Action执行时间121毫秒
+[2018-08-08 18:40:30.658] logperformance.Performance 14 
+页面/Login/Login,线程id=14,Action执行时间13毫秒
+[2018-08-08 18:41:09.583] logperformance.Performance 22 
+页面/Login/Login,线程id=22,Action执行时间18毫秒
+[2018-08-08 18:41:10.869] logperformance.Performance 13 
+页面/Chat/GetChatFriendList?order=asc&_=1533724870164,线程id=13,Action执行时间379毫秒
+[2018-08-08 18:41:11.058] logperformance.Performance 14 
+页面/Chat/GetChatContentHistory,线程id=14,Action执行时间66毫秒
+[2018-08-08 18:41:11.174] logperformance.Performance 13 
+页面/Chat/GetChatContent,线程id=13,Action执行时间14毫秒
+[2018-08-08 18:41:11.531] logperformance.Performance 17 
+页面/Chat/UpdateReadTime,线程id=17,Action执行时间38毫秒
+[2018-08-08 18:41:37.247] logperformance.Performance 17 
+页面/Chat/RefrashUnReadMsg,线程id=17,Action执行时间25184毫秒
+[2018-08-08 18:41:37.271] logperformance.Performance 10 
+页面/Common/ProvinceCombobox,线程id=10,Action执行时间12毫秒
+[2018-08-08 18:41:38.124] logerror.Exception 14 
+控制器(类)名：ObjectExtensions,方法名：JsonToObject,调用堆栈：Newtonsoft.Json.JsonSerializationException: Error converting value "" to type 'System.Int64'. Path 'QQ', line 1, position 22. ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.String.System.IConvertible.ToInt64(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 Chat.Helper.ObjectExtensions.JsonToObject[T](Object value) 位置 E:\MyChat\MyChat\Chat\Helper\ObjectExtensions.cs:行号 44,消息提示：Json值:{"NickName":"","QQ":"","Email":"","Signature":""}转换失败
+[2018-08-08 18:42:06.793] logperformance.Performance 6 
+页面/,线程id=6,Action执行时间193毫秒
+[2018-08-08 18:42:06.971] logperformance.Performance 6 
+页面/WebSite/Chat,线程id=6,Action执行时间8毫秒
+[2018-08-08 18:42:09.387] logperformance.Performance 7 
+页面/Chat/GetChatFriendList?order=asc&_=1533724929100,线程id=7,Action执行时间108毫秒
+[2018-08-08 18:42:09.940] logperformance.Performance 6 
+页面/Chat/GetChatContentHistory,线程id=6,Action执行时间344毫秒
+[2018-08-08 18:42:10.075] logperformance.Performance 6 
+页面/Chat/GetChatContent,线程id=6,Action执行时间69毫秒
+[2018-08-08 18:42:10.262] logperformance.Performance 9 
+页面/Chat/UpdateReadTime,线程id=9,Action执行时间18毫秒
+[2018-08-08 18:42:35.310] logperformance.Performance 6 
+页面/Chat/RefrashUnReadMsg,线程id=6,Action执行时间25044毫秒
+[2018-08-08 18:42:36.552] logperformance.Performance 7 
+页面/UserInfo/GetBasicInfo,线程id=7,Action执行时间225毫秒
+[2018-08-08 18:42:41.244] logperformance.Performance 10 
+页面/Common/GenderComboboxV1,线程id=10,Action执行时间1毫秒
+[2018-08-08 18:42:41.252] logperformance.Performance 6 
+页面/Common/BloodTypeCombobox,线程id=6,Action执行时间1毫秒
+[2018-08-08 18:42:41.379] logperformance.Performance 6 
+页面/UserInfo/GetBasicInfo,线程id=6,Action执行时间111毫秒
+[2018-08-08 18:42:41.785] logperformance.Performance 8 
+页面/Common/ProvinceCombobox,线程id=8,Action执行时间15毫秒
+[2018-08-08 18:42:52.360] logperformance.Performance 9 
+页面/Common/ProvinceCombobox,线程id=9,Action执行时间12毫秒
+[2018-08-08 18:42:52.955] logperformance.Performance 8 
+页面/UserInfo/GetBasicInfo,线程id=8,Action执行时间106毫秒
+[2018-08-08 18:43:04.938] logperformance.Performance 7 
+页面/Common/CityCombobox,线程id=7,Action执行时间22毫秒
+[2018-08-08 18:43:06.413] logperformance.Performance 10 
+页面/Common/CityCombobox,线程id=10,Action执行时间38毫秒
+[2018-08-08 18:43:07.753] logperformance.Performance 7 
+页面/Common/AreaCombobox,线程id=7,Action执行时间21毫秒
+[2018-08-08 18:43:14.667] logperformance.Performance 7 
+页面/UserInfo/BasicInfoEdit,线程id=7,Action执行时间4560毫秒
+[2018-08-08 18:43:14.758] logperformance.Performance 7 
+页面/UserInfo/GetBasicInfo,线程id=7,Action执行时间75毫秒
+[2018-08-08 18:43:18.381] logperformance.Performance 8 
+页面/UserInfo/GetBasicInfo,线程id=8,Action执行时间78毫秒
+[2018-08-08 18:43:18.837] logperformance.Performance 9 
+页面/Common/ProvinceCombobox,线程id=9,Action执行时间11毫秒
+[2018-08-08 18:43:20.770] logperformance.Performance 7 
+页面/Common/CityCombobox,线程id=7,Action执行时间23毫秒
+[2018-08-08 18:43:21.848] logperformance.Performance 7 
+页面/Common/AreaCombobox,线程id=7,Action执行时间25毫秒
+[2018-08-08 18:43:23.485] logperformance.Performance 7 
+页面/UserInfo/BasicInfoEdit,线程id=7,Action执行时间24毫秒
+[2018-08-08 18:43:23.641] logperformance.Performance 7 
+页面/UserInfo/GetBasicInfo,线程id=7,Action执行时间140毫秒
+[2018-08-08 18:43:25.697] logperformance.Performance 10 
+页面/UserInfo/GetBasicInfo,线程id=10,Action执行时间125毫秒
+[2018-08-08 18:43:26.098] logperformance.Performance 11 
+页面/Common/ProvinceCombobox,线程id=11,Action执行时间26毫秒
+[2018-08-08 18:43:30.339] logperformance.Performance 7 
+页面/Common/AreaCombobox,线程id=7,Action执行时间14毫秒
+[2018-08-08 18:43:31.558] logperformance.Performance 9 
+页面/Common/CityCombobox,线程id=9,Action执行时间16毫秒
+[2018-08-08 18:43:35.530] logperformance.Performance 9 
+页面/Common/AreaCombobox,线程id=9,Action执行时间37毫秒
+[2018-08-08 18:43:38.568] logperformance.Performance 7 
+页面/UserInfo/BasicInfoEdit,线程id=7,Action执行时间20毫秒
+[2018-08-08 18:43:38.718] logperformance.Performance 8 
+页面/UserInfo/GetBasicInfo,线程id=8,Action执行时间122毫秒
+[2018-08-08 18:43:40.744] logperformance.Performance 8 
+页面/UserInfo/GetBasicInfo,线程id=8,Action执行时间96毫秒
+[2018-08-08 18:43:41.162] logperformance.Performance 10 
+页面/Common/ProvinceCombobox,线程id=10,Action执行时间18毫秒
+[2018-08-08 18:43:44.376] logperformance.Performance 7 
+页面/UserInfo/GetBasicInfo,线程id=7,Action执行时间115毫秒
+[2018-08-08 18:43:44.784] logperformance.Performance 8 
+页面/Common/ProvinceCombobox,线程id=8,Action执行时间12毫秒
+[2018-08-08 18:43:46.789] logperformance.Performance 8 
+页面/UserInfo/BasicInfoEdit,线程id=8,Action执行时间14毫秒
+[2018-08-08 18:43:46.920] logperformance.Performance 8 
+页面/UserInfo/GetBasicInfo,线程id=8,Action执行时间115毫秒
+[2018-08-08 18:47:15.164] logperformance.Performance 17 
+页面/Common/ProvinceCombobox,线程id=17,Action执行时间24毫秒
+[2018-08-08 18:47:15.909] logperformance.Performance 19 
+页面/UserInfo/GetBasicInfo,线程id=19,Action执行时间236毫秒
+[2018-08-08 18:47:19.390] logperformance.Performance 13 
+页面/UserInfo/BasicInfoEdit,线程id=13,Action执行时间13毫秒
+[2018-08-08 18:47:19.496] logperformance.Performance 13 
+页面/UserInfo/GetBasicInfo,线程id=13,Action执行时间94毫秒
+[2018-08-08 18:47:21.837] logperformance.Performance 17 
+页面/Common/ProvinceCombobox,线程id=17,Action执行时间17毫秒
+[2018-08-08 18:47:22.417] logperformance.Performance 19 
+页面/UserInfo/GetBasicInfo,线程id=19,Action执行时间96毫秒
+[2018-08-08 18:47:23.660] logperformance.Performance 13 
+页面/UserInfo/BasicInfoEdit,线程id=13,Action执行时间11毫秒
+[2018-08-08 18:47:23.789] logperformance.Performance 13 
+页面/UserInfo/GetBasicInfo,线程id=13,Action执行时间111毫秒
+[2018-08-08 18:47:24.981] logperformance.Performance 19 
+页面/UserInfo/GetBasicInfo,线程id=19,Action执行时间89毫秒
+[2018-08-08 18:47:25.412] logperformance.Performance 17 
+页面/Common/ProvinceCombobox,线程id=17,Action执行时间20毫秒
+[2018-08-08 18:47:34.101] logperformance.Performance 17 
+页面/Common/ProvinceCombobox,线程id=17,Action执行时间11毫秒
+[2018-08-08 18:47:34.699] logperformance.Performance 13 
+页面/UserInfo/GetBasicInfo,线程id=13,Action执行时间108毫秒
+[2018-08-08 18:47:37.040] logperformance.Performance 13 
+页面/Common/ProvinceCombobox,线程id=13,Action执行时间21毫秒
+[2018-08-08 18:47:37.622] logperformance.Performance 18 
+页面/UserInfo/GetBasicInfo,线程id=18,Action执行时间101毫秒
+[2018-08-08 18:47:41.642] logperformance.Performance 17 
+页面/Common/ProvinceCombobox,线程id=17,Action执行时间17毫秒
+[2018-08-08 18:47:42.754] logperformance.Performance 13 
+页面/UserInfo/GetBasicInfo,线程id=13,Action执行时间125毫秒
+[2018-08-08 18:47:52.029] logperformance.Performance 17 
+页面/UserInfo/GetBasicInfo,线程id=17,Action执行时间198毫秒
+[2018-08-08 18:47:53.462] logperformance.Performance 17 
+页面/Common/ProvinceCombobox,线程id=17,Action执行时间41毫秒
+[2018-08-08 18:47:55.055] logperformance.Performance 13 
+页面/UserInfo/GetBasicInfo,线程id=13,Action执行时间88毫秒
+[2018-08-08 18:47:58.564] logperformance.Performance 20 
+页面/Common/ProvinceCombobox,线程id=20,Action执行时间14毫秒
+[2018-08-08 18:47:59.129] logperformance.Performance 13 
+页面/UserInfo/GetBasicInfo,线程id=13,Action执行时间79毫秒
+[2018-08-08 18:48:05.334] logperformance.Performance 20 
+页面/Common/ProvinceCombobox,线程id=20,Action执行时间10毫秒
+[2018-08-08 18:48:06.419] logperformance.Performance 12 
+页面/UserInfo/GetBasicInfo,线程id=12,Action执行时间95毫秒
+[2018-08-08 18:48:09.592] logperformance.Performance 20 
+页面/Common/ProvinceCombobox,线程id=20,Action执行时间11毫秒
+[2018-08-08 18:48:10.703] logperformance.Performance 20 
+页面/UserInfo/GetBasicInfo,线程id=20,Action执行时间109毫秒
+[2018-08-08 18:48:13.936] logperformance.Performance 17 
+页面/Common/ProvinceCombobox,线程id=17,Action执行时间40毫秒
+[2018-08-08 18:48:14.531] logperformance.Performance 13 
+页面/UserInfo/GetBasicInfo,线程id=13,Action执行时间104毫秒
+[2018-08-08 18:48:23.846] logperformance.Performance 19 
+页面/UserInfo/GetBasicInfo,线程id=19,Action执行时间107毫秒
+[2018-08-08 18:48:25.254] logperformance.Performance 21 
+页面/Common/ProvinceCombobox,线程id=21,Action执行时间9毫秒
+[2018-08-08 18:48:32.159] logperformance.Performance 17 
+页面/UserInfo/GetBasicInfo,线程id=17,Action执行时间254毫秒
+[2018-08-08 18:48:33.266] logperformance.Performance 17 
+页面/Common/ProvinceCombobox,线程id=17,Action执行时间36毫秒
+[2018-08-08 18:48:33.876] logperformance.Performance 20 
+页面/UserInfo/GetBasicInfo,线程id=20,Action执行时间115毫秒
+[2018-08-08 18:48:38.818] logperformance.Performance 21 
+页面/UserInfo/GetBasicInfo,线程id=21,Action执行时间132毫秒
+[2018-08-08 18:48:39.241] logperformance.Performance 12 
+页面/Common/ProvinceCombobox,线程id=12,Action执行时间15毫秒
+[2018-08-08 18:50:12.518] logperformance.Performance 21 
+页面/Common/ProvinceCombobox,线程id=21,Action执行时间28毫秒
+[2018-08-08 18:50:13.623] logperformance.Performance 21 
+页面/UserInfo/GetBasicInfo,线程id=21,Action执行时间133毫秒
+[2018-08-08 18:50:21.399] logperformance.Performance 21 
+页面/UserInfo/GetBasicInfo,线程id=21,Action执行时间202毫秒
+[2018-08-08 18:50:22.730] logperformance.Performance 21 
+页面/Common/ProvinceCombobox,线程id=21,Action执行时间45毫秒
+[2018-08-08 18:50:23.335] logperformance.Performance 23 
+页面/UserInfo/GetBasicInfo,线程id=23,Action执行时间130毫秒
+[2018-08-08 18:50:26.610] logperformance.Performance 13 
+页面/Common/GenderComboboxV1,线程id=13,Action执行时间5毫秒
+[2018-08-08 18:50:27.224] logperformance.Performance 21 
+页面/UserInfo/GetBasicInfo,线程id=21,Action执行时间107毫秒
+[2018-08-08 18:50:27.632] logperformance.Performance 20 
+页面/Common/ProvinceCombobox,线程id=20,Action执行时间14毫秒
+[2018-08-08 18:50:30.921] logperformance.Performance 23 
+页面/UserInfo/GetBasicInfo,线程id=23,Action执行时间206毫秒
+[2018-08-08 18:50:31.261] logperformance.Performance 16 
+页面/Common/ProvinceCombobox,线程id=16,Action执行时间18毫秒
+[2018-08-08 18:50:33.532] logperformance.Performance 13 
+页面/UserInfo/BasicInfoEdit,线程id=13,Action执行时间21毫秒
+[2018-08-08 18:50:33.565] logperformance.Performance 21 
+页面/UserInfo/GetBasicInfo,线程id=21,Action执行时间18毫秒
+[2018-08-08 18:50:34.750] logperformance.Performance 13 
+页面/Common/ProvinceCombobox,线程id=13,Action执行时间45毫秒
+[2018-08-08 18:50:35.255] logperformance.Performance 20 
+页面/UserInfo/GetBasicInfo,线程id=20,Action执行时间14毫秒
+[2018-08-08 18:50:42.694] logperformance.Performance 21 
+页面/UserInfo/GetBasicInfo,线程id=21,Action执行时间48毫秒
+[2018-08-08 18:50:43.187] logperformance.Performance 16 
+页面/Common/ProvinceCombobox,线程id=16,Action执行时间29毫秒
+[2018-08-08 18:50:46.565] logperformance.Performance 13 
+页面/Common/CityCombobox,线程id=13,Action执行时间25毫秒
+[2018-08-08 18:50:51.010] logperformance.Performance 21 
+页面/Common/ProvinceCombobox,线程id=21,Action执行时间19毫秒
+[2018-08-08 18:50:52.006] logperformance.Performance 23 
+页面/UserInfo/GetBasicInfo,线程id=23,Action执行时间12毫秒
+[2018-08-08 18:50:54.026] logperformance.Performance 23 
+页面/Common/CityCombobox,线程id=23,Action执行时间13毫秒
+[2018-08-08 18:50:55.615] logperformance.Performance 27 
+页面/Common/AreaCombobox,线程id=27,Action执行时间17毫秒
+[2018-08-08 18:50:59.596] logperformance.Performance 23 
+页面/Common/CityCombobox,线程id=23,Action执行时间17毫秒
+[2018-08-08 18:51:00.618] logperformance.Performance 27 
+页面/Common/AreaCombobox,线程id=27,Action执行时间32毫秒
+[2018-08-08 18:51:02.192] logperformance.Performance 16 
+页面/UserInfo/BasicInfoEdit,线程id=16,Action执行时间33毫秒
+[2018-08-08 18:51:02.359] logperformance.Performance 16 
+页面/UserInfo/GetBasicInfo,线程id=16,Action执行时间136毫秒
+[2018-08-08 18:51:05.076] logperformance.Performance 26 
+页面/UserInfo/GetBasicInfo,线程id=26,Action执行时间106毫秒
+[2018-08-08 18:51:05.490] logperformance.Performance 27 
+页面/Common/ProvinceCombobox,线程id=27,Action执行时间11毫秒
+[2018-08-08 18:51:11.074] logperformance.Performance 23 
+页面/UserInfo/BasicInfoEdit,线程id=23,Action执行时间38毫秒
+[2018-08-08 18:51:11.258] logperformance.Performance 23 
+页面/UserInfo/GetBasicInfo,线程id=23,Action执行时间154毫秒
+[2018-08-08 18:51:12.977] logperformance.Performance 26 
+页面/Common/ProvinceCombobox,线程id=26,Action执行时间20毫秒
+[2018-08-08 18:51:14.110] logperformance.Performance 26 
+页面/UserInfo/GetBasicInfo,线程id=26,Action执行时间151毫秒
+[2018-08-08 18:51:15.826] logperformance.Performance 26 
+页面/UserInfo/BasicInfoEdit,线程id=26,Action执行时间20毫秒
+[2018-08-08 18:51:15.983] logperformance.Performance 26 
+页面/UserInfo/GetBasicInfo,线程id=26,Action执行时间133毫秒
+[2018-08-08 18:51:17.081] logperformance.Performance 27 
+页面/UserInfo/GetBasicInfo,线程id=27,Action执行时间135毫秒
+[2018-08-08 18:51:17.967] logperformance.Performance 16 
+页面/Common/ProvinceCombobox,线程id=16,Action执行时间15毫秒
+[2018-08-08 18:51:23.066] logperformance.Performance 23 
+页面/Common/ProvinceCombobox,线程id=23,Action执行时间24毫秒
+[2018-08-08 18:51:23.649] logperformance.Performance 29 
+页面/UserInfo/GetBasicInfo,线程id=29,Action执行时间107毫秒
+[2018-08-08 18:51:25.079] logperformance.Performance 23 
+页面/UserInfo/BasicInfoEdit,线程id=23,Action执行时间14毫秒
+[2018-08-08 18:51:25.180] logperformance.Performance 23 
+页面/UserInfo/GetBasicInfo,线程id=23,Action执行时间88毫秒
+[2018-08-08 18:51:26.362] logperformance.Performance 27 
+页面/UserInfo/GetBasicInfo,线程id=27,Action执行时间104毫秒
+[2018-08-08 18:51:26.826] logperformance.Performance 29 
+页面/Common/ProvinceCombobox,线程id=29,Action执行时间27毫秒
+[2018-08-08 18:51:28.182] logperformance.Performance 23 
+页面/Common/ProvinceCombobox,线程id=23,Action执行时间22毫秒
+[2018-08-08 18:51:28.791] logperformance.Performance 26 
+页面/UserInfo/GetBasicInfo,线程id=26,Action执行时间138毫秒
+[2018-08-08 18:51:29.456] logperformance.Performance 27 
+页面/UserInfo/BasicInfoEdit,线程id=27,Action执行时间16毫秒
+[2018-08-08 18:51:29.625] logperformance.Performance 27 
+页面/UserInfo/GetBasicInfo,线程id=27,Action执行时间153毫秒
+[2018-08-08 18:51:31.610] logperformance.Performance 23 
+页面/Common/ProvinceCombobox,线程id=23,Action执行时间14毫秒
+[2018-08-08 18:51:32.240] logperformance.Performance 26 
+页面/UserInfo/GetBasicInfo,线程id=26,Action执行时间128毫秒
+[2018-08-08 18:51:35.198] logperformance.Performance 16 
+页面/UserInfo/BasicInfoEdit,线程id=16,Action执行时间16毫秒
+[2018-08-08 18:51:35.307] logperformance.Performance 26 
+页面/UserInfo/GetBasicInfo,线程id=26,Action执行时间98毫秒
+[2018-08-08 18:51:38.251] logperformance.Performance 23 
+页面/Common/GenderComboboxV1,线程id=23,Action执行时间5毫秒
+[2018-08-08 18:51:38.379] logperformance.Performance 23 
+页面/UserInfo/GetBasicInfo,线程id=23,Action执行时间113毫秒
+[2018-08-08 18:51:38.750] logperformance.Performance 26 
+页面/Common/BloodTypeCombobox,线程id=26,Action执行时间1毫秒
+[2018-08-08 18:51:38.784] logperformance.Performance 30 
+页面/Common/ProvinceCombobox,线程id=30,Action执行时间19毫秒
+[2018-08-08 18:51:42.953] logperformance.Performance 23 
+页面/Common/CityCombobox,线程id=23,Action执行时间16毫秒
+[2018-08-08 18:51:44.177] logperformance.Performance 26 
+页面/Common/AreaCombobox,线程id=26,Action执行时间13毫秒
+[2018-08-08 18:57:30.510] logperformance.Performance 30 
+页面/Common/GenderComboboxV1,线程id=30,Action执行时间7毫秒
+[2018-08-08 18:57:31.052] logperformance.Performance 20 
+页面/Common/BloodTypeCombobox,线程id=20,Action执行时间13毫秒
+[2018-08-08 18:57:31.564] logperformance.Performance 30 
+页面/Common/ProvinceCombobox,线程id=30,Action执行时间23毫秒
+[2018-08-08 18:57:35.455] logperformance.Performance 25 
+页面/UserInfo/GetBasicInfo,线程id=25,Action执行时间3394毫秒
+[2018-08-08 18:57:40.741] logperformance.Performance 30 
+页面/WebSite/UserInfo,线程id=30,Action执行时间8毫秒
+[2018-08-08 18:57:42.076] logperformance.Performance 10 
+页面/Login/Index,线程id=10,Action执行时间44毫秒
+[2018-08-08 18:57:43.423] logperformance.Performance 22 
+页面/Chat/GetChatFriendList?order=asc&_=1533725862653,线程id=22,Action执行时间138毫秒
+[2018-08-08 18:57:44.277] logperformance.Performance 10 
+页面/Chat/GetChatContentHistory,线程id=10,Action执行时间610毫秒
+[2018-08-08 18:57:44.436] logperformance.Performance 20 
+页面/Chat/GetChatContent,线程id=20,Action执行时间22毫秒
+[2018-08-08 18:57:44.666] logperformance.Performance 22 
+页面/Chat/UpdateReadTime,线程id=22,Action执行时间25毫秒
+[2018-08-08 18:58:10.205] logperformance.Performance 20 
+页面/Chat/RefrashUnReadMsg,线程id=20,Action执行时间25049毫秒
+[2018-08-08 18:58:11.446] logperformance.Performance 18 
+页面/UserInfo/GetBasicInfo,线程id=18,Action执行时间398毫秒
+[2018-08-08 18:58:17.785] logperformance.Performance 21 
+页面/UserInfo/GetBasicInfo,线程id=21,Action执行时间293毫秒
+[2018-08-08 18:58:18.600] logperformance.Performance 11 
+页面/Common/ProvinceCombobox,线程id=11,Action执行时间22毫秒
+[2018-08-08 18:58:22.874] logperformance.Performance 20 
+页面/Common/ProvinceCombobox,线程id=20,Action执行时间20毫秒
+[2018-08-08 18:58:23.475] logperformance.Performance 11 
+页面/UserInfo/GetBasicInfo,线程id=11,Action执行时间122毫秒
+[2018-08-08 18:58:46.016] logperformance.Performance 11 
+页面/Common/CityCombobox,线程id=11,Action执行时间12毫秒
+[2018-08-08 18:58:47.467] logperformance.Performance 20 
+页面/Common/AreaCombobox,线程id=20,Action执行时间17毫秒
+[2018-08-08 18:59:01.537] logperformance.Performance 11 
+页面/Common/AreaCombobox,线程id=11,Action执行时间24毫秒
+[2018-08-08 18:59:11.548] logperformance.Performance 10 
+页面/Common/CityCombobox,线程id=10,Action执行时间20毫秒
+[2018-08-08 18:59:13.160] logperformance.Performance 10 
+页面/Common/AreaCombobox,线程id=10,Action执行时间23毫秒
+[2018-08-08 18:59:16.623] logperformance.Performance 20 
+页面/UserInfo/BasicInfoEdit,线程id=20,Action执行时间41毫秒
+[2018-08-08 18:59:16.765] logperformance.Performance 11 
+页面/UserInfo/GetBasicInfo,线程id=11,Action执行时间109毫秒
+[2018-08-08 18:59:18.378] logperformance.Performance 21 
+页面/Common/ProvinceCombobox,线程id=21,Action执行时间23毫秒
+[2018-08-08 18:59:19.034] logperformance.Performance 18 
+页面/UserInfo/GetBasicInfo,线程id=18,Action执行时间143毫秒
+[2018-08-08 18:59:25.231] logperformance.Performance 21 
+页面/UserInfo/GetBasicInfo,线程id=21,Action执行时间322毫秒
+[2018-08-08 18:59:27.171] logperformance.Performance 11 
+页面/Common/BloodTypeCombobox,线程id=11,Action执行时间1毫秒
+[2018-08-08 18:59:27.215] logperformance.Performance 21 
+页面/Common/ProvinceCombobox,线程id=21,Action执行时间18毫秒
+[2018-08-08 18:59:27.928] logperformance.Performance 10 
+页面/UserInfo/GetBasicInfo,线程id=10,Action执行时间174毫秒
+[2018-08-08 18:59:50.966] logperformance.Performance 21 
+页面/Common/ProvinceCombobox,线程id=21,Action执行时间58毫秒
+[2018-08-08 18:59:51.181] logperformance.Performance 29 
+页面/UserInfo/GetBasicInfo,线程id=29,Action执行时间207毫秒
+[2018-08-08 19:00:04.268] logperformance.Performance 28 
+页面/UserInfo/GetBasicInfo,线程id=28,Action执行时间324毫秒
+[2018-08-08 19:00:06.274] logperformance.Performance 11 
+页面/Common/ProvinceCombobox,线程id=11,Action执行时间19毫秒
+[2018-08-08 19:00:06.859] logperformance.Performance 10 
+页面/UserInfo/GetBasicInfo,线程id=10,Action执行时间139毫秒
+[2018-08-08 19:00:07.264] logperformance.Performance 21 
+页面/Common/BloodTypeCombobox,线程id=21,Action执行时间1毫秒
+[2018-08-08 19:00:11.704] logperformance.Performance 10 
+页面/Common/CityCombobox,线程id=10,Action执行时间15毫秒
+[2018-08-08 19:00:13.301] logperformance.Performance 10 
+页面/Common/AreaCombobox,线程id=10,Action执行时间70毫秒
+[2018-08-08 19:00:17.207] logperformance.Performance 18 
+页面/Common/CityCombobox,线程id=18,Action执行时间32毫秒
+[2018-08-08 19:00:18.810] logperformance.Performance 11 
+页面/Common/AreaCombobox,线程id=11,Action执行时间48毫秒
+[2018-08-08 19:05:11.695] logperformance.Performance 29 
+页面/UserInfo/GetBasicInfo,线程id=29,Action执行时间195毫秒
+[2018-08-08 19:05:13.445] logperformance.Performance 29 
+页面/Common/GenderComboboxV1,线程id=29,Action执行时间9毫秒
+[2018-08-08 19:05:13.451] logperformance.Performance 28 
+页面/Common/BloodTypeCombobox,线程id=28,Action执行时间1毫秒
+[2018-08-08 19:05:13.667] logperformance.Performance 23 
+页面/UserInfo/GetBasicInfo,线程id=23,Action执行时间204毫秒
+[2018-08-08 19:05:14.066] logperformance.Performance 28 
+页面/Common/ProvinceCombobox,线程id=28,Action执行时间46毫秒
+[2018-08-08 19:05:19.987] logperformance.Performance 29 
+页面/UserInfo/BasicInfoEdit,线程id=29,Action执行时间14毫秒
+[2018-08-08 19:05:20.061] logperformance.Performance 27 
+页面/UserInfo/GetBasicInfo,线程id=27,Action执行时间14毫秒
+[2018-08-08 19:05:22.031] logperformance.Performance 23 
+页面/UserInfo/GetBasicInfo,线程id=23,Action执行时间62毫秒
+[2018-08-08 19:05:22.534] logperformance.Performance 13 
+页面/Common/ProvinceCombobox,线程id=13,Action执行时间23毫秒
+[2018-08-08 19:05:25.682] logperformance.Performance 29 
+页面/Common/CityCombobox,线程id=29,Action执行时间30毫秒
+[2018-08-08 19:05:27.135] logperformance.Performance 23 
+页面/Common/AreaCombobox,线程id=23,Action执行时间14毫秒
+[2018-08-08 19:05:29.349] logperformance.Performance 28 
+页面/UserInfo/BasicInfoEdit,线程id=28,Action执行时间15毫秒
+[2018-08-08 19:05:29.456] logperformance.Performance 27 
+页面/UserInfo/GetBasicInfo,线程id=27,Action执行时间30毫秒
+[2018-08-08 19:05:31.270] logperformance.Performance 29 
+页面/Common/GenderComboboxV1,线程id=29,Action执行时间2毫秒
+[2018-08-08 19:05:31.309] logperformance.Performance 27 
+页面/Common/ProvinceCombobox,线程id=27,Action执行时间22毫秒
+[2018-08-08 19:05:31.828] logperformance.Performance 28 
+页面/UserInfo/GetBasicInfo,线程id=28,Action执行时间18毫秒
+[2018-08-08 19:05:32.755] logperformance.Performance 23 
+页面/UserInfo/BasicInfoEdit,线程id=23,Action执行时间19毫秒
+[2018-08-08 19:05:32.829] logperformance.Performance 28 
+页面/UserInfo/GetBasicInfo,线程id=28,Action执行时间11毫秒
+[2018-08-08 19:05:34.235] logperformance.Performance 28 
+页面/Common/ProvinceCombobox,线程id=28,Action执行时间9毫秒
+[2018-08-08 19:05:34.738] logperformance.Performance 13 
+页面/UserInfo/GetBasicInfo,线程id=13,Action执行时间11毫秒
+[2018-08-08 19:07:12.859] logperformance.Performance 9 
+页面/UserInfo/GetBasicInfo,线程id=9,Action执行时间67毫秒
+[2018-08-08 19:07:14.337] logperformance.Performance 13 
+页面/Common/BloodTypeCombobox,线程id=13,Action执行时间1毫秒
+[2018-08-08 19:07:14.388] logperformance.Performance 9 
+页面/Common/ProvinceCombobox,线程id=9,Action执行时间28毫秒
+[2018-08-08 19:07:14.910] logperformance.Performance 12 
+页面/UserInfo/GetBasicInfo,线程id=12,Action执行时间35毫秒
+[2018-08-08 19:07:16.596] logperformance.Performance 16 
+页面/Common/CityCombobox,线程id=16,Action执行时间23毫秒
+[2018-08-08 19:07:18.099] logperformance.Performance 13 
+页面/Common/AreaCombobox,线程id=13,Action执行时间19毫秒
+[2018-08-08 19:07:22.063] logperformance.Performance 16 
+页面/Common/CityCombobox,线程id=16,Action执行时间14毫秒
+[2018-08-08 19:07:23.541] logperformance.Performance 23 
+页面/Common/AreaCombobox,线程id=23,Action执行时间13毫秒
+[2018-08-08 19:07:25.599] logperformance.Performance 23 
+页面/UserInfo/BasicInfoEdit,线程id=23,Action执行时间20毫秒
+[2018-08-08 19:07:25.776] logperformance.Performance 16 
+页面/UserInfo/GetBasicInfo,线程id=16,Action执行时间102毫秒
+[2018-08-08 19:07:27.980] logperformance.Performance 21 
+页面/UserInfo/GetBasicInfo,线程id=21,Action执行时间113毫秒
+[2018-08-08 19:07:28.345] logperformance.Performance 13 
+页面/Common/ProvinceCombobox,线程id=13,Action执行时间22毫秒
+[2018-08-08 19:07:30.444] logperformance.Performance 23 
+页面/UserInfo/BasicInfoEdit,线程id=23,Action执行时间20毫秒
+[2018-08-08 19:07:30.592] logperformance.Performance 16 
+页面/UserInfo/GetBasicInfo,线程id=16,Action执行时间89毫秒
+[2018-08-08 19:07:32.247] logperformance.Performance 16 
+页面/UserInfo/GetBasicInfo,线程id=16,Action执行时间121毫秒
+[2018-08-08 19:07:32.637] logperformance.Performance 13 
+页面/Common/ProvinceCombobox,线程id=13,Action执行时间12毫秒
+[2018-08-08 19:07:36.506] logperformance.Performance 23 
+页面/Common/AreaCombobox,线程id=23,Action执行时间9毫秒
+[2018-08-08 19:07:39.047] logperformance.Performance 13 
+页面/Common/CityCombobox,线程id=13,Action执行时间10毫秒
+[2018-08-08 19:07:40.187] logperformance.Performance 21 
+页面/UserInfo/BasicInfoEdit,线程id=21,Action执行时间28毫秒
+[2018-08-08 19:07:40.347] logperformance.Performance 13 
+页面/UserInfo/GetBasicInfo,线程id=13,Action执行时间106毫秒
+[2018-08-08 19:07:41.822] logperformance.Performance 23 
+页面/Common/ProvinceCombobox,线程id=23,Action执行时间59毫秒
+[2018-08-08 19:07:42.413] logperformance.Performance 17 
+页面/UserInfo/GetBasicInfo,线程id=17,Action执行时间90毫秒
+[2018-08-08 19:07:44.179] logperformance.Performance 23 
+页面/Common/AreaCombobox,线程id=23,Action执行时间25毫秒
+[2018-08-08 19:07:46.120] logperformance.Performance 23 
+页面/UserInfo/BasicInfoEdit,线程id=23,Action执行时间11毫秒
+[2018-08-08 19:07:46.284] logperformance.Performance 16 
+页面/UserInfo/GetBasicInfo,线程id=16,Action执行时间87毫秒
+[2018-08-08 19:07:47.587] logperformance.Performance 13 
+页面/Common/BloodTypeCombobox,线程id=13,Action执行时间23毫秒
+[2018-08-08 19:07:48.087] logperformance.Performance 16 
+页面/Common/ProvinceCombobox,线程id=16,Action执行时间14毫秒
+[2018-08-08 19:07:48.261] logperformance.Performance 23 
+页面/UserInfo/GetBasicInfo,线程id=23,Action执行时间172毫秒
+[2018-08-08 19:07:49.945] logperformance.Performance 23 
+页面/Common/CityCombobox,线程id=23,Action执行时间12毫秒
+[2018-08-08 19:07:51.221] logperformance.Performance 17 
+页面/Common/AreaCombobox,线程id=17,Action执行时间12毫秒
+[2018-08-08 19:07:53.115] logperformance.Performance 23 
+页面/UserInfo/BasicInfoEdit,线程id=23,Action执行时间13毫秒
+[2018-08-08 19:07:53.290] logperformance.Performance 16 
+页面/UserInfo/GetBasicInfo,线程id=16,Action执行时间105毫秒
+[2018-08-08 19:07:56.759] logperformance.Performance 21 
+页面/UserInfo/GetBasicInfo,线程id=21,Action执行时间152毫秒
+[2018-08-08 19:07:58.183] logperformance.Performance 17 
+页面/UserInfo/GetBasicInfo,线程id=17,Action执行时间102毫秒
+[2018-08-08 19:07:58.580] logperformance.Performance 13 
+页面/Common/ProvinceCombobox,线程id=13,Action执行时间22毫秒
+[2018-08-08 19:07:59.265] logperformance.Performance 21 
+页面/UserInfo/BasicInfoEdit,线程id=21,Action执行时间22毫秒
+[2018-08-08 19:07:59.346] logperformance.Performance 13 
+页面/UserInfo/GetBasicInfo,线程id=13,Action执行时间11毫秒
+[2018-08-08 19:08:02.408] logperformance.Performance 16 
+页面/Common/ProvinceCombobox,线程id=16,Action执行时间23毫秒
+[2018-08-08 19:08:02.913] logperformance.Performance 13 
+页面/UserInfo/GetBasicInfo,线程id=13,Action执行时间26毫秒
+[2018-08-08 19:08:05.954] logperformance.Performance 26 
+页面/Common/CityCombobox,线程id=26,Action执行时间16毫秒
+[2018-08-08 19:08:07.238] logperformance.Performance 21 
+页面/Common/AreaCombobox,线程id=21,Action执行时间15毫秒
+[2018-08-08 19:08:10.503] logperformance.Performance 13 
+页面/Common/CityCombobox,线程id=13,Action执行时间16毫秒
+[2018-08-08 19:08:11.674] logperformance.Performance 23 
+页面/Common/AreaCombobox,线程id=23,Action执行时间19毫秒
+[2018-08-08 19:08:12.744] logperformance.Performance 16 
+页面/UserInfo/BasicInfoEdit,线程id=16,Action执行时间24毫秒
+[2018-08-08 19:08:12.942] logperformance.Performance 13 
+页面/UserInfo/GetBasicInfo,线程id=13,Action执行时间114毫秒
+[2018-08-08 19:08:16.910] logperformance.Performance 23 
+页面/Common/ProvinceCombobox,线程id=23,Action执行时间30毫秒
+[2018-08-08 19:08:17.496] logperformance.Performance 21 
+页面/UserInfo/GetBasicInfo,线程id=21,Action执行时间101毫秒
+[2018-08-08 19:08:21.736] logperformance.Performance 23 
+页面/UserInfo/BasicInfoEdit,线程id=23,Action执行时间12毫秒
+[2018-08-08 19:08:21.915] logperformance.Performance 16 
+页面/UserInfo/GetBasicInfo,线程id=16,Action执行时间117毫秒
+[2018-08-08 19:08:53.239] logperformance.Performance 16 
+页面/UserInfo/GetBasicInfo,线程id=16,Action执行时间162毫秒
+[2018-08-08 19:09:07.512] logperformance.Performance 23 
+页面/UserInfo/GetBasicInfo,线程id=23,Action执行时间88毫秒
+[2018-08-08 19:09:07.941] logperformance.Performance 16 
+页面/Common/ProvinceCombobox,线程id=16,Action执行时间16毫秒
+[2018-08-08 19:09:30.333] logperformance.Performance 23 
+页面/UserInfo/GetBasicInfo,线程id=23,Action执行时间176毫秒
+[2018-08-08 19:09:33.374] logperformance.Performance 16 
+页面/Common/ProvinceCombobox,线程id=16,Action执行时间28毫秒
+[2018-08-08 19:09:34.022] logperformance.Performance 16 
+页面/UserInfo/GetBasicInfo,线程id=16,Action执行时间146毫秒
+[2018-08-08 19:11:58.516] logperformance.Performance 23 
+页面/UserInfo/GetBasicInfo,线程id=23,Action执行时间338毫秒
+[2018-08-08 19:12:00.565] logperformance.Performance 23 
+页面/UserInfo/GetBasicInfo,线程id=23,Action执行时间182毫秒
+[2018-08-08 19:12:01.888] logperformance.Performance 12 
+页面/Common/ProvinceCombobox,线程id=12,Action执行时间17毫秒
+[2018-08-08 19:12:02.504] logperformance.Performance 28 
+页面/UserInfo/GetBasicInfo,线程id=28,Action执行时间128毫秒
+[2018-08-08 19:12:20.407] logperformance.Performance 23 
+页面/Common/CityCombobox,线程id=23,Action执行时间13毫秒
+[2018-08-08 19:12:22.528] logperformance.Performance 23 
+页面/Common/CityCombobox,线程id=23,Action执行时间12毫秒
+[2018-08-08 19:12:30.208] logperformance.Performance 23 
+页面/Common/CityCombobox,线程id=23,Action执行时间13毫秒
+[2018-08-08 19:12:31.645] logperformance.Performance 29 
+页面/Common/AreaCombobox,线程id=29,Action执行时间17毫秒
+[2018-08-08 19:12:33.682] logperformance.Performance 28 
+页面/Common/AreaCombobox,线程id=28,Action执行时间13毫秒
+[2018-08-08 19:12:37.067] logperformance.Performance 13 
+页面/Common/AreaCombobox,线程id=13,Action执行时间12毫秒
+[2018-08-08 19:12:39.051] logperformance.Performance 13 
+页面/UserInfo/BasicInfoEdit,线程id=13,Action执行时间19毫秒
+[2018-08-08 19:12:39.217] logperformance.Performance 28 
+页面/UserInfo/GetBasicInfo,线程id=28,Action执行时间106毫秒
+[2018-08-08 19:12:41.206] logperformance.Performance 23 
+页面/Common/BloodTypeCombobox,线程id=23,Action执行时间5毫秒
+[2018-08-08 19:12:41.241] logperformance.Performance 13 
+页面/Common/ProvinceCombobox,线程id=13,Action执行时间18毫秒
+[2018-08-08 19:12:41.825] logperformance.Performance 11 
+页面/UserInfo/GetBasicInfo,线程id=11,Action执行时间99毫秒
+[2018-08-08 19:12:46.142] logperformance.Performance 28 
+页面/UserInfo/GetBasicInfo,线程id=28,Action执行时间194毫秒
+[2018-08-08 19:12:47.863] logperformance.Performance 12 
+页面/Common/BloodTypeCombobox,线程id=12,Action执行时间23毫秒
+[2018-08-08 19:12:48.371] logperformance.Performance 12 
+页面/Common/ProvinceCombobox,线程id=12,Action执行时间19毫秒
+[2018-08-08 19:12:48.482] logperformance.Performance 11 
+页面/UserInfo/GetBasicInfo,线程id=11,Action执行时间105毫秒
+[2018-08-08 19:13:52.361] logperformance.Performance 11 
+页面/UserInfo/GetBasicInfo,线程id=11,Action执行时间213毫秒
+[2018-08-08 19:13:54.818] logperformance.Performance 11 
+页面/UserInfo/GetBasicInfo,线程id=11,Action执行时间164毫秒
+[2018-08-08 19:13:55.598] logperformance.Performance 29 
+页面/Common/ProvinceCombobox,线程id=29,Action执行时间25毫秒
+[2018-08-08 19:13:56.227] logperformance.Performance 9 
+页面/UserInfo/GetBasicInfo,线程id=9,Action执行时间139毫秒
+[2018-08-08 19:14:16.611] logperformance.Performance 13 
+页面/Common/CityCombobox,线程id=13,Action执行时间17毫秒
+[2018-08-08 19:14:19.191] logperformance.Performance 12 
+页面/Common/CityCombobox,线程id=12,Action执行时间15毫秒
+[2018-08-08 19:15:18.065] logperformance.Performance 11 
+页面/Common/AreaCombobox,线程id=11,Action执行时间15毫秒
+[2018-08-08 19:15:24.365] logperformance.Performance 12 
+页面/Common/CityCombobox,线程id=12,Action执行时间17毫秒
+[2018-08-08 19:15:25.915] logperformance.Performance 12 
+页面/Common/AreaCombobox,线程id=12,Action执行时间19毫秒
+[2018-08-08 19:15:28.850] logperformance.Performance 11 
+页面/Common/AreaCombobox,线程id=11,Action执行时间10毫秒
+[2018-08-08 19:15:31.295] logperformance.Performance 12 
+页面/UserInfo/BasicInfoEdit,线程id=12,Action执行时间13毫秒
+[2018-08-08 19:15:31.453] logperformance.Performance 8 
+页面/UserInfo/GetBasicInfo,线程id=8,Action执行时间95毫秒
+[2018-08-08 19:15:39.384] logperformance.Performance 8 
+页面/UserInfo/GetBasicInfo,线程id=8,Action执行时间120毫秒
+[2018-08-08 19:15:39.806] logperformance.Performance 31 
+页面/Common/ProvinceCombobox,线程id=31,Action执行时间21毫秒
+[2018-08-08 19:15:54.542] logperformance.Performance 8 
+页面/UserInfo/GetBasicInfo,线程id=8,Action执行时间171毫秒
+[2018-08-08 19:17:09.412] logperformance.Performance 27 
+页面/Common/GenderComboboxV1,线程id=27,Action执行时间4毫秒
+[2018-08-08 19:17:09.446] logperformance.Performance 8 
+页面/Common/BloodTypeCombobox,线程id=8,Action执行时间1毫秒
+[2018-08-08 19:17:09.481] logperformance.Performance 31 
+页面/Common/ProvinceCombobox,线程id=31,Action执行时间20毫秒
+[2018-08-08 19:17:10.128] logperformance.Performance 31 
+页面/UserInfo/GetBasicInfo,线程id=31,Action执行时间167毫秒
+[2018-08-08 19:17:11.784] logperformance.Performance 8 
+页面/UserInfo/GetBasicInfo,线程id=8,Action执行时间131毫秒
+[2018-08-08 19:17:16.914] logperformance.Performance 31 
+页面/Common/CityCombobox,线程id=31,Action执行时间22毫秒
+[2018-08-08 19:17:18.206] logperformance.Performance 8 
+页面/Common/AreaCombobox,线程id=8,Action执行时间14毫秒
+[2018-08-08 19:19:21.106] logperformance.Performance 7 
+页面/UserInfo/GetBasicInfo,线程id=7,Action执行时间405毫秒
+[2018-08-08 19:19:21.272] logperformance.Performance 26 
+页面/Common/BloodTypeCombobox,线程id=26,Action执行时间1毫秒
+[2018-08-08 19:19:21.782] logperformance.Performance 27 
+页面/Common/ProvinceCombobox,线程id=27,Action执行时间15毫秒
+[2018-08-08 19:19:22.227] logperformance.Performance 26 
+页面/UserInfo/GetBasicInfo,线程id=26,Action执行时间172毫秒
+[2018-08-08 19:19:41.261] logperformance.Performance 27 
+页面/Common/GenderComboboxV1,线程id=27,Action执行时间7毫秒
+[2018-08-08 19:19:41.339] logperformance.Performance 6 
+页面/Common/ProvinceCombobox,线程id=6,Action执行时间36毫秒
+[2018-08-08 19:19:42.018] logperformance.Performance 26 
+页面/UserInfo/GetBasicInfo,线程id=26,Action执行时间173毫秒
+[2018-08-08 19:19:46.561] logperformance.Performance 6 
+页面/UserInfo/GetBasicInfo,线程id=6,Action执行时间110毫秒
+[2018-08-08 19:22:28.694] logperformance.Performance 6 
+页面/UserInfo/GetBasicInfo,线程id=6,Action执行时间84毫秒
+[2018-08-08 19:22:36.531] logperformance.Performance 18 
+页面/UserInfo/GetBasicInfo,线程id=18,Action执行时间88毫秒
+[2018-08-08 19:23:44.657] logperformance.Performance 27 
+页面/Common/CityCombobox,线程id=27,Action执行时间14毫秒
+[2018-08-08 19:23:46.420] logperformance.Performance 27 
+页面/Common/AreaCombobox,线程id=27,Action执行时间18毫秒
+[2018-08-08 19:23:58.125] logperformance.Performance 18 
+页面/Common/CityCombobox,线程id=18,Action执行时间15毫秒
+[2018-08-08 19:23:59.784] logperformance.Performance 27 
+页面/Common/AreaCombobox,线程id=27,Action执行时间17毫秒
+[2018-08-08 19:24:40.287] logperformance.Performance 8 
+页面/Common/AreaCombobox,线程id=8,Action执行时间20毫秒
+[2018-08-08 19:24:52.960] logperformance.Performance 27 
+页面/Common/AreaCombobox,线程id=27,Action执行时间17毫秒
+[2018-08-08 19:25:17.532] logperformance.Performance 8 
+页面/Common/CityCombobox,线程id=8,Action执行时间20毫秒
+[2018-08-08 19:26:47.487] logperformance.Performance 8 
+页面/Common/AreaCombobox,线程id=8,Action执行时间12毫秒
+[2018-08-08 19:27:30.114] logperformance.Performance 36 
+页面/Common/CityCombobox,线程id=36,Action执行时间20毫秒
+[2018-08-08 19:27:31.821] logperformance.Performance 27 
+页面/Common/AreaCombobox,线程id=27,Action执行时间23毫秒
+[2018-08-08 19:27:34.828] logperformance.Performance 27 
+页面/Common/AreaCombobox,线程id=27,Action执行时间23毫秒
+[2018-08-08 19:27:36.692] logperformance.Performance 36 
+页面/Common/CityCombobox,线程id=36,Action执行时间9毫秒
+[2018-08-08 19:27:37.990] logperformance.Performance 36 
+页面/Common/AreaCombobox,线程id=36,Action执行时间10毫秒
+[2018-08-08 19:27:42.462] logperformance.Performance 34 
+页面/Common/AreaCombobox,线程id=34,Action执行时间17毫秒
+[2018-08-08 19:27:45.355] logperformance.Performance 27 
+页面/Common/AreaCombobox,线程id=27,Action执行时间14毫秒

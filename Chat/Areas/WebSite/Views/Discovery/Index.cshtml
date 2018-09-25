@@ -1,0 +1,128 @@
+﻿@{
+    ViewBag.Title = "添加好友";
+    Layout = "~/Areas/WebSite/Views/Home/Index.cshtml";
+}
+<head>
+    <title>添加好友</title>
+    <link type="text/css" href="@Url.Content("~/Content/css/discovery.css")" rel="stylesheet" />
+    <script type="text/javascript" src="@Url.Content("~/Content/script/discovery.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/bootstrap/js/bootstrap-contextmenu.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/prettify/prettify.js")"></script>
+    <link type="text/css" href="@Url.Content("~/Content/prettify/prettify.css")" rel="stylesheet" />
+    <script src="/Content/jquery/jquery.signalR-2.1.2.min.js"></script>
+    <script src="/signalr/hubs"></script>
+</head>
+
+@*变量*@
+<input id="hiddenBottleId" type="hidden" />
+<input id="hiddenUpdateBottleId" type="hidden" />
+<input id="hiddenReplyBottleId" type="hidden" />
+<input id="hiddenChatBottleId" type="hidden" />
+<input id="hiddenChatId" type="hidden" />
+
+<div style="width:100%;height:100%;box-shadow: 0px 0px 5px #837c7c;background-color:#ececec">
+    <div style="width:92%;float:left;height: 100%">
+        <div class="bottleTab">
+            <div id="btnreceivedBottle" class="btnBottle" style="padding-left:14px">捞捞看</div>
+            <div id="btnthrowBottle" class="btnBottle" style="padding-left:14px"> 扔一个</div>
+            <div id="btnmyBottle" class="btnBottle" style="width:90px">
+                <span >我的瓶子</span>
+                <span class="unreadBottleList">20</span>
+            </div>
+        </div>
+        @*所有我捡到过的，但未回复的漂流瓶*@
+        <div class="bottleList" id="MybottleList"></div>
+    </div>
+    <div style="width:8%;float:right;" id="actRightTab">
+        <div  class="btnMenuClick" style="padding-left:15px;">漂流瓶</div>
+        <div  class="btnMenu">快速匹配</div>
+        <div  class="btnMenu">匿名聊天</div>
+        <div  class="btnMenu" style="padding-left:15px;">功能3</div>
+        <div  class="btnMenu" style="padding-left:15px;">功能4</div>
+        <div  class="btnMenu" style="padding-left:15px;">功能5</div>
+        <div  class="btnMenu" style="padding-left:15px;">功能6</div>
+        <div  class="btnMenu" style="padding-left:15px;">功能7</div>
+        <div  class="btnMenu" style="padding-left:15px;">功能8</div>
+        <div  class="btnMenu" style="padding-left:15px;">功能9</div>
+        <div  class="btnMenu" style="padding-left:15px;">功能10</div>
+        <div  class="btnMenu" style="padding-left:15px;">功能11</div>
+    </div>
+</div>
+
+@*扔瓶子弹窗*@
+<div class="modal fade" id="throwBottleModel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden:true; data-backdrop:static>
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content" style="width:400px;height:300px">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h5 class="modal-title" id="modelthrowBottle">扔一个瓶子</h5>
+            </div>
+            <div class="modal-body">
+                <div class="form-group" >
+                    <textarea rows="5" name="throwBottleContent" class="form-control" id="throwBottleContent" maxlength="100" style="resize:none" placeholder="说点什么吧..."></textarea>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>取消</button>
+                <button type="button" id="btn_next" class="btn btn-primary" onclick="btnSubmit()"><span class="throwBottle">&#xe603;</span>扔出去</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@*回复瓶子*@
+<div class="modal fade" id="ReplyBottle" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden:true; data-backdrop:static>
+    <div class="modal-dialog modal-sm">
+
+        @*我回复过的或我扔出去被回复的瓶子列表*@
+        <div class="modal-content" style="width:520px;height:520px" id="modalMyBottleList">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h5 class="modal-title" id="myBottle">我的瓶子</h5>
+            </div>
+            <div class="mymodal-body" id="divMyBottleList"></div>
+        </div>
+
+        @*某一个瓶子回复列表*@
+        <div class="modal-content" style="width:520px;height:520px" id="modalReplyList">
+            <div class="modal-header">
+                <div class="returnhome" onclick="ReturnUp()">返回上一级</div>
+                <div style="float:left;margin-left: 200px;">
+                    <h5 class="modal-title" id="myBottle" style="text-align: center">某某某</h5>
+                </div>
+                <div style="float:right">
+                    <div class="SendBottle" id="SubmitReplyBottle"><span class="throwBottle">&#xe603;</span>发送</div>
+                </div>
+            </div>
+            <div class="replymodal-body" >
+                <div style="border-bottom: 1px solid #e2d9d9;padding: 15px;">
+                    <textarea rows="4" name="ReplyBottleContent" class="form-control" id="ReplyBottleContent" maxlength="100" style="resize:none" placeholder="说点什么吧..."></textarea>
+                </div>
+                <div id="ReplyBottleArea"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@*一级列表右击删除菜单*@
+<div id="context-deleteBottle">
+    <ul class="dropdown-menu" role="menu" style="min-width:70px;padding:2px;cursor:pointer">
+        <li><a tabindex="-1" onclick="btnUpdateBottle(1)">删除</a></li>
+        <li><a tabindex="-1" onclick="btnUpdateBottle(2)">举报</a></li>
+    </ul>
+</div>
+
+@*二级列表右击删除菜单*@
+<div id="context-deleteBottleReply">
+    <ul class="dropdown-menu" role="menu" style="min-width:70px;padding:2px;cursor:pointer">
+        <li><a tabindex="-1" onclick="btnDeleteMyBottleReply()">删除</a></li>
+    </ul>
+</div>
+
+@*三级列表右击删除菜单*@
+<div id="context-deleteBottleChat">
+    <ul class="dropdown-menu" role="menu" style="min-width:70px;padding:2px;cursor:pointer">
+        <li><a tabindex="-1" onclick="btnDeleteMyBottleChat()">删除</a></li>
+    </ul>
+</div>

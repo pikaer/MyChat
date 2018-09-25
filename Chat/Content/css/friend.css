@@ -1,0 +1,218 @@
+﻿/*BootStrap-Table样式*/
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+    line-height: 1.42857143;
+    border-top: 0px solid #ddd;
+    border-left: 0px solid #ddd;
+}
+
+.fixed-table-container {
+    position: relative;
+    clear: both;
+    border: 0px solid #ddd;
+    border-radius: 0px;
+}
+
+.bootstrap-table .table {
+    margin-bottom: 0 !important;
+    border-bottom: 0px solid #ddd;
+    border-collapse: collapse !important;
+    border-radius: 0px;
+}
+
+#Content {
+    outline: none;
+    border-color: white;
+    box-shadow: 0 0 0px white;
+    border-radius: 0px;
+}
+
+.addfriend-iconfont {
+    float: left;
+    font-size: 42px;
+    margin-left: 15px;
+    color: #4c3c3c;
+    text-align: center;
+    font-family: "Hui-iconfont" !important;
+}
+
+.womaniconfont {
+    font-size: 18px;
+    margin-left: 15px;
+    color: #ff3434;
+    text-align: center;
+    font-family: "Hui-iconfont" !important;
+}
+
+.maniconfont {
+    font-size: 18px;
+    margin-left: 15px;
+    color: #3567dc;
+    text-align: center;
+    font-family: "Hui-iconfont" !important;
+}
+
+.newFriend {
+    width: 100%;
+    padding-left: 18px;
+    padding-right: 30px;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.friend {
+    margin-top: 12px;
+    clear: both;
+    width: 600px;
+    height: 70px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 1px solid #ece3e3;
+    border-radius: 5px;
+}
+
+.nickName {
+    margin-left: 10px;
+    font-size: 16px;
+    color: black;
+}
+
+.describtion {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #636363;
+}
+
+.origion {
+    font-size: 12px;
+    padding-bottom: 3px;
+    color: #636363;
+}
+
+.btn_validate {
+    float: left;
+    color: #4a3d3d;
+    background-color: #e0d6d6;
+    width: 50px;
+    height: 25px;
+    margin-right: 10px;
+    border-radius: 3px;
+    padding-left: 9px;
+    padding-top: 2px;
+    cursor: pointer;
+}
+
+    .btn_validate:hover {
+        background-color: #e1e1e1;
+    }
+
+.btngroup {
+    float: right;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+
+.hasreq {
+    float: right;
+    margin-right: 32px;
+    margin-top: 15px;
+}
+
+.FriendDetail {
+    margin-top: 100px;
+}
+
+.Detail {
+    margin-left: 150px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.btnSend {
+    width: 80px;
+    height: 30px;
+    background-color: #07f707;
+    margin-left: 280px;
+    padding-left: 18px;
+    padding-top: 5px;
+    border-radius: 3px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+#UserList {
+    background-color: #F0F0F0;
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+.friendLeft {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 1px;
+    height: 8%;
+}
+
+.friendRight {
+    border-top: 1px solid #d8d7d7;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    overflow-y: scroll;
+    height: 92%;
+}
+
+#FriendSearch {
+    margin-left: 1px;
+    height: 29px;
+    background-color: #c1c1c1;
+    color: black;
+    border-color: #c1c1c1;
+    padding-top:4px
+}
+
+#NickName {
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 0px;
+    float: left;
+}
+
+#Signature {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.horizontalline {
+    height: 2px;
+    border: none;
+    border-top: 1px groove #edf0f1;
+    margin-bottom: 0px;
+}
+
+#FridenValidate {
+    float: right;
+    margin-top: 23px;
+    margin-right: 142px;
+    font-size: 16px;
+}
+
+#searchContent{
+    width:170px;
+    height:30px
+}
+
+.bootstrap-table .table:not(.table-condensed),
+.bootstrap-table .table:not(.table-condensed) > tbody > tr > td,
+.bootstrap-table .table:not(.table-condensed) > tbody > tr > th,
+.bootstrap-table .table:not(.table-condensed) > tfoot > tr > td,
+.bootstrap-table .table:not(.table-condensed) > tfoot > tr > th,
+.bootstrap-table .table:not(.table-condensed) > thead > tr > td {
+    padding:0px;
+}

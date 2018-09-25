@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7D166AED-178B-4534-ABCC-86DBAD45ED66}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Chat</RootNamespace>
+    <AssemblyName>Chat</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNet.SignalR.Core, Version=2.1.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.Core.2.1.2\lib\net45\Microsoft.AspNet.SignalR.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.SystemWeb, Version=2.1.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.SystemWeb.2.1.2\lib\net45\Microsoft.AspNet.SignalR.SystemWeb.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Owin, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.1.2\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.1.2\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.1.2\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.1.2\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.1.2\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.1.2\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.0.0\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.0.0\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.0.0\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\Startup.cs" />
+    <Compile Include="Areas\WebSite\Controllers\AddController.cs" />
+    <Compile Include="Areas\WebSite\Controllers\BaseController.cs" />
+    <Compile Include="Areas\WebSite\Controllers\DiscoveryController.cs" />
+    <Compile Include="Areas\WebSite\Controllers\ChatController.cs" />
+    <Compile Include="Areas\WebSite\Controllers\CommonController.cs" />
+    <Compile Include="Areas\WebSite\Controllers\ConfigController.cs" />
+    <Compile Include="Areas\WebSite\Controllers\FriendController.cs" />
+    <Compile Include="Areas\WebSite\Controllers\HomeController.cs" />
+    <Compile Include="Areas\WebSite\Controllers\LoginController.cs" />
+    <Compile Include="Areas\WebSite\Controllers\UserInfoController.cs" />
+    <Compile Include="Areas\WebSite\WebSiteAreaRegistration.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\CookieHelper.cs" />
+    <Compile Include="Helper\LoginCheckAttribute.cs" />
+    <Compile Include="Helper\MessageBox.cs" />
+    <Compile Include="Helper\NoLoginCheck.cs" />
+    <Compile Include="Helper\ObjectExtensions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServerHub\BaseHub.cs" />
+    <Compile Include="ServerHub\BottleHub.cs" />
+    <Compile Include="ServerHub\ChatHub.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap\css\bootstrap-table.css" />
+    <Content Include="Content\bootstrap\css\bootstrap-table.min.css" />
+    <Content Include="Content\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap\css\bootstrap.css" />
+    <Content Include="Content\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Content\bootstrap\css\custom.css" />
+    <Content Include="Content\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\bootstrap\js\bootstrap-contextmenu.js" />
+    <Content Include="Content\bootstrap\js\bootstrap-table-zh-CN.js" />
+    <Content Include="Content\bootstrap\js\bootstrap-table.js" />
+    <Content Include="Content\bootstrap\js\bootstrap-table.min.js" />
+    <Content Include="Content\bootstrap\js\bootstrap.js" />
+    <Content Include="Content\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Content\bootstrap\js\npm.js" />
+    <Content Include="Content\cropper\cropper.css" />
+    <Content Include="Content\cropper\cropper.js" />
+    <Content Include="Content\cropper\cropper.min.css" />
+    <Content Include="Content\cropper\cropper.min.js" />
+    <Content Include="Content\css\add.css" />
+    <Content Include="Content\css\chat.css" />
+    <Content Include="Content\css\config.css" />
+    <Content Include="Content\css\discovery.css" />
+    <Content Include="Content\css\friend.css" />
+    <Content Include="Content\css\home.css" />
+    <Content Include="Content\css\userinfo.css" />
+    <Content Include="Content\img\headshot\max_100\pikaer.jpg" />
+    <Content Include="Content\img\headshot\middle_60\pikaer.png" />
+    <Content Include="Content\img\headshot\min_50\pikaer.png" />
+    <Content Include="Content\img\iconfont\iconfont.css" />
+    <Content Include="Content\img\iconfont\iconfont.min.css" />
+    <Content Include="Content\img\qqface\0.gif" />
+    <Content Include="Content\img\qqface\1.gif" />
+    <Content Include="Content\img\qqface\10.gif" />
+    <Content Include="Content\img\qqface\100.gif" />
+    <Content Include="Content\img\qqface\101.gif" />
+    <Content Include="Content\img\qqface\102.gif" />
+    <Content Include="Content\img\qqface\103.gif" />
+    <Content Include="Content\img\qqface\104.gif" />
+    <Content Include="Content\img\qqface\105.gif" />
+    <Content Include="Content\img\qqface\106.gif" />
+    <Content Include="Content\img\qqface\11.gif" />
+    <Content Include="Content\img\qqface\12.gif" />
+    <Content Include="Content\img\qqface\13.gif" />
+    <Content Include="Content\img\qqface\14.gif" />
+    <Content Include="Content\img\qqface\15.gif" />
+    <Content Include="Content\img\qqface\16.gif" />
+    <Content Include="Content\img\qqface\18.gif" />
+    <Content Include="Content\img\qqface\19.gif" />
+    <Content Include="Content\img\qqface\2.gif" />
+    <Content Include="Content\img\qqface\20.gif" />
+    <Content Include="Content\img\qqface\21.gif" />
+    <Content Include="Content\img\qqface\22.gif" />
+    <Content Include="Content\img\qqface\23.gif" />
+    <Content Include="Content\img\qqface\24.gif" />
+    <Content Include="Content\img\qqface\25.gif" />
+    <Content Include="Content\img\qqface\26.gif" />
+    <Content Include="Content\img\qqface\27.gif" />
+    <Content Include="Content\img\qqface\28.gif" />
+    <Content Include="Content\img\qqface\29.gif" />
+    <Content Include="Content\img\qqface\3.gif" />
+    <Content Include="Content\img\qqface\30.gif" />
+    <Content Include="Content\img\qqface\31.gif" />
+    <Content Include="Content\img\qqface\32.gif" />
+    <Content Include="Content\img\qqface\33.gif" />
+    <Content Include="Content\img\qqface\34.gif" />
+    <Content Include="Content\img\qqface\35.gif" />
+    <Content Include="Content\img\qqface\36.gif" />
+    <Content Include="Content\img\qqface\37.gif" />
+    <Content Include="Content\img\qqface\38.gif" />
+    <Content Include="Content\img\qqface\39.gif" />
+    <Content Include="Content\img\qqface\4.gif" />
+    <Content Include="Content\img\qqface\40.gif" />
+    <Content Include="Content\img\qqface\41.gif" />
+    <Content Include="Content\img\qqface\42.gif" />
+    <Content Include="Content\img\qqface\43.gif" />
+    <Content Include="Content\img\qqface\44.gif" />
+    <Content Include="Content\img\qqface\45.gif" />
+    <Content Include="Content\img\qqface\46.gif" />
+    <Content Include="Content\img\qqface\47.gif" />
+    <Content Include="Content\img\qqface\48.gif" />
+    <Content Include="Content\img\qqface\49.gif" />
+    <Content Include="Content\img\qqface\5.gif" />
+    <Content Include="Content\img\qqface\50.gif" />
+    <Content Include="Content\img\qqface\51.gif" />
+    <Content Include="Content\img\qqface\52.gif" />
+    <Content Include="Content\img\qqface\53.gif" />
+    <Content Include="Content\img\qqface\54.gif" />
+    <Content Include="Content\img\qqface\55.gif" />
+    <Content Include="Content\img\qqface\56.gif" />
+    <Content Include="Content\img\qqface\57.gif" />
+    <Content Include="Content\img\qqface\58.gif" />
+    <Content Include="Content\img\qqface\59.gif" />
+    <Content Include="Content\img\qqface\6.gif" />
+    <Content Include="Content\img\qqface\60.gif" />
+    <Content Include="Content\img\qqface\61.gif" />
+    <Content Include="Content\img\qqface\62.gif" />
+    <Content Include="Content\img\qqface\63.gif" />
+    <Content Include="Content\img\qqface\64.gif" />
+    <Content Include="Content\img\qqface\65.gif" />
+    <Content Include="Content\img\qqface\66.gif" />
+    <Content Include="Content\img\qqface\67.gif" />
+    <Content Include="Content\img\qqface\68.gif" />
+    <Content Include="Content\img\qqface\69.gif" />
+    <Content Include="Content\img\qqface\7.gif" />
+    <Content Include="Content\img\qqface\70.gif" />
+    <Content Include="Content\img\qqface\71.gif" />
+    <Content Include="Content\img\qqface\72.gif" />
+    <Content Include="Content\img\qqface\73.gif" />
+    <Content Include="Content\img\qqface\74.gif" />
+    <Content Include="Content\img\qqface\75.gif" />
+    <Content Include="Content\img\qqface\76.gif" />
+    <Content Include="Content\img\qqface\77.gif" />
+    <Content Include="Content\img\qqface\78.gif" />
+    <Content Include="Content\img\qqface\79.gif" />
+    <Content Include="Content\img\qqface\8.gif" />
+    <Content Include="Content\img\qqface\80.gif" />
+    <Content Include="Content\img\qqface\81.gif" />
+    <Content Include="Content\img\qqface\82.gif" />
+    <Content Include="Content\img\qqface\83.gif" />
+    <Content Include="Content\img\qqface\84.gif" />
+    <Content Include="Content\img\qqface\85.gif" />
+    <Content Include="Content\img\qqface\86.gif" />
+    <Content Include="Content\img\qqface\87.gif" />
+    <Content Include="Content\img\qqface\88.gif" />
+    <Content Include="Content\img\qqface\89.gif" />
+    <Content Include="Content\img\qqface\9.gif" />
+    <Content Include="Content\img\qqface\90.gif" />
+    <Content Include="Content\img\qqface\91.gif" />
+    <Content Include="Content\img\qqface\92.gif" />
+    <Content Include="Content\img\qqface\93.gif" />
+    <Content Include="Content\img\qqface\94.gif" />
+    <Content Include="Content\img\qqface\95.gif" />
+    <Content Include="Content\img\qqface\96.gif" />
+    <Content Include="Content\img\qqface\97.gif" />
+    <Content Include="Content\img\qqface\98.gif" />
+    <Content Include="Content\img\qqface\99.gif" />
+    <Content Include="Content\img\iconfont\iconfont.svg" />
+    <Content Include="Content\jquery\jquery.js" />
+    <Content Include="Content\jquery\jquery.json-2.4.js" />
+    <Content Include="Content\jquery\jquery.min.js" />
+    <Content Include="Content\prettify\prettify.css" />
+    <Content Include="Content\prettify\prettify.js" />
+    <Content Include="Content\script\add.js" />
+    <Content Include="Content\script\chat.js" />
+    <Content Include="Content\script\common.js" />
+    <Content Include="Content\script\config.js" />
+    <Content Include="Content\script\discovery.js" />
+    <Content Include="Content\script\friend.js" />
+    <Content Include="Content\script\home.js" />
+    <Content Include="Content\script\login.js" />
+    <Content Include="Content\script\userinfo.js" />
+    <Content Include="Content\upload\cropper\cropper.css" />
+    <Content Include="Content\upload\cropper\cropper.js" />
+    <Content Include="Content\upload\cropper\cropper.min.css" />
+    <Content Include="Content\upload\cropper\cropper.min.js" />
+    <Content Include="Content\upload\sitelogo\sitelogo.css" />
+    <Content Include="Content\upload\sitelogo\sitelogo.js" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="Areas\WebSite\Views\web.config" />
+    <Content Include="Content\bootstrap\css\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap\css\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap\css\bootstrap.css.map" />
+    <Content Include="Content\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Areas\WebSite\Views\Shared\_PartialHead.cshtml" />
+    <Content Include="Areas\WebSite\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\WebSite\Views\Home\Index.cshtml" />
+    <Content Include="Areas\WebSite\Views\UserInfo\Index.cshtml" />
+    <Content Include="Content\jquery\jquery.signalR-2.1.2.js" />
+    <Content Include="Content\jquery\jquery.signalR-2.1.2.min.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Chat.Model\Chat.Model.csproj">
+      <Project>{325d1b69-ffca-4402-bcec-565a1378fb05}</Project>
+      <Name>Chat.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Chat.Service\Chat.Service.csproj">
+      <Project>{d5cb0246-e9a8-44c6-a775-03dc79178b2d}</Project>
+      <Name>Chat.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Chat.Ultilities\Chat.Ultilities.csproj">
+      <Project>{FF4FFD58-29B9-4421-BB18-BF99815A2DB7}</Project>
+      <Name>Chat.Ultilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\WebSite\Views\Chat\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\img\iconfont\iconfont.eot" />
+    <Content Include="Content\img\iconfont\iconfont.ttf" />
+    <Content Include="Content\img\iconfont\iconfont.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\WebSite\Views\Friend\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\WebSite\Views\Add\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\WebSite\Views\Login\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\WebSite\Views\Config\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\WebSite\Views\Discovery\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\img\upload\max_100\" />
+    <Folder Include="Content\img\upload\middle_60\" />
+    <Folder Include="Content\img\upload\min_50\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\HomePublish.pubxml" />
+    <None Include="Properties\PublishProfiles\Main.pubxml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1317</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1317/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <UserProperties Content_4bootstrap_4css_4bootstrap-theme_1min_1css_1map__JSONSchema="http://json.schemastore.org/typings" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

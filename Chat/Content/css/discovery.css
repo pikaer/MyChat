@@ -1,0 +1,219 @@
+﻿
+.btnMenu {
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 8px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+    .btnMenu:hover {
+        background-color: #13f1f1;
+        color: white;
+    }
+
+.btnMenuClick {
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 8px;
+    cursor: pointer;
+    color: white;
+    background-color: #13f1f1;
+}
+
+
+.bottleTab {
+    width: 100%;
+    height: 10%;
+    background-color: white;
+}
+
+.bottleList {
+    height: 90%;
+    border-top: solid 1px #e4dfdf;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.btnBottle {
+    float: right;
+    width: 70px;
+    height: 35px;
+    background: #13f1f1;
+    padding-left: 7px;
+    padding-top: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.divBottle {
+    height: 80px;
+    width: 700px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 70px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 1px solid #ece3e3;
+    border-radius: 2px;
+    border-top: 3px solid #68ea3e;
+}
+
+.bottleContent {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.bottleNickName {
+    font-size: 12px;
+    color: #04ca04;
+    float: left;
+    margin-top: 15px;
+}
+
+.bottleGenderMan {
+    font-size: 12px;
+    color: #0202fb;
+    float: left;
+    text-align: left;
+    font-family: "Hui-iconfont" !important;
+    margin-top: 14px;
+    margin-left: 5px;
+}
+
+.bottleGenderWoman {
+    font-size: 12px;
+    color: #fd0000;
+    float: left;
+    text-align: left;
+    font-family: "Hui-iconfont" !important;
+    margin-top: 14px;
+    margin-left: 5px;
+}
+
+.bottleCity {
+    font-size: 12px;
+    color: #cacaca;
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px
+}
+
+.cityiconfont {
+    float: right;
+    font-size: 18px;
+    margin-right: 3px;
+    color: #cacaca;
+    text-align: right;
+    font-family: "Hui-iconfont" !important;
+    margin-top: 10px;
+}
+
+.throwBottle {
+    float: left;
+    font-size: 16px;
+    margin-right: 3px;
+    color: #f5f5f5;
+    text-align: right;
+    font-family: "Hui-iconfont" !important;
+}
+
+.myBottleList {
+    height: 80px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 1px solid #ece3e3;
+    border-radius: 2px;
+}
+
+.headshot {
+    float: left;
+    padding-top: 6px;
+}
+
+.img-headshot {
+    border-radius: 200px;
+}
+
+.modeluserInfo {
+    float: left;
+    margin-left: 10px;
+}
+
+.time {
+    float: right;
+    margin-right: 20px;
+    margin-top: 22px;
+    color: #636b63;
+}
+
+.mymodal-body {
+    position: relative;
+    padding: 15px;
+    overflow-y: scroll;
+    height: 460px;
+}
+
+
+.replymodal-body {
+    position: relative;
+    overflow-y: scroll;
+    height: 456px;
+}
+
+.replyBottleList {
+    height: 70px;
+    padding-left: 10px;
+    padding-top: 7px;
+    border-radius: 2px;
+    border-bottom: 1px solid #e2d9d9;
+}
+
+.cityArea {
+    margin-top: 25px;
+}
+
+.replyTime {
+    margin-top: 5px;
+    color: #9494a5;
+}
+
+.form-group {
+    border-bottom: 1px solid #e2d9d9;
+}
+
+.returnhome {
+    float: left;
+    cursor: pointer
+}
+
+.SendBottle {
+    width: 70px;
+    background-color: #d2ae0d;
+    height: 30px;
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-left: 7px;
+    cursor: pointer
+}
+
+
+.unreadBottleList {
+    float: right;
+    background: red;
+    width: 1.9em;
+    border-radius: 50%;
+    font-size: 0.7em;
+    line-height: 1.9;
+    text-align: center;
+    margin-right: 4px;
+    color: white
+}

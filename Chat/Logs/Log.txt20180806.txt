@@ -1,0 +1,166 @@
+[2018-08-06 17:44:16.993] logerror.Exception 6 
+控制器(类)名：LoginRepository,方法名：GetUserInfoByMobile,调用堆栈：System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL Network Interfaces, error: 26 - 定位指定的服务器/实例时出错)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType)
+   在 Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Chat.Repository.LoginRepository.GetUserInfoByMobile(String mobile) 位置 E:\MyChat\MyChat\Chat.Repository\LoginRepository.cs:行号 32
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20,消息提示：入参：18721019895
+[2018-08-06 17:44:17.036] logperformance.Performance 6 
+页面/,线程id=6,Action执行时间16384毫秒
+[2018-08-06 17:44:55.947] logerror.Exception 6 
+控制器(类)名：LoginRepository,方法名：GetUserInfoByMobile,调用堆栈：System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL Network Interfaces, error: 26 - 定位指定的服务器/实例时出错)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType)
+   在 Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Chat.Repository.LoginRepository.GetUserInfoByMobile(String mobile) 位置 E:\MyChat\MyChat\Chat.Repository\LoginRepository.cs:行号 32
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20,消息提示：入参：18721019895
+[2018-08-06 17:44:55.982] logperformance.Performance 6 
+页面/Login/Login,线程id=6,Action执行时间16246毫秒
+[2018-08-06 17:45:11.197] logperformance.Performance 6 
+页面/,线程id=6,Action执行时间195毫秒
+[2018-08-06 17:45:11.428] logperformance.Performance 6 
+页面/WebSite/Chat,线程id=6,Action执行时间4毫秒
+[2018-08-06 17:45:14.503] logperformance.Performance 8 
+页面/Chat/GetChatFriendList?order=asc&_=1533548713919,线程id=8,Action执行时间158毫秒
+[2018-08-06 17:45:14.943] logperformance.Performance 8 
+页面/Chat/GetChatContentHistory,线程id=8,Action执行时间248毫秒
+[2018-08-06 17:45:15.108] logperformance.Performance 7 
+页面/Chat/GetChatContent,线程id=7,Action执行时间64毫秒
+[2018-08-06 17:45:15.149] logperformance.Performance 8 
+页面/Chat/UpdateReadTime,线程id=8,Action执行时间29毫秒
+[2018-08-06 17:45:40.685] logperformance.Performance 7 
+页面/Chat/RefrashUnReadMsg,线程id=7,Action执行时间25039毫秒
+[2018-08-06 17:45:42.117] logperformance.Performance 8 
+页面/Common/GenderComboboxV1,线程id=8,Action执行时间37毫秒
+[2018-08-06 17:45:42.125] logperformance.Performance 6 
+页面/Common/BloodTypeCombobox,线程id=6,Action执行时间1毫秒
+[2018-08-06 17:46:18.080] logperformance.Performance 9 
+页面/Friend/GetFriendList?order=asc&_=1533548777724,线程id=9,Action执行时间91毫秒
+[2018-08-06 17:46:18.564] logperformance.Performance 9 
+页面/Friend/GetNewFriendList,线程id=9,Action执行时间29毫秒
+[2018-08-06 17:46:35.379] logperformance.Performance 9 
+页面/Friend/GetFriendList?order=asc&_=1533548795134,线程id=9,Action执行时间85毫秒
+[2018-08-06 17:46:35.888] logperformance.Performance 6 
+页面/Friend/GetNewFriendList,线程id=6,Action执行时间19毫秒
+[2018-08-06 18:01:20.374] logperformance.Performance 6 
+页面/,线程id=6,Action执行时间261毫秒
+[2018-08-06 18:01:20.534] logperformance.Performance 7 
+页面/WebSite/Chat,线程id=7,Action执行时间7毫秒
+[2018-08-06 18:01:24.088] logperformance.Performance 8 
+页面/Chat/GetChatFriendList?order=asc&_=1533549683697,线程id=8,Action执行时间110毫秒
+[2018-08-06 18:01:24.641] logperformance.Performance 7 
+页面/Chat/GetChatContentHistory,线程id=7,Action执行时间385毫秒
+[2018-08-06 18:01:24.893] logperformance.Performance 7 
+页面/Chat/UpdateReadTime,线程id=7,Action执行时间113毫秒
+[2018-08-06 18:01:50.354] logperformance.Performance 6 
+页面/Chat/RefrashUnReadMsg,线程id=6,Action执行时间25061毫秒
+[2018-08-06 18:01:50.669] logperformance.Performance 7 
+页面/Chat/GetChatContent,线程id=7,Action执行时间24毫秒
+[2018-08-06 18:01:51.152] logperformance.Performance 9 
+页面/Chat/GetChatFriendList?order=asc&_=1533549710786,线程id=9,Action执行时间126毫秒
+[2018-08-06 18:02:16.292] logperformance.Performance 6 
+页面/Chat/RefrashUnReadMsg,线程id=6,Action执行时间25050毫秒
+[2018-08-06 18:02:16.514] logperformance.Performance 9 
+页面/Chat/UpdateReadTime,线程id=9,Action执行时间12毫秒
+[2018-08-06 18:02:16.613] logperformance.Performance 7 
+页面/Chat/GetChatContentHistory,线程id=7,Action执行时间30毫秒
+[2018-08-06 18:02:16.667] logperformance.Performance 8 
+页面/Chat/GetChatContent,线程id=8,Action执行时间17毫秒
+[2018-08-06 18:02:18.063] logperformance.Performance 7 
+页面/Common/GenderComboboxV1,线程id=7,Action执行时间7毫秒
+[2018-08-06 18:02:18.569] logperformance.Performance 7 
+页面/Common/BloodTypeCombobox,线程id=7,Action执行时间1毫秒
+[2018-08-06 18:08:52.148] logperformance.Performance 8 
+页面/Add/GetUserList?PageIndex=1&_=1533550131774,线程id=8,Action执行时间63毫秒
+[2018-08-06 18:08:52.524] logperformance.Performance 12 
+页面/Common/AgeCombobox,线程id=12,Action执行时间1毫秒
+[2018-08-06 18:08:52.571] logperformance.Performance 16 
+页面/Common/ProvinceCombobox,线程id=16,Action执行时间27毫秒
+[2018-08-06 18:08:57.571] logperformance.Performance 8 
+页面/Friend/GetFriendList?order=asc&_=1533550137158,线程id=8,Action执行时间160毫秒
+[2018-08-06 18:08:58.089] logperformance.Performance 17 
+页面/Friend/GetNewFriendList,线程id=17,Action执行时间33毫秒
+[2018-08-06 18:08:58.808] logperformance.Performance 12 
+页面/Friend/UserDetail,线程id=12,Action执行时间48毫秒
+[2018-08-06 18:08:59.894] logperformance.Performance 7 
+页面/Friend/GetNewFriendList,线程id=7,Action执行时间19毫秒
+[2018-08-06 18:09:00.561] logperformance.Performance 7 
+页面/Friend/UserDetail,线程id=7,Action执行时间24毫秒
+[2018-08-06 18:09:01.209] logperformance.Performance 7 
+页面/Friend/GetNewFriendList,线程id=7,Action执行时间14毫秒
+[2018-08-06 18:09:01.681] logperformance.Performance 12 
+页面/Friend/UserDetail,线程id=12,Action执行时间39毫秒
+[2018-08-06 18:09:02.067] logperformance.Performance 8 
+页面/Friend/GetNewFriendList,线程id=8,Action执行时间31毫秒
+[2018-08-06 18:09:02.452] logperformance.Performance 12 
+页面/Friend/UserDetail,线程id=12,Action执行时间34毫秒
+[2018-08-06 18:09:04.010] logperformance.Performance 7 
+页面/Common/BloodTypeCombobox,线程id=7,Action执行时间3毫秒
+[2018-08-06 18:13:41.979] logperformance.Performance 5 
+页面/,线程id=5,Action执行时间199毫秒
+[2018-08-06 18:13:42.185] logperformance.Performance 6 
+页面/WebSite/Chat,线程id=6,Action执行时间4毫秒
+[2018-08-06 18:13:45.371] logperformance.Performance 7 
+页面/Chat/GetChatFriendList?order=asc&_=1533550424791,线程id=7,Action执行时间138毫秒
+[2018-08-06 18:13:45.932] logperformance.Performance 6 
+页面/Chat/GetChatContentHistory,线程id=6,Action执行时间315毫秒
+[2018-08-06 18:13:46.084] logperformance.Performance 7 
+页面/Chat/GetChatContent,线程id=7,Action执行时间59毫秒
+[2018-08-06 18:14:11.610] logperformance.Performance 8 
+页面/Chat/RefrashUnReadMsg,线程id=8,Action执行时间25039毫秒
+[2018-08-06 18:14:12.417] logperformance.Performance 7 
+页面/Chat/UpdateReadTime,线程id=7,Action执行时间67毫秒
+[2018-08-06 18:14:12.643] logperformance.Performance 7 
+页面/Common/GenderComboboxV1,线程id=7,Action执行时间3毫秒
+[2018-08-06 18:14:13.148] logperformance.Performance 7 
+页面/Common/BloodTypeCombobox,线程id=7,Action执行时间1毫秒
+[2018-08-06 18:14:26.978] logperformance.Performance 5 
+页面/UserInfo/UpLoadHeadPhoto,线程id=5,Action执行时间125毫秒
+[2018-08-06 18:14:41.721] logperformance.Performance 5 
+页面/Friend/GetNewFriendList,线程id=5,Action执行时间137毫秒
+[2018-08-06 18:14:42.258] logperformance.Performance 5 
+页面/Friend/GetFriendList?order=asc&_=1533550481354,线程id=5,Action执行时间51毫秒
+[2018-08-06 18:14:44.007] logperformance.Performance 7 
+页面/Chat/GetChatFriendList?order=asc&_=1533550483592,线程id=7,Action执行时间154毫秒
+[2018-08-06 18:14:44.059] logperformance.Performance 7 
+页面/Chat/UpdateReadTime,线程id=7,Action执行时间13毫秒
+[2018-08-06 18:15:09.582] logperformance.Performance 10 
+页面/Chat/RefrashUnReadMsg,线程id=10,Action执行时间25036毫秒
+[2018-08-06 18:15:09.897] logperformance.Performance 15 
+页面/Chat/GetChatContentHistory,线程id=15,Action执行时间35毫秒
+[2018-08-06 18:15:09.980] logperformance.Performance 10 
+页面/Chat/GetChatContent,线程id=10,Action执行时间27毫秒
+[2018-08-06 18:15:11.103] logperformance.Performance 10 
+页面/Add/GetUserList?PageIndex=1&_=1533550510696,线程id=10,Action执行时间42毫秒
+[2018-08-06 18:15:11.528] logperformance.Performance 15 
+页面/Common/ProvinceCombobox,线程id=15,Action执行时间18毫秒
+[2018-08-06 18:15:11.573] logperformance.Performance 13 
+页面/Common/AgeCombobox,线程id=13,Action执行时间2毫秒
+[2018-08-06 18:42:17.493] logperformance.Performance 59 
+页面/UserInfo/UpLoadHeadPhoto,线程id=59,Action执行时间112毫秒

@@ -1,0 +1,65 @@
+﻿@{
+    ViewBag.Title = "AboutUs";
+    Layout = "~/Areas/WebSite/Views/Home/Index.cshtml";
+}
+
+<head>
+    <title>聊天</title>
+    <link type="text/css" href="@Url.Content("~/Content/css/chat.css")" rel="stylesheet" />
+    <script type="text/javascript" src="@Url.Content("~/Content/script/chat.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/bootstrap/js/bootstrap-contextmenu.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/prettify/prettify.js")"></script>
+    <link type="text/css" href="@Url.Content("~/Content/prettify/prettify.css")" rel="stylesheet" />
+    <script src="/Content/jquery/jquery.signalR-2.1.2.min.js"></script>
+    <script src="/signalr/hubs"></script>
+</head>
+
+@*变量*@
+<input id="hiddenOriginId" type="hidden" />
+<input id="hiddenFriendId" type="hidden" />
+<input id="hiddenLastTime" type="hidden" />
+
+<div style="width:100%;height:100%;box-shadow: 0px 0px 5px #837c7c;background-color:white">
+    @*用户列表*@
+    <div class="UserList" id="UserList">
+        <div class="SearchArea">
+            <div class="SearchInput">
+                <input id="searchContent" style="width:170px;height:30px" type="text" class="form-control" placeholder="搜索" />
+            </div>
+            <div class="SearchBtn">
+                <a class="btn btn-custom btn-search" id="Search">查找</a>
+            </div>
+        </div>
+        <div class="BootstrapTable">
+            <table id="table" data-toggle="context"></table>
+        </div>
+    </div>
+    @*聊天记录*@
+    <div id="ChatContent" class="ChatContent">
+        <div class="ChatTitle">
+            <h4 id="contentTitle" style="padding-left:20px"></h4>
+        </div>
+        <div class="ChatHistory" id="ChatHistory">
+
+        </div>
+        <div style="height:25%">
+            <div style="height:70%">
+                <textarea id="Content" class="form-control" rows="4"></textarea>
+            </div>
+            <div class="CtrlEnter">
+                <span style="color:gray">Ctrl+回车&nbsp;&nbsp;&nbsp;</span>
+                <a class="btn btn-custom btn-search" id="Submit">发送</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@*右击菜单*@
+<div id="context-menu">
+    <ul class="dropdown-menu" role="menu" style="min-width:120px">
+        <li><a tabindex="-1">删除聊天</a></li>
+        <li><a tabindex="-1">置顶</a></li>
+        <li><a tabindex="-1">消息免打扰</a></li>
+    </ul>
+</div>

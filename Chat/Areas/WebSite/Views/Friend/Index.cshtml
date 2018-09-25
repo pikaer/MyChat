@@ -1,0 +1,86 @@
+﻿@{
+    ViewBag.Title = "AboutUs";
+    Layout = "~/Areas/WebSite/Views/Home/Index.cshtml";
+}
+<head>
+    <title>添加好友</title>
+    <link type="text/css" href="@Url.Content("~/Content/css/friend.css")" rel="stylesheet" />
+    <script type="text/javascript" src="@Url.Content("~/Content/script/friend.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/bootstrap/js/bootstrap-contextmenu.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/prettify/prettify.js")"></script>
+    <link type="text/css" href="@Url.Content("~/Content/prettify/prettify.css")" rel="stylesheet" />
+</head>
+<div style="width:100%;height:100%;box-shadow: 0px 0px 5px #837c7c">
+    <div id="UserList">
+        <div class="friendLeft">
+            <div style="float: left;padding-top:10px;padding-left:5px">
+                @*动态参数*@
+                <input id="hiddenFriendId" type="hidden" />
+                <input id="hiddenLastTime" type="hidden" />
+                <input id="searchContent" type="text" class="form-control" placeholder="搜索" />
+            </div>
+            <div style="float: left;padding-left:15px;padding-top:10px">
+                <a class="btn btn-custom btn-search" id="FriendSearch">查找</a>
+            </div>
+        </div>
+        @*右边区域*@
+        <div class="friendRight">
+            @*新朋友*@
+            <div style="border-bottom:1px solid #bfbbbb;height:60px" onclick="NewFriend()">
+                <div class="addfriend-iconfont">&#xe607;</div>
+                <div style="float:right;margin-top:23px;margin-right:142px;font-size:16px;">新朋友</div>
+            </div>
+            @*好友列表*@
+            <table id="table" data-toggle="context" data-target='#context-menu'></table>
+        </div>
+    </div>
+    <div style="width:70%; height: 100%;float:left;" id="ChatContent">
+        <div style="border-top:1px solid #d8d7d7;height:100%;background-color:white" id="ChatHistory">
+            <div style="">
+                @*新好友请求*@
+                <input id="hiddenReqId" type="hidden" />
+                <div id="newFriend" class="newFriend"></div>
+                @*好友详情页*@
+                <div id="FriendDetail" class="FriendDetail">
+                    <div style="float:left;margin-left:230px" id="HeadshotPath">
+                        <img src="/Content/img/headshot/middle_100/pikaer.jpg" style="border-radius:0px">
+                    </div>
+                    <div style="float:left;margin-top:5px">
+                        <input id="hiddenOriginId" type="hidden" />
+                        @*昵称*@
+                        <div id="NickName"></div>
+                        <span class="woman-iconfont" id="IconGender">&#xe62c;</span>
+                        @*个性签名*@
+                        <div id="Signature"></div>
+                    </div>
+                    <div style="padding-top:70px;margin-left:110px;margin-right:100px">
+                        <hr class="horizontalline" />
+                    </div>
+                    @*备注*@
+                    <div class="Detail" id="DescName"></div>
+                    @*地址*@
+                    <div class="Detail" id="AddRess"></div>
+                    @*账号*@
+                    <div class="Detail" id="Acount"></div>
+                    @*来源*@
+                    <div class="Detail" id="Resource"></div>
+                    <div class="btnSend" onclick="SendMsh()">发消息</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    @*右击菜单*@
+    <div id="context-menu">
+        <ul class="dropdown-menu" role="menu" style="min-width:120px;cursor:pointer">
+            <li><a tabindex="-1" onclick="SendMsh()">发消息</a></li>
+            <li><a tabindex="-1" onclick="DeleteFriend()">删除朋友</a></li>
+        </ul>
+    </div>
+    @*右击删除菜单*@
+    <div id="context-delete">
+        <ul class="dropdown-menu" role="menu" style="min-width:70px;padding:2px;cursor:pointer">
+            <li><a tabindex="-1" onclick="DeleteAddRequest()">删除</a></li>
+        </ul>
+    </div>

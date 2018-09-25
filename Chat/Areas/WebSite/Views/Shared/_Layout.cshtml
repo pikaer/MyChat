@@ -1,0 +1,26 @@
+﻿<html>
+<head>
+    <meta name="renderer" content="webkit" />    @*网站默认所有浏览器打开方式为极速模式*@
+    @Html.Partial("_PartialHead")
+    @this.RenderSection("Head_JsAndCss", false)
+    <title></title>
+    <style>
+        .shadowBox {
+            box-shadow: 0px 0px 5px #ccc;
+            background-color: #fff;
+        }
+
+        html, body {
+            margin: 0px;
+            height: 100%;
+        }
+    </style>
+</head>
+<body style="overflow:scroll;overflow:hidden;background-color:#d0c1e4" >
+    <div role="main" style="height:600px;width:1000px;margin:auto;position:absolute;left:0;top:0;bottom:0; right: 0;">
+        <div style="height:100%;width:100%;float:left;">
+            @RenderBody()
+        </div>
+    </div>
+</body>
+</html>

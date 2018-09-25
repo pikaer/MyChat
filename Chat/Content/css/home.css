@@ -1,0 +1,66 @@
+﻿
+/*去除默认自带的轮廓和阴影*/
+.shadowBox {
+    box-shadow: 0px 0px 0px black;
+}
+
+.LeftArea {
+    width: 7%;
+    height: 100%;
+    background-color: black;
+    float: left;
+}
+.BtnImgIcon {
+    height: 55px;
+    margin: auto;
+    padding: 13px;
+}
+
+.BtnIcon {
+    height:85px;
+    margin:auto;
+    padding:20px;
+}
+
+.BtnSetIcon {
+    height:85px;
+    margin:auto;
+    padding:26px;
+    margin-top:40px;
+}
+
+.config-iconfont {
+    font-size: 25px;
+    color: white;
+    -webkit-transition: font-size 0.25s ease-out 0s;
+    -moz-transition: font-size 0.25s ease-out 0s;
+    transition: font-size 0.25s ease-out 0s;
+    text-align: center;
+    font-family: "Hui-iconfont" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+}
+
+    .config-iconfont:hover {
+        font-size: 28px;
+        color: #4cff00;
+    }
+
+.default-iconfont {
+    font-size: 32px;
+    color: white;
+    -webkit-transition: font-size 0.25s ease-out 0s;
+    -moz-transition: font-size 0.25s ease-out 0s;
+    transition: font-size 0.25s ease-out 0s;
+    text-align: center;
+    font-family: "Hui-iconfont" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+}
+
+    .default-iconfont:hover {
+        font-size: 35px;
+        color: #4cff00;
+    }

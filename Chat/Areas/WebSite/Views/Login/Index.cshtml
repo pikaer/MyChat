@@ -1,0 +1,29 @@
+﻿<html>
+<head>
+    <title>登录</title>
+    @Html.Partial("_PartialHead")
+    <script type="text/javascript" src="@Url.Content("~/Content/script/login.js")"></script>
+</head>
+<body style="height:100%;background-color:#a5f9ed" >
+    <div role="main" style="height:320px;width:345px;margin:auto;position:absolute;left:0;top:0;bottom:0;right:0;background-color:white;border-radius:10px;border-top:1px solid #a5b6a3">
+        <div style="margin-top:20px;margin-left:50px">
+            <h3 id="txtTitle" style="padding-left:75px">登录 Chat</h3>
+        </div>
+        <div style="margin-top:20px;margin-left:50px">
+            <input id="Mobile" style="width:250px;height:40px" type="text" class="form-control" placeholder="手机号" />
+            <span style="background-color:white;color:red;margin-left:28px" id="validateMobile"></span>
+        </div>
+        <div style="margin-top:5px;margin-left:50px">
+            <input id="Pwd" style="width:250px;height:40px" type="password" class="form-control" placeholder="密码" />
+            <span style="background-color:white;color:red;margin-left:28px" id="validatePwd"></span>
+        </div>
+        <div style="margin-top:5px;margin-left:50px">
+            <a class="btn btn-custom btn-search" id="Submit" onclick="LoginorRegister()" style="width:250px">登 录</a>
+            <span style="background-color:white;color:red;margin-left:28px" id="validateTxt"></span>
+        </div>
+        <div style="margin-top:10px;margin-left:50px">
+            <span style="float:left;background-color:white;color:#000000;margin-top:0px;margin-left:65px" id="spanHasAcount">没有账号 </span><span style="float:left;background-color:white;color:#13efdf;margin-top:0px;margin-left:0px;cursor:pointer" id="btnHasAcount" onclick="txtChange()"> 立即注册 </span>
+        </div>
+    </div>
+</body>
+</html>

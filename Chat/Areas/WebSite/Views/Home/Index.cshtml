@@ -1,0 +1,76 @@
+﻿@using Chat.Helper
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/WebSite/Views/Shared/_Layout.cshtml";
+}
+@section Head_JsAndCss
+    {
+    <head>
+        <meta charset="UTF-8">
+        <title>Chat</title>
+        <link rel="stylesheet" href="@Url.Content("~/Content/img/iconfont/iconfont.css")" />
+        <link type="text/css" href="@Url.Content("~/Content/css/home.css")" rel="stylesheet" />
+        <script type="text/javascript" src="@Url.Content("~/Content/script/home.js")"></script>
+    </head>
+}
+@*当前登录用户头像地址（50像素）*@
+<input id="hiddenDefaultPath_50" type="hidden" />
+
+@*左边黑色背景导航*@
+<div style="height:100%;width:100%;">
+    <div class="LeftArea" style="box-shadow: 0px 0px 5px #837c7c">
+        <div class="BtnImgIcon" id="DefaultPath_50">
+            @*<img src="~/Content/img/headshot/min_50/pikaer.png" style="border-radius:2px">*@
+        </div>
+        <div class="BtnIcon">
+            <a class="default-iconfont" style="text-decoration: none" href="@Url.Action("Index", "Add")">&#xe600;</a>
+        </div>
+        <div class="BtnIcon">
+            <a class="default-iconfont" style="text-decoration: none" href="@Url.Action("Index", "Chat")">&#xe622;</a>
+        </div>
+        <div class="BtnIcon">
+            <a class="default-iconfont" style="text-decoration: none" href="@Url.Action("Index", "Friend")">&#xe611;</a>
+        </div>
+        <div class="BtnIcon">
+            <a class="default-iconfont" style="text-decoration: none" href="@Url.Action("Index", "Discovery")">&#xe683;</a>
+        </div>
+        <div class="BtnIcon">
+            <a class="default-iconfont" style="text-decoration: none" href="@Url.Action("Index", "UserInfo")">&#xe61d;</a>
+        </div>
+        <div class="BtnSetIcon">
+            <a class="config-iconfont" style="text-decoration: none" href="@Url.Action("Index", "Config")">&#xe667;</a>
+        </div>
+    </div>
+    <div style="padding-right: 0px;padding-left: 0px;float:left;height:100%;width:93%">
+        @RenderBody()
+    </div>
+</div>
+
+
+
+<!-- 添加好友模态框（Modal） -->
+<div class="modal fade" id="addModel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden:true; data-backdrop:static >
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content" style="width:300px;height:320px">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h5 class="modal-title" id="myModalLabel">添加好友</h5>
+            </div>
+            <div class="modal-body">
+                <div class="form-group" id="divReqContent">
+                    <label for="ReqContent">请输入验证信息：</label>
+                    <textarea rows="5" name="ReqContent" class="form-control" id="ReqContent" style="resize:none"></textarea>
+                </div>
+                <div class="form-group" id="divDescName" style="display:none">
+                    <label for="DescName">备注姓名：</label>
+                    <textarea rows="5" name="DescName" class="form-control" id="DescName" style="resize:none"></textarea>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>取消</button>
+                <button type="button" id="btn_next" class="btn btn-primary" onclick="Next_Submit()"><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>下一步</button>
+                <button type="button" id="btn_submit" class="btn btn-primary" style="display:none" onclick="Submit()"><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>提交</button>
+            </div>
+        </div>
+    </div>
+</div>

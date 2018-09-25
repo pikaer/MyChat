@@ -1,0 +1,137 @@
+﻿
+.ConfigArea{
+    width:100%;
+    height:100%;
+    box-shadow: 0px 0px 5px #837c7c;
+    background-color:white
+}
+
+#LeftArea{
+    width:20%; 
+    height: 100%;
+    float:left;
+    background-color: #eee;
+    padding-bottom:200px
+}
+
+#RightArea{
+    width:80%;
+     height: 100%;
+     float:right;
+}
+
+.config{
+    width: 100%;
+    height: 45px;
+    font-size: 16px;
+    padding-left: 60px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.configClick{
+    width: 100%;
+    height: 45px;
+    font-size: 16px;
+    background-color: white;
+    padding-left: 60px;
+    padding-top: 10px;
+    border-right: 3px solid #20ecec;
+}
+
+.TitleContent {
+    border-bottom: 1px solid #9d9d9d;
+    padding-bottom: 160px;
+}
+
+#BasicInfoEdit{
+    display:none
+}
+
+.leftTitle {
+    float: left;
+    height: 30px;
+    padding-top: 2px;
+    margin-top: 10px;
+}
+
+#btnEdit{
+    float: left;
+    margin-right: 10px;
+    margin-left: 20px;
+    font-size: 28px;
+    color: #000;
+    text-align: center;
+    font-family: "Hui-iconfont" !important;
+    cursor:pointer
+}
+#btnEdit:hover{
+    color: blue;
+}
+
+.rightTitle {
+    float: left;
+    height: 30px;
+    padding-top: 2px;
+    padding-left: 50px;
+    margin-top: 10px;
+}
+
+.leftContent {
+    float: left;
+    margin-top: 10px;
+}
+
+.rightContent {
+    float: left;
+    margin-top: 10px;
+}
+
+.leftViewTitle{
+    float: left;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.rightviewTitle{
+     float: right;
+    margin-top: 10px;
+}
+.rightviewContent{
+     float: right;
+    margin-top: 10px;
+}
+
+.HometownArea {
+    margin-left: 52px;
+    margin-top: 35px;
+    border: none;
+    width: 800px;
+    height: 29px;
+    padding-left: 3px;
+    padding-top: 3px;
+    clear: left;
+    display: none;
+}
+
+.HomeArea {
+    margin-left: 52px;
+    margin-top: 35px;
+    border: none;
+    width: 800px;
+    height: 29px;
+    padding-left: 3px;
+    padding-top: 3px;
+    clear: left;
+    display: none;
+}
+
+.DateTimeArea {
+    margin-left: 52px;
+    border: none;
+    width: 160px;
+    height: 29px;
+    padding-left: 3px;
+    padding-top: 3px;
+    display: none;
+}

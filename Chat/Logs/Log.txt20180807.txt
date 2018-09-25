@@ -1,0 +1,293 @@
+[2018-08-07 14:00:54.086] logperformance.Performance 6 
+页面/,线程id=6,Action执行时间237毫秒
+[2018-08-07 14:00:54.284] logperformance.Performance 10 
+页面/WebSite/Chat,线程id=10,Action执行时间3毫秒
+[2018-08-07 14:00:57.223] logperformance.Performance 10 
+页面/Chat/GetChatFriendList?order=asc&_=1533621656817,线程id=10,Action执行时间82毫秒
+[2018-08-07 14:00:57.587] logperformance.Performance 10 
+页面/Chat/GetChatContentHistory,线程id=10,Action执行时间250毫秒
+[2018-08-07 14:00:57.761] logperformance.Performance 11 
+页面/Chat/GetChatContent,线程id=11,Action执行时间43毫秒
+[2018-08-07 14:00:58.026] logperformance.Performance 10 
+页面/Chat/UpdateReadTime,线程id=10,Action执行时间164毫秒
+[2018-08-07 14:00:58.580] logperformance.Performance 11 
+页面/Chat/RefrashUnReadMsg,线程id=11,Action执行时间38毫秒
+[2018-08-07 14:01:07.459] logerror.Exception 11 
+控制器(类)名：UserService,方法名：GetBasicInfo,调用堆栈：System.InvalidOperationException: 可为空的对象必须具有一个值。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Nullable`1.get_Value()
+   在 Chat.Service.Service.CommonService.HomeDesc(User dto) 位置 E:\MyChat\MyChat\Chat.Service\Service\CommonService.cs:行号 44
+   在 Chat.Service.Service.UserService.GetBasicInfo(Int64 userId) 位置 E:\MyChat\MyChat\Chat.Service\Service\UserService.cs:行号 152,消息提示：
+[2018-08-07 14:01:07.459] logperformance.Performance 11 
+页面/UserInfo/GetBasicInfo,线程id=11,Action执行时间128毫秒
+[2018-08-07 14:01:36.371] logperformance.Performance 6 
+页面/UserInfo/UpLoadHeadPhoto,线程id=6,Action执行时间125毫秒
+[2018-08-07 14:01:36.463] logerror.Exception 6 
+控制器(类)名：UserService,方法名：GetBasicInfo,调用堆栈：System.InvalidOperationException: 可为空的对象必须具有一个值。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Nullable`1.get_Value()
+   在 Chat.Service.Service.CommonService.HomeDesc(User dto) 位置 E:\MyChat\MyChat\Chat.Service\Service\CommonService.cs:行号 44
+   在 Chat.Service.Service.UserService.GetBasicInfo(Int64 userId) 位置 E:\MyChat\MyChat\Chat.Service\Service\UserService.cs:行号 152,消息提示：
+[2018-08-07 14:01:36.463] logperformance.Performance 6 
+页面/UserInfo/GetBasicInfo,线程id=6,Action执行时间66毫秒
+[2018-08-07 14:01:39.334] logerror.Exception 11 
+控制器(类)名：UserService,方法名：GetBasicInfo,调用堆栈：System.InvalidOperationException: 可为空的对象必须具有一个值。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Nullable`1.get_Value()
+   在 Chat.Service.Service.CommonService.HomeDesc(User dto) 位置 E:\MyChat\MyChat\Chat.Service\Service\CommonService.cs:行号 44
+   在 Chat.Service.Service.UserService.GetBasicInfo(Int64 userId) 位置 E:\MyChat\MyChat\Chat.Service\Service\UserService.cs:行号 152,消息提示：
+[2018-08-07 14:01:39.334] logperformance.Performance 11 
+页面/UserInfo/GetBasicInfo,线程id=11,Action执行时间56毫秒
+[2018-08-07 14:01:40.489] logerror.Exception 10 
+控制器(类)名：UserService,方法名：GetBasicInfo,调用堆栈：System.InvalidOperationException: 可为空的对象必须具有一个值。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Nullable`1.get_Value()
+   在 Chat.Service.Service.CommonService.HomeDesc(User dto) 位置 E:\MyChat\MyChat\Chat.Service\Service\CommonService.cs:行号 44
+   在 Chat.Service.Service.UserService.GetBasicInfo(Int64 userId) 位置 E:\MyChat\MyChat\Chat.Service\Service\UserService.cs:行号 152,消息提示：
+[2018-08-07 14:01:40.489] logperformance.Performance 10 
+页面/UserInfo/GetBasicInfo,线程id=10,Action执行时间62毫秒
+[2018-08-07 14:02:09.373] logerror.Exception 12 
+控制器(类)名：UserService,方法名：GetBasicInfo,调用堆栈：System.InvalidOperationException: 可为空的对象必须具有一个值。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Nullable`1.get_Value()
+   在 Chat.Service.Service.CommonService.HomeDesc(User dto) 位置 E:\MyChat\MyChat\Chat.Service\Service\CommonService.cs:行号 44
+   在 Chat.Service.Service.UserService.GetBasicInfo(Int64 userId) 位置 E:\MyChat\MyChat\Chat.Service\Service\UserService.cs:行号 152,消息提示：
+[2018-08-07 14:02:09.373] logperformance.Performance 12 
+页面/UserInfo/GetBasicInfo,线程id=12,Action执行时间80毫秒
+[2018-08-07 14:02:17.219] logerror.Exception 8 
+控制器(类)名：UserService,方法名：GetBasicInfo,调用堆栈：System.InvalidOperationException: 可为空的对象必须具有一个值。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Nullable`1.get_Value()
+   在 Chat.Service.Service.CommonService.HomeDesc(User dto) 位置 E:\MyChat\MyChat\Chat.Service\Service\CommonService.cs:行号 44
+   在 Chat.Service.Service.UserService.GetBasicInfo(Int64 userId) 位置 E:\MyChat\MyChat\Chat.Service\Service\UserService.cs:行号 152,消息提示：
+[2018-08-07 14:02:17.219] logperformance.Performance 8 
+页面/UserInfo/GetBasicInfo,线程id=8,Action执行时间56毫秒
+[2018-08-07 14:07:40.201] logperformance.Performance 6 
+页面/,线程id=6,Action执行时间252毫秒
+[2018-08-07 14:07:40.360] logperformance.Performance 7 
+页面/WebSite/Chat,线程id=7,Action执行时间4毫秒
+[2018-08-07 14:07:42.335] logperformance.Performance 6 
+页面/Chat/GetChatFriendList?order=asc&_=1533622062152,线程id=6,Action执行时间68毫秒
+[2018-08-07 14:07:42.697] logperformance.Performance 8 
+页面/Chat/GetChatContentHistory,线程id=8,Action执行时间186毫秒
+[2018-08-07 14:07:42.790] logperformance.Performance 7 
+页面/Chat/GetChatContent,线程id=7,Action执行时间40毫秒
+[2018-08-07 14:07:43.009] logperformance.Performance 9 
+页面/Chat/RefrashUnReadMsg,线程id=9,Action执行时间35毫秒
+[2018-08-07 14:07:43.507] logperformance.Performance 7 
+页面/Chat/UpdateReadTime,线程id=7,Action执行时间27毫秒
+[2018-08-07 14:08:38.838] logerror.Exception 8 
+控制器(类)名：UserService,方法名：GetBasicInfo,调用堆栈：System.InvalidOperationException: 可为空的对象必须具有一个值。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Nullable`1.get_Value()
+   在 Chat.Service.Service.UserService.GetBasicInfo(Int64 userId) 位置 E:\MyChat\MyChat\Chat.Service\Service\UserService.cs:行号 152,消息提示：
+[2018-08-07 14:08:38.838] logperformance.Performance 8 
+页面/UserInfo/GetBasicInfo,线程id=8,Action执行时间30061毫秒
+[2018-08-07 14:12:23.387] logperformance.Performance 5 
+页面/,线程id=5,Action执行时间233毫秒
+[2018-08-07 14:12:23.526] logperformance.Performance 6 
+页面/WebSite/Chat,线程id=6,Action执行时间4毫秒
+[2018-08-07 14:12:25.455] logperformance.Performance 5 
+页面/Chat/GetChatFriendList?order=asc&_=1533622345232,线程id=5,Action执行时间96毫秒
+[2018-08-07 14:12:25.850] logperformance.Performance 5 
+页面/Chat/GetChatContentHistory,线程id=5,Action执行时间247毫秒
+[2018-08-07 14:12:26.011] logperformance.Performance 5 
+页面/Chat/GetChatContent,线程id=5,Action执行时间61毫秒
+[2018-08-07 14:12:26.065] logperformance.Performance 8 
+页面/Chat/UpdateReadTime,线程id=8,Action执行时间25毫秒
+[2018-08-07 14:12:26.122] logperformance.Performance 6 
+页面/Chat/RefrashUnReadMsg,线程id=6,Action执行时间57毫秒
+[2018-08-07 14:12:35.661] logperformance.Performance 7 
+页面/UserInfo/GetBasicInfo,线程id=7,Action执行时间7808毫秒
+[2018-08-07 14:13:50.933] logperformance.Performance 10 
+页面/UserInfo/GetBasicInfo,线程id=10,Action执行时间32毫秒
+[2018-08-07 14:14:50.844] logperformance.Performance 8 
+页面/UserInfo/GetBasicInfo,线程id=8,Action执行时间33毫秒
+[2018-08-07 14:14:52.659] logperformance.Performance 8 
+页面/UserInfo/GetBasicInfo,线程id=8,Action执行时间14毫秒
+[2018-08-07 14:14:53.514] logperformance.Performance 8 
+页面/UserInfo/GetBasicInfo,线程id=8,Action执行时间13毫秒
+[2018-08-07 14:14:54.203] logperformance.Performance 10 
+页面/UserInfo/GetBasicInfo,线程id=10,Action执行时间19毫秒
+[2018-08-07 14:14:54.785] logperformance.Performance 8 
+页面/UserInfo/GetBasicInfo,线程id=8,Action执行时间13毫秒
+[2018-08-07 14:14:55.457] logperformance.Performance 6 
+页面/UserInfo/GetBasicInfo,线程id=6,Action执行时间19毫秒
+[2018-08-07 14:16:54.438] logperformance.Performance 10 
+页面/UserInfo/GetBasicInfo,线程id=10,Action执行时间112152毫秒
+[2018-08-07 14:16:56.095] logperformance.Performance 8 
+页面/UserInfo/GetBasicInfo,线程id=8,Action执行时间992毫秒
+[2018-08-07 14:18:11.678] logperformance.Performance 15 
+页面/UserInfo/GetBasicInfo,线程id=15,Action执行时间1869毫秒
+[2018-08-07 14:18:16.975] logperformance.Performance 6 
+页面/UserInfo/GetBasicInfo,线程id=6,Action执行时间1966毫秒
+[2018-08-07 14:18:53.289] logperformance.Performance 8 
+页面/UserInfo/GetBasicInfo,线程id=8,Action执行时间22588毫秒
+[2018-08-07 14:19:22.671] logperformance.Performance 6 
+页面/UserInfo/GetBasicInfo,线程id=6,Action执行时间3861毫秒
+[2018-08-07 14:19:53.505] logperformance.Performance 16 
+页面/UserInfo/GetBasicInfo,线程id=16,Action执行时间19998毫秒
+[2018-08-07 14:20:33.337] logperformance.Performance 16 
+页面/UserInfo/GetBasicInfo,线程id=16,Action执行时间119毫秒
+[2018-08-07 14:21:30.649] logperformance.Performance 14 
+页面/UserInfo/GetBasicInfo,线程id=14,Action执行时间15毫秒
+[2018-08-07 14:21:32.123] logperformance.Performance 14 
+页面/UserInfo/GetBasicInfo,线程id=14,Action执行时间13毫秒
+[2018-08-07 14:21:32.838] logperformance.Performance 17 
+页面/UserInfo/GetBasicInfo,线程id=17,Action执行时间17毫秒
+[2018-08-07 14:21:33.421] logperformance.Performance 14 
+页面/UserInfo/GetBasicInfo,线程id=14,Action执行时间13毫秒
+[2018-08-07 14:21:34.009] logperformance.Performance 12 
+页面/UserInfo/GetBasicInfo,线程id=12,Action执行时间25毫秒
+[2018-08-07 14:21:34.666] logperformance.Performance 12 
+页面/UserInfo/GetBasicInfo,线程id=12,Action执行时间27毫秒
+[2018-08-07 14:21:35.289] logperformance.Performance 14 
+页面/UserInfo/GetBasicInfo,线程id=14,Action执行时间48毫秒
+[2018-08-07 14:21:35.814] logperformance.Performance 12 
+页面/UserInfo/GetBasicInfo,线程id=12,Action执行时间32毫秒
+[2018-08-07 14:21:36.296] logperformance.Performance 17 
+页面/UserInfo/GetBasicInfo,线程id=17,Action执行时间17毫秒
+[2018-08-07 14:21:48.001] logperformance.Performance 12 
+页面/UserInfo/GetBasicInfo,线程id=12,Action执行时间17毫秒
+[2018-08-07 14:22:00.660] logperformance.Performance 14 
+页面/UserInfo/GetBasicInfo,线程id=14,Action执行时间87毫秒
+[2018-08-07 14:23:54.035] logperformance.Performance 6 
+页面/,线程id=6,Action执行时间162毫秒
+[2018-08-07 14:23:54.188] logperformance.Performance 7 
+页面/WebSite/Chat,线程id=7,Action执行时间3毫秒
+[2018-08-07 14:23:56.996] logperformance.Performance 8 
+页面/Chat/GetChatFriendList?order=asc&_=1533623036586,线程id=8,Action执行时间147毫秒
+[2018-08-07 14:23:57.251] logperformance.Performance 8 
+页面/Chat/UpdateReadTime,线程id=8,Action执行时间130毫秒
+[2018-08-07 14:23:57.636] logperformance.Performance 7 
+页面/Chat/RefrashUnReadMsg,线程id=7,Action执行时间60毫秒
+[2018-08-07 14:23:58.176] logperformance.Performance 9 
+页面/Chat/GetChatContentHistory,线程id=9,Action执行时间53毫秒
+[2018-08-07 14:23:58.280] logperformance.Performance 7 
+页面/Chat/GetChatContent,线程id=7,Action执行时间31毫秒
+[2018-08-07 14:24:00.006] logperformance.Performance 9 
+页面/UserInfo/GetBasicInfo,线程id=9,Action执行时间84毫秒
+[2018-08-07 14:24:02.769] logperformance.Performance 8 
+页面/UserInfo/GetBasicInfo,线程id=8,Action执行时间26毫秒
+[2018-08-07 14:24:12.928] logperformance.Performance 8 
+页面/UserInfo/GetBasicInfo,线程id=8,Action执行时间27毫秒
+[2018-08-07 14:26:46.823] logperformance.Performance 8 
+页面/UserInfo/GetBasicInfo,线程id=8,Action执行时间23毫秒
+[2018-08-07 14:28:12.924] logperformance.Performance 9 
+页面/UserInfo/GetBasicInfo,线程id=9,Action执行时间16毫秒
+[2018-08-07 14:28:15.250] logperformance.Performance 8 
+页面/UserInfo/GetBasicInfo,线程id=8,Action执行时间45毫秒
+[2018-08-07 14:28:16.032] logperformance.Performance 9 
+页面/UserInfo/GetBasicInfo,线程id=9,Action执行时间20毫秒
+[2018-08-07 14:28:16.614] logperformance.Performance 9 
+页面/UserInfo/GetBasicInfo,线程id=9,Action执行时间18毫秒
+[2018-08-07 14:28:20.108] logperformance.Performance 9 
+页面/UserInfo/GetBasicInfo,线程id=9,Action执行时间36毫秒
+[2018-08-07 14:28:24.723] logperformance.Performance 8 
+页面/UserInfo/GetBasicInfo,线程id=8,Action执行时间26毫秒
+[2018-08-07 14:29:00.301] logperformance.Performance 11 
+页面/UserInfo/GetBasicInfo,线程id=11,Action执行时间17毫秒
+[2018-08-07 14:29:30.001] logperformance.Performance 6 
+页面/WebSite/UserInfo/Index,线程id=6,Action执行时间38毫秒
+[2018-08-07 14:29:33.736] logperformance.Performance 6 
+页面/Login/Index,线程id=6,Action执行时间135毫秒
+[2018-08-07 14:29:34.688] logperformance.Performance 8 
+页面/Chat/GetChatFriendList?order=asc&_=1533623374310,线程id=8,Action执行时间129毫秒
+[2018-08-07 14:29:34.887] logperformance.Performance 7 
+页面/Chat/RefrashUnReadMsg,线程id=7,Action执行时间43毫秒
+[2018-08-07 14:29:35.571] logperformance.Performance 8 
+页面/Chat/UpdateReadTime,线程id=8,Action执行时间185毫秒
+[2018-08-07 14:29:35.907] logperformance.Performance 7 
+页面/Chat/GetChatContentHistory,线程id=7,Action执行时间56毫秒
+[2018-08-07 14:29:36.065] logperformance.Performance 8 
+页面/Chat/GetChatContent,线程id=8,Action执行时间74毫秒
+[2018-08-07 14:29:36.771] logperformance.Performance 7 
+页面/UserInfo/GetBasicInfo,线程id=7,Action执行时间44毫秒
+[2018-08-07 14:29:38.420] logperformance.Performance 8 
+页面/UserInfo/GetBasicInfo,线程id=8,Action执行时间25毫秒
+[2018-08-07 14:29:39.518] logperformance.Performance 7 
+页面/UserInfo/GetBasicInfo,线程id=7,Action执行时间49毫秒
+[2018-08-07 14:29:40.057] logperformance.Performance 9 
+页面/UserInfo/GetBasicInfo,线程id=9,Action执行时间19毫秒
+[2018-08-07 14:29:40.644] logperformance.Performance 7 
+页面/UserInfo/GetBasicInfo,线程id=7,Action执行时间11毫秒
+[2018-08-07 14:29:41.243] logperformance.Performance 7 
+页面/UserInfo/GetBasicInfo,线程id=7,Action执行时间15毫秒
+[2018-08-07 14:29:41.861] logperformance.Performance 6 
+页面/UserInfo/GetBasicInfo,线程id=6,Action执行时间16毫秒
+[2018-08-07 14:30:13.162] logperformance.Performance 9 
+页面/UserInfo/GetBasicInfo,线程id=9,Action执行时间28毫秒
+[2018-08-07 14:32:22.473] logperformance.Performance 5 
+页面/,线程id=5,Action执行时间225毫秒
+[2018-08-07 14:32:22.634] logperformance.Performance 6 
+页面/WebSite/Chat,线程id=6,Action执行时间3毫秒
+[2018-08-07 14:32:24.814] logperformance.Performance 7 
+页面/Chat/GetChatFriendList?order=asc&_=1533623544480,线程id=7,Action执行时间146毫秒
+[2018-08-07 14:32:25.163] logperformance.Performance 7 
+页面/Chat/GetChatContentHistory,线程id=7,Action执行时间155毫秒
+[2018-08-07 14:32:25.254] logperformance.Performance 6 
+页面/Chat/GetChatContent,线程id=6,Action执行时间36毫秒
+[2018-08-07 14:32:25.531] logperformance.Performance 7 
+页面/Chat/RefrashUnReadMsg,线程id=7,Action执行时间66毫秒
+[2018-08-07 14:32:25.988] logperformance.Performance 6 
+页面/Chat/UpdateReadTime,线程id=6,Action执行时间23毫秒
+[2018-08-07 14:32:27.445] logperformance.Performance 7 
+页面/UserInfo/GetBasicInfo,线程id=7,Action执行时间37毫秒
+[2018-08-07 14:32:40.118] logperformance.Performance 6 
+页面/UserInfo/UpLoadHeadPhoto,线程id=6,Action执行时间186毫秒
+[2018-08-07 14:32:40.208] logperformance.Performance 12 
+页面/UserInfo/GetBasicInfo,线程id=12,Action执行时间17毫秒
+[2018-08-07 14:32:52.429] logperformance.Performance 6 
+页面/UserInfo/UpLoadHeadPhoto,线程id=6,Action执行时间126毫秒
+[2018-08-07 14:32:52.481] logperformance.Performance 6 
+页面/UserInfo/GetBasicInfo,线程id=6,Action执行时间17毫秒
+[2018-08-07 14:33:16.689] logperformance.Performance 6 
+页面/UserInfo/UpLoadHeadPhoto,线程id=6,Action执行时间82毫秒
+[2018-08-07 14:33:16.739] logperformance.Performance 6 
+页面/UserInfo/GetBasicInfo,线程id=6,Action执行时间19毫秒
+[2018-08-07 14:33:18.771] logperformance.Performance 8 
+页面/Friend/GetFriendList?order=asc&_=1533623598625,线程id=8,Action执行时间22毫秒
+[2018-08-07 14:33:19.271] logperformance.Performance 5 
+页面/Friend/GetNewFriendList,线程id=5,Action执行时间28毫秒
+[2018-08-07 14:33:21.592] logperformance.Performance 8 
+页面/Chat/GetChatFriendList?order=asc&_=1533623601361,线程id=8,Action执行时间137毫秒
+[2018-08-07 14:33:21.662] logperformance.Performance 5 
+页面/Chat/GetChatContentHistory,线程id=5,Action执行时间32毫秒
+[2018-08-07 14:33:21.737] logperformance.Performance 8 
+页面/Chat/GetChatContent,线程id=8,Action执行时间33毫秒
+[2018-08-07 14:33:22.164] logperformance.Performance 12 
+页面/Chat/RefrashUnReadMsg,线程id=12,Action执行时间30毫秒
+[2018-08-07 14:33:22.657] logperformance.Performance 6 
+页面/Chat/UpdateReadTime,线程id=6,Action执行时间21毫秒
+[2018-08-07 14:33:26.233] logperformance.Performance 5 
+页面/Chat/AddPersonalChatHistory,线程id=5,Action执行时间50毫秒
+[2018-08-07 14:33:49.108] logperformance.Performance 5 
+页面/Friend/GetNewFriendList,线程id=5,Action执行时间24毫秒
+[2018-08-07 14:33:49.603] logperformance.Performance 6 
+页面/Friend/GetFriendList?order=asc&_=1533623628964,线程id=6,Action执行时间19毫秒
+[2018-08-07 14:33:52.204] logperformance.Performance 6 
+页面/Friend/UserDetail,线程id=6,Action执行时间32毫秒
+[2018-08-07 14:33:54.454] logperformance.Performance 5 
+页面/Friend/UserDetail,线程id=5,Action执行时间18毫秒
+[2018-08-07 14:33:56.039] logperformance.Performance 6 
+页面/Friend/GetFriendList?order=asc&_=1533623635931,线程id=6,Action执行时间32毫秒
+[2018-08-07 14:33:56.566] logperformance.Performance 6 
+页面/Friend/GetNewFriendList,线程id=6,Action执行时间22毫秒
+[2018-08-07 14:33:57.099] logperformance.Performance 6 
+页面/Chat/GetChatFriendList?order=asc&_=1533623636928,线程id=6,Action执行时间82毫秒
+[2018-08-07 14:33:57.217] logperformance.Performance 8 
+页面/Chat/RefrashUnReadMsg,线程id=8,Action执行时间46毫秒
+[2018-08-07 14:33:57.734] logperformance.Performance 13 
+页面/Chat/GetChatContentHistory,线程id=13,Action执行时间46毫秒
+[2018-08-07 14:33:57.807] logperformance.Performance 6 
+页面/Chat/GetChatContent,线程id=6,Action执行时间18毫秒
+[2018-08-07 14:33:58.210] logperformance.Performance 8 
+页面/Chat/UpdateReadTime,线程id=8,Action执行时间13毫秒
+[2018-08-07 14:34:05.651] logperformance.Performance 12 
+页面/UserInfo/GetBasicInfo,线程id=12,Action执行时间16毫秒
+[2018-08-07 14:34:07.407] logperformance.Performance 6 
+页面/Common/BloodTypeCombobox,线程id=6,Action执行时间6毫秒
+[2018-08-07 14:49:43.354] logperformance.Performance 30 
+页面/UserInfo/UpLoadHeadPhoto,线程id=30,Action执行时间108毫秒
+[2018-08-07 14:49:43.412] logperformance.Performance 30 
+页面/UserInfo/GetBasicInfo,线程id=30,Action执行时间17毫秒

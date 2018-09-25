@@ -1,0 +1,218 @@
+﻿@{
+    ViewBag.Title = "AboutUs";
+    Layout = "~/Areas/WebSite/Views/Home/Index.cshtml";
+}
+<head>
+    <title></title>
+    <link type="text/css" href="@Url.Content("~/Content/css/userinfo.css")" rel="stylesheet" />
+    <script type="text/javascript" src="@Url.Content("~/Content/script/userinfo.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/script/common.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/script/home.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/bootstrap/js/bootstrap-contextmenu.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/prettify/prettify.js")"></script>
+    <link type="text/css" href="@Url.Content("~/Content/prettify/prettify.css")" rel="stylesheet" />
+    <link type="text/css" href="@Url.Content("~/Content/upload/cropper/cropper.min.css")" rel="stylesheet" />
+    <link type="text/css" href="@Url.Content("~/Content/upload/sitelogo/sitelogo.css")" rel="stylesheet" />
+    <script type="text/javascript" src="@Url.Content("~/Content/upload/cropper/cropper.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/upload/sitelogo/sitelogo.js")"></script>
+</head>
+<div class="ConfigArea">
+    <div id="LeftArea">
+        <div class="configClick" style="margin-top:200px">基础信息</div>
+        <div class="config">会员信息</div>
+        <div class="config">密码管理</div>
+        <div class="config">权限信息</div>
+    </div>
+    <div id="RightArea">
+        <div id="RightArea0">
+            <div class="TitleContent">
+                <div style="margin-top:30px;margin-left:170px;float:left" id="divHeadPath"></div>
+                <div style="float:left;margin-left:20px;margin-top:45px">
+                    <div style="margin-top:10px" id="divUserId">
+                        账号：10086
+                    </div>
+                    <div style="margin-top:10px">
+                        等级：Lv 5
+                    </div>
+                </div>
+            </div>
+            <div id="BasicInfoView">
+                <div style="clear:both;margin-top:10px">
+                    <div id="btnEdit">&#xe60c;</div>
+                    <div style="margin-top:0px; margin-left: 10px;float:left">
+                        <div style="clear:both">
+                            <div class="leftViewTitle">昵称：</div>
+                            <div class="leftContent" id="divNickName"> </div>
+                        </div>
+                        <div style="clear:both">
+                            <div class="leftViewTitle">生日：</div>
+                            <div class="leftContent" id="divBirthDay"></div>
+                        </div>
+                        <div style="clear:both">
+                            <div class="leftViewTitle">手机：</div>
+                            <div class="leftContent" id="divPhone"></div>
+                        </div>
+                        <div style="clear:both">
+                            <div class="leftViewTitle">邮箱：</div>
+                            <div class="leftContent" id="divEmail"></div>
+                        </div>
+                        <div style="clear:both">
+                            <div class="leftViewTitle">家乡：</div>
+                            <div class="leftContent" id="divHomeTown"></div>
+                        </div>
+                        <div style="clear:both">
+                            <div class="leftViewTitle">所在地：</div>
+                            <div class="leftContent" id="divHome"></div>
+                        </div>
+                        <div style="clear:both">
+                            <div class="leftViewTitle">签名：</div>
+                            <div class="leftContent" id="divSignature"></div>
+                        </div>
+                    </div>
+                    <div style="margin-top:0px;float:left;margin-left:50px">
+                        <div style="clear:both">
+                            <div class="leftViewTitle">性别：</div>
+                            <div class="leftContent" id="divGender"></div>
+                        </div>
+                        <div style="clear:both">
+                            <div class="leftViewTitle">血型：</div>
+                            <div class="leftContent" id="divBlood"></div>
+                        </div>
+                        <div style="clear:both">
+                            <div class="leftViewTitle">Q Q：</div>
+                            <div class="leftContent" id="divQQ"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="BasicInfoEdit">
+                <div style="margin-top:20px; margin-left: 120px;">
+                    <div style="clear:both">
+                        <div class="leftTitle">昵称：</div>
+                        <div class="leftContent">
+                            <input id="editNickName" style="width:170px;height:25px;border-radius:0px;margin-left:14px" type="text" class="form-control" placeholder="最多12个字符" />
+                        </div>
+                        <div class="rightTitle">性别：</div>
+                        <div class="rightContent">
+                            <select id="Gender" class="selectpicker" data-live-search="false" style="font-size:14px;width:120px;height:25px"></select>
+                        </div>
+                    </div>
+                    <div style="clear:both">
+                        <div class="leftTitle">生日：</div>
+                        <div class="leftContent">
+                            <input id="editBirthDay" style="width:170px;height:25px;border-radius:0px;margin-left:14px" type="text" class="form-control" onclick="DateTimeClick()"/>
+                        </div>
+                        <div class="rightTitle">血型：</div>
+                        <div class="rightContent">
+                            <select id="BloodType" class="selectpicker" data-live-search="false" style="font-size:14px;width:120px;height:25px"></select>
+                        </div>
+                    </div>
+                    <div style="clear:both" class="DateTimeArea" id="DateTimeArea">
+                        <select id="YearSelect" class="selectpicker" onchange="DateTimeChange()"></select>
+                        <select id="MonthSelect" class="selectpicker" onchange="DateTimeChange()"></select>
+                        <select id="DaySelect" class="selectpicker" onchange="SetDateTimeValue()"></select>
+                    </div>
+                    <div style="clear:both">
+                        <div class="leftTitle">邮箱：</div>
+                        <div class="leftContent">
+                            <input id="editEmail" style="width:170px;height:25px;border-radius:0px;margin-left:14px" type="text" class="form-control" />
+                        </div>
+                        <div class="rightTitle">QQ：</div>
+                        <div class="rightContent">
+                            <input id="editQQ" style="width:120px;height:25px;border-radius:0px;margin-left: 6px;" type="text" class="form-control" />
+                        </div>
+                    </div>
+                    <div style="clear:both">
+                        <div class="leftTitle">故乡：</div>
+                        <div class="leftContent">
+                            <input id="Hometown" style="width:382px;height:25px;border-radius:0px;margin-left:14px" type="text" class="form-control" onclick="HometownAreaCtrl()"/>
+                        </div>
+                        <div class="HometownArea" id="HometownProvinceArea">
+                            <select id="HometownProvince" class="selectpicker" onchange="HometownProvinceChange()"></select>
+                            <select id="HometownCity" class="selectpicker" onchange="HometownCityChange()"></select>
+                            <select id="HometownArea" class="selectpicker" onchange="SetHometownValue()"></select>
+                        </div>
+                    </div>
+                    <div style="clear:both">
+                        <div class="leftTitle">所在地：</div>
+                        <div class="leftContent">
+                            <input id="Home" style="width:382px;height:25px;border-radius:0px" type="text" class="form-control" onclick="HomeAreaCtrl()"/>
+                        </div>
+                        <div class="HomeArea" id="HomeProvinceArea">
+                            <select id="HomeProvince" class="selectpicker" onchange="HomeProvinceChange()"> </select>
+                            <select id="HomeCity" class="selectpicker" onchange="HomeCityChange()"></select>
+                            <select id="HomeArea" class="selectpicker" onchange="SetHomeValue()"></select>
+                        </div>
+                    </div>
+                    <div style="clear:both">
+                        <div class="leftTitle">签名：</div>
+                        <div class="leftContent">
+                            <textarea rows="2" name="editSignature" class="form-control" id="editSignature" maxlength="100" style="resize:none;width:382px;border-radius:0px;margin-left:14px" ></textarea>
+                        </div>
+                    </div>
+                    <div style="clear:left;float:right">
+                        <button type="button" class="btn btn-default" style="margin-top:20px;padding:3px 7px" onclick="CanceltEdit()"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>取消</button>
+                        <button type="button" id="btnSave" class="btn btn-primary" onclick="SubmitEdit()" style="margin-top:20px;margin-right:200px;padding:3px 7px"><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>保存</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="RightArea1" style="display:none">
+            会员信息
+        </div>
+        <div id="RightArea2" style="display:none">
+            密码管理
+        </div>
+        <div id="RightArea3" style="display:none">
+            权限信息
+        </div>
+    </div>
+</div>
+
+@*头像上传模态框*@
+<div class="modal fade" id="avatar-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden:true; data-backdrop:static >
+    <div class="modal-dialog modal-lg" style="min-height:585px;min-width:900px">
+        <div class="modal-content">
+            <form class="avatar-form" action="/UserInfo/UpLoadHeadPhoto" enctype="multipart/form-data" method="post">
+                <div class="modal-header">
+                    <button class="close" data-dismiss="modal" type="button">&times;</button>
+                    <h4 class="modal-title" id="avatar-modal-label">修剪头像</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="avatar-body">
+                        <div class="avatar-upload">
+                            <input class="avatar-src" name="avatar_src" id="avatar_src" type="hidden">
+                            <input class="avatar-data" name="avatar_data" type="hidden">
+                            <label for="avatarInput">图片上传</label>
+                            <input class="avatar-input" id="avatarInput" name="avatar_file" type="file">
+                        </div>
+                        <div class="row">
+                            <div class="col-md-9">
+                                <div class="avatar-wrapper"></div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="avatar-preview preview-lg"></div>
+                                <div class="avatar-preview preview-md"></div>
+                                <div class="avatar-preview preview-sm"></div>
+                            </div>
+                        </div>
+                        <div class="row avatar-btns">
+                            <div class="col-md-9">
+                                <div class="btn-group">
+                                    <button class="btn" data-method="rotate" data-option="-90" type="button" title="Rotate -90 degrees"><i class="fa fa-undo"></i> 向左旋转</button>
+                                </div>
+                                <div class="btn-group">
+                                    <button class="btn" data-method="rotate" data-option="90" type="button" title="Rotate 90 degrees"><i class="fa fa-repeat"></i> 向右旋转</button>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <button class="btn btn-success btn-block avatar-save" type="submit"><i class="fa fa-save"></i> 保存修改</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
